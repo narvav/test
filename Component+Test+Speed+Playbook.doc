@@ -1,0 +1,374 @@
+Date: Sat, 15 Aug 2026 09:52:40 -0400 (EDT)
+Message-ID: <222367357.110055.1786801960366@twiki-eastus2-prod-app-vm-02.internal.cloudapp.net>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_110054_1447795591.1786801960360"
+
+------=_Part_110054_1447795591.1786801960360
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Component Test Speed Playbook</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Component Test Speed Playbook</h1>
+    <div class=3D"Section1">
+        <h2 id=3D"ComponentTestSpeedPlaybook-Goal">Goal</h2>
+<p><span>Reduce component test wall-clock time by</span>:</p>
+<ul>
+<li>Starting Spring Boot once and reusing the cached context across test cl=
+asses.</li>
+<li>Eliminating per-test/per-class overhead (base URL setup, DNS lookups, r=
+epeated config init).</li>
+<li>Avoiding extra JVM forks and local toolchain mismatches that block fast=
+ runs.</li>
+</ul>
+<h2 id=3D"ComponentTestSpeedPlaybook-Note:Theitemshighlightedingreenreduced=
+theruntimeoftheIDGraphmicroservice(IDgraphContactInfoMs)from5minutesto30sec=
+onds."><span style=3D"color: rgb(0,128,0);"><strong>Note:</strong> The item=
+s highlighted in green reduced the runtime of the IDGraph microservice (IDg=
+raphContactInfoMs) from 5 minutes to 30 seconds.</span></h2>
+<p><span style=3D"color: rgb(0,128,0);">Ref Commit: <a href=3D"https://gith=
+ub.com/ATT-DP1/apm0045194-idgraph-idgraphcontactinfoms/pull/661/changes/9f1=
+25421c411aa3de6b8e29220289aee852e11c0" class=3D"external-link" rel=3D"nofol=
+low">https://github.com/ATT-DP1/apm0045194-idgraph-idgraphcontactinfoms/pul=
+l/661/changes/9f125421c411aa3de6b8e29220289aee852e11c0</a>&nbsp;</span></p>
+<h2 id=3D"ComponentTestSpeedPlaybook-1)MakeSpringreuseasingleApplicationCon=
+text">1) Make Spring reuse a single<span>&nbsp;</span><code>ApplicationCont=
+ext</code></h2>
+<p><span>Spring test performance is dominated by</span><span>&nbsp;</span><=
+code>ApplicationContext</code><span>&nbsp;</span><span>startup.</span><span=
+>&nbsp;</span><span>The cache only works when test classes have identical c=
+ontext configuration.</span></p>
+<h3 id=3D"ComponentTestSpeedPlaybook-Do">Do</h3>
+<ul>
+<li><span style=3D"color: rgb(0,128,0);">Keep one&nbsp;<code>@SpringBootTes=
+t</code>&nbsp;on a shared base class </span>(e.g.,<span>&nbsp;</span><code>=
+CompBaseTest</code>) and let all specs extend it.</li>
+<li>Ensure all component specs use the same:=20
+<ul>
+<li><code>@SpringBootTest(...)</code><span>&nbsp;</span>configuration</li>
+<li>profiles / properties</li>
+<li>mock definitions / bean overrides</li>
+</ul></li>
+</ul>
+<h3 id=3D"ComponentTestSpeedPlaybook-Don=E2=80=99t">Don=E2=80=99t</h3>
+<ul>
+<li>Add<span>&nbsp;</span><code>@SpringBootTest</code><span>&nbsp;</span>on=
+ individual component test classes.</li>
+<li>Mix different mocking mechanisms across specs (<code>@MockBean</code><s=
+pan>&nbsp;</span>vs<span>&nbsp;</span><code>@SpringBean</code>) if you want=
+ context reuse.</li>
+</ul>
+<hr>
+<h2 id=3D"ComponentTestSpeedPlaybook-2)Keepmock/beanoverridesidenticalacros=
+stestclasses">2) Keep mock/bean overrides identical across test classes</h2=
+>
+<p><span>A top cause of</span><span>&nbsp;</span><span>=E2=80=9C30s gaps be=
+tween classes=E2=80=9D</span><span>&nbsp;</span><span>is Spring rebuilding =
+the context because each spec defines a different set of bean overrides.</s=
+pan></p>
+<h3 id=3D"ComponentTestSpeedPlaybook-Recommendedpattern">Recommended patter=
+n</h3>
+<ul>
+<li style=3D"color: rgb(0,128,0);"><span style=3D"color: rgb(0,128,0);">Put=
+ a superset of shared mocks in&nbsp;<code>CompBaseTest</code>&nbsp;using Sp=
+ock=E2=80=99s&nbsp;<code>@SpringBean</code>.</span></li>
+<li>In each test class:=20
+<ul>
+<li>Do<span>&nbsp;</span><strong>not</strong><span>&nbsp;</span>declare new=
+<span>&nbsp;</span><code>@SpringBean</code><span>&nbsp;</span>fields.</li>
+<li>Only stub behaviors as needed for that test.</li>
+</ul></li>
+</ul>
+<p><span>Example stubbing style</span>:</p>
+<pre class=3D"code-fence"><br>featureManager.getValue("cfg-idgraph-contacti=
+nfo-otpdatasource") &gt;&gt; "ONLYORACLE"<code class=3D"language-groovy"><s=
+pan>
+</span><span>securityCodeRepository.getSecurityCodeDataQuery</span><span st=
+yle=3D"color: rgb(188,190,196);">(</span><span>_ </span><span style=3D"colo=
+r: rgb(207,142,109);">as</span><span> String, _ </span><span style=3D"color=
+: rgb(207,142,109);">as</span><span> String</span><span style=3D"color: rgb=
+(188,190,196);">)</span><span> </span><span style=3D"color: rgb(188,190,196=
+);">&gt;</span><span style=3D"color: rgb(188,190,196);">&gt;</span><span> <=
+/span><span style=3D"color: rgb(188,190,196);">[</span><span style=3D"color=
+: rgb(188,190,196);">]</span><span>
+</span></code></pre>
+<p><span>Why this helps</span>:</p>
+<ul>
+<li>The Spring context stays identical across specs.</li>
+<li>Spring can reuse the cached context instead of rebuilding it.</li>
+</ul>
+<hr>
+<h2 id=3D"ComponentTestSpeedPlaybook-3)Removeexpensiveper-testsetupwork(Res=
+tAssured)">3) Remove expensive per-test setup work (RestAssured)</h2>
+<p><span>Per-test setup adds up quickly.</span></p>
+<h3 id=3D"ComponentTestSpeedPlaybook-Do.1">Do</h3>
+<ul>
+<li>Initialize<span>&nbsp;</span><code>RestAssured.baseURI</code><span>&nbs=
+p;</span>once per spec class (or once per JVM run), not on every test metho=
+d.</li>
+<li style=3D"color: rgb(0,128,0);"><span style=3D"color: rgb(0,128,0);">Pre=
+fer&nbsp;<code>localhost</code>&nbsp;over&nbsp;<code>InetAddress.localHost.=
+hostName</code>&nbsp;to avoid DNS/hostname lookup delays.</span></li>
+</ul>
+<h3 id=3D"ComponentTestSpeedPlaybook-Don=E2=80=99t.1">Don=E2=80=99t</h3>
+<ul>
+<li>Mutate global<span>&nbsp;</span><code>RestAssured.baseURI</code><span>&=
+nbsp;</span>inside a specific test class for one endpoint. If you need a di=
+fferent URL, pass it to the request (e.g.,<span>&nbsp;</span><code>get(url)=
+</code>), or use<span>&nbsp;</span><code>.baseUri(url)</code><span>&nbsp;</=
+span>on that request only.</li>
+</ul>
+<hr>
+<h2 id=3D"ComponentTestSpeedPlaybook-4)Avoidclass-to-class=E2=80=9Cdeadtime=
+=E2=80=9D">4) Avoid class-to-class =E2=80=9Cdead time=E2=80=9D</h2>
+<p><span>If you see a large pause between specs,</span><span>&nbsp;</span><=
+span>it is usually one of</span>:</p>
+<ul>
+<li>Spring context rebuild (cache miss)</li>
+<li>JVM fork/restart</li>
+<li>Expensive static initializers running repeatedly</li>
+</ul>
+<h3 id=3D"ComponentTestSpeedPlaybook-Checklist">Checklist</h3>
+<ul>
+<li><strong>Context rebuild?</strong>
+<ul>
+<li>Turn on<span>&nbsp;</span><code>org.springframework.test.context.cache=
+=3DDEBUG</code><span>&nbsp;</span>and check for cache misses.</li>
+</ul></li>
+<li><strong>Forking?</strong>
+<ul>
+<li>Confirm Surefire/Failsafe isn=E2=80=99t configured to fork per test or =
+per class.</li>
+</ul></li>
+<li><strong>Static initializers</strong>
+<ul>
+<li>Keep static init in one place (base class) where possible.</li>
+<li>Avoid repeating<span>&nbsp;</span><code>SystemPropertiesLoader.addSyste=
+mProperties()</code><span>&nbsp;</span>across test classes.</li>
+</ul></li>
+</ul>
+    </div>
+</body>
+</html>
+------=_Part_110054_1447795591.1786801960360--

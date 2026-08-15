@@ -1,0 +1,801 @@
+Date: Sat, 15 Aug 2026 09:48:18 -0400 (EDT)
+Message-ID: <1887541787.110029.1786801698471@twiki-eastus2-prod-app-vm-02.internal.cloudapp.net>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_110028_1522924593.1786801698461"
+
+------=_Part_110028_1522924593.1786801698461
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>addUser</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>addUser</h1>
+    <div class=3D"Section1">
+        <h3 id=3D"addUser-Method:POST"><strong>Method: POST</strong></h3>
+<p class=3D"p1"><strong> URI :&nbsp;/msapi/idgraph/idgraphusermanagementms/=
+v1/user/add</strong></p>
+<h3 id=3D"addUser-Description"><strong>Description</strong></h3>
+<p>This operation is used to create new accessId for retail, online and ind=
+irect partner flows. This API takes profile information like FN, LN, contac=
+tEmail, password, security Q/A etc in request, does the accessId availabili=
+ty check internally and creates the accessId and send the accessId informat=
+ion to downstream applications like HaloC, CCR, and CG</p>
+<h3 id=3D"addUser-RequestHeaderParameters">Request Header Parameters</h3>
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class=3D"confluenceTd"><p><strong>Request header</strong></p></td>
+<td class=3D"confluenceTd"><p><strong>Attribute Type</strong></p></td>
+<td class=3D"confluenceTd"><p><strong>R/O/C</strong></p></td>
+<td class=3D"confluenceTd"><p><strong>Comments</strong></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>Authorization</p></td>
+<td class=3D"confluenceTd"><p>String</p></td>
+<td class=3D"confluenceTd"><p>R</p></td>
+<td class=3D"confluenceTd"><p>BasicAuth (mechid:password base64 encoded)</p=
+></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>Content-Type</p></td>
+<td class=3D"confluenceTd"><p>String</p></td>
+<td class=3D"confluenceTd"><p>R</p></td>
+<td class=3D"confluenceTd"><p>application/json</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>idp-trace-id</p></td>
+<td class=3D"confluenceTd"><p>String</p></td>
+<td class=3D"confluenceTd"><p>R</p></td>
+<td class=3D"confluenceTd"><p>Unique traceid for each request</p><p>example=
+: 47e8df49d3410d77:e9123acf450013b3:22</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>X-ATT-ClientId</p></td>
+<td class=3D"confluenceTd"><p>String</p></td>
+<td class=3D"confluenceTd"><p>R</p></td>
+<td class=3D"confluenceTd"><p>IDP</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>idpctx-session-id</p></td>
+<td class=3D"confluenceTd"><p>String</p></td>
+<td class=3D"confluenceTd"><p>O</p></td>
+<td class=3D"confluenceTd"><p>sessionId from the continued transaction.</p>=
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id=3D"addUser-RequestParameters">Request Parameters</h3>
+<div class=3D"table-wrap">
+<table class=3D"wrapped relative-table confluenceTable" style=3D"width: 68.=
+5746%;">
+<colgroup>
+<col style=3D"width: 14.2969%;">
+<col style=3D"width: 27.6299%;">
+<col style=3D"width: 6.6686%;">
+<col style=3D"width: 4.01598%;">
+<col style=3D"width: 4.97982%;">
+<col style=3D"width: 42.4088%;">
+</colgroup>
+<tbody>
+<tr>
+<td class=3D"confluenceTd"><p><strong>Request attribute</strong></p></td>
+<td class=3D"confluenceTd"><p><strong>Desc</strong></p></td>
+<td class=3D"confluenceTd"><p><strong>Attribute Type</strong></p></td>
+<td class=3D"confluenceTd"><p><strong>Max</strong></p><p><strong>Len.</stro=
+ng></p></td>
+<td class=3D"confluenceTd"><p><strong>R/O/C</strong></p></td>
+<td class=3D"confluenceTd"><p><strong>Valid values/Example Values/Rules</st=
+rong></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>userId</p></td>
+<td class=3D"confluenceTd"><p>This is the requested accessId</p></td>
+<td class=3D"confluenceTd"><p>String</p></td>
+<td class=3D"confluenceTd"><p>127</p></td>
+<td class=3D"confluenceTd"><p>R</p></td>
+<td class=3D"confluenceTd"><p>Ex: <a href=3D"mailto:johndoe@gmail.com" clas=
+s=3D"external-link" rel=3D"nofollow">johndoe@gmail.com</a> <br>
+ lowercase the value</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>passwordClear</p></td>
+<td class=3D"confluenceTd"><p>Clear text password (not encrypted) of the ac=
+cessId.</p></td>
+<td class=3D"confluenceTd"><p>String</p></td>
+<td class=3D"confluenceTd"><p>24</p></td>
+<td class=3D"confluenceTd"><p>R</p></td>
+<td class=3D"confluenceTd"><p><br></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>online1SecurityQuestion</p></td>
+<td class=3D"confluenceTd"><p>Security question 1</p></td>
+<td class=3D"confluenceTd"><p>String</p></td>
+<td class=3D"confluenceTd"><p>255</p></td>
+<td class=3D"confluenceTd"><p>O</p></td>
+<td class=3D"confluenceTd"><p>Ex: What was your first job?</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>online1SecurityAnswer</p></td>
+<td class=3D"confluenceTd"><p>Answer to the security question 1</p></td>
+<td class=3D"confluenceTd"><p>String</p></td>
+<td class=3D"confluenceTd"><p>80</p></td>
+<td class=3D"confluenceTd"><p>O</p></td>
+<td class=3D"confluenceTd"><p>at&amp;t (lowercase the value)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>online2SecurityQuestion</p></td>
+<td class=3D"confluenceTd"><p>Security question 2</p></td>
+<td class=3D"confluenceTd"><p>String</p></td>
+<td class=3D"confluenceTd"><p>255</p></td>
+<td class=3D"confluenceTd"><p>O</p></td>
+<td class=3D"confluenceTd"><p>Ex: What is your dream job?</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>online2SecurityAnswer</p></td>
+<td class=3D"confluenceTd"><p>Answer to the security question 2</p></td>
+<td class=3D"confluenceTd"><p>String</p></td>
+<td class=3D"confluenceTd"><p>80</p></td>
+<td class=3D"confluenceTd"><p>O</p></td>
+<td class=3D"confluenceTd"><p>Architect (lowercase the value)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>contactEmail</p></td>
+<td class=3D"confluenceTd"><p>accessId=E2=80=99s contact email</p></td>
+<td class=3D"confluenceTd"><p>String</p></td>
+<td class=3D"confluenceTd"><p>60</p></td>
+<td class=3D"confluenceTd"><p>R</p></td>
+<td class=3D"confluenceTd"><p>Value is stored in lowercase.</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>firstName</p></td>
+<td class=3D"confluenceTd"><p>First name of the accessId</p></td>
+<td class=3D"confluenceTd"><p>String</p></td>
+<td class=3D"confluenceTd"><p>50</p></td>
+<td class=3D"confluenceTd"><p>R</p></td>
+<td class=3D"confluenceTd"><p><br></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>lastName</p></td>
+<td class=3D"confluenceTd"><p>Last name of the accessId</p></td>
+<td class=3D"confluenceTd"><p>String</p></td>
+<td class=3D"confluenceTd"><p>50</p></td>
+<td class=3D"confluenceTd"><p>R</p></td>
+<td class=3D"confluenceTd"><p><br></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>browserLanguage</p></td>
+<td class=3D"confluenceTd"><p>Language of the browser</p></td>
+<td class=3D"confluenceTd"><p>String</p></td>
+<td class=3D"confluenceTd"><p>2</p></td>
+<td class=3D"confluenceTd"><p>O</p></td>
+<td class=3D"confluenceTd"><p>Valid values =E2=80=9Cen=E2=80=9D, =E2=80=9Ce=
+s=E2=80=9D</p><p>Default is =E2=80=9Cen=E2=80=9D</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>isAccessIdAutoGen</p></td>
+<td class=3D"confluenceTd"><p>If Y, accessId is not customer created</p></t=
+d>
+<td class=3D"confluenceTd"><p>String</p></td>
+<td class=3D"confluenceTd"><p>1</p></td>
+<td class=3D"confluenceTd"><p>O</p></td>
+<td class=3D"confluenceTd"><p>Valid values Y, N</p><p>Default is N</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>isTempPassword</p></td>
+<td class=3D"confluenceTd"><p>Is Input password temporary</p></td>
+<td class=3D"confluenceTd"><p>String</p></td>
+<td class=3D"confluenceTd"><p>1</p></td>
+<td class=3D"confluenceTd"><p>O</p></td>
+<td class=3D"confluenceTd"><p>Valid values Y, N</p><p>Default is =E2=80=9CN=
+=E2=80=9D</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>agentId</p></td>
+<td class=3D"confluenceTd"><p>AT&amp;T userid of the agent creating accessI=
+d</p></td>
+<td class=3D"confluenceTd"><p>String</p></td>
+<td class=3D"confluenceTd"><p>10</p></td>
+<td class=3D"confluenceTd"><p>O</p></td>
+<td class=3D"confluenceTd"><p>sf6677</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>byPassCheckIdAvailability</p></td>
+<td class=3D"confluenceTd"><p>This flag tells if bad word check and availab=
+ility checks are bypassed in addUser operation</p></td>
+<td class=3D"confluenceTd"><p>String</p></td>
+<td class=3D"confluenceTd"><p>1</p></td>
+<td class=3D"confluenceTd"><p>O</p></td>
+<td class=3D"confluenceTd"><p>Valid values Y, N</p><p><br></p><p>Default is=
+ N</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>accessIdRTValidFlag</p></td>
+<td class=3D"confluenceTd"><p>If Y, accessId (in email format) has been rou=
+nd-trip validated</p></td>
+<td class=3D"confluenceTd"><p>String</p></td>
+<td class=3D"confluenceTd"><p>1</p></td>
+<td class=3D"confluenceTd"><p>O</p></td>
+<td class=3D"confluenceTd"><p>Valid values Y, N</p><p>Default is N</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>contactEmailRTValidFlag</p></td>
+<td class=3D"confluenceTd"><p>If Y, contact email has been round-trip valid=
+ated</p></td>
+<td class=3D"confluenceTd"><p>String</p></td>
+<td class=3D"confluenceTd"><p>1</p></td>
+<td class=3D"confluenceTd"><p>O</p></td>
+<td class=3D"confluenceTd"><p>Valid values Y, N</p><p>Default is N</p></td>
+</tr>
+<tr>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>cbrNumber</p></td=
+>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p><br></p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>String</p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>10</p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>O</p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>Can Be Reached nu=
+mber&nbsp;</p></td>
+</tr>
+<tr>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>cbrRTValidFlag</p=
+></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p><br></p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>String</p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>1</p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>O</p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>Valid values =E2=
+=80=98Y=E2=80=99, =E2=80=98N=E2=80=99. Y means CBR is round trip validated =
+by sending OTP</p></td>
+</tr>
+<tr>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>contactAddress</p=
+></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p><br></p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>String&nbsp;</p><=
+/td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>500</p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>O</p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>AccessId contact =
+address&nbsp;&nbsp;</p><p>addressLine1|addressLine2|city|state|zip5|zip4</p=
+><p>addressLine1|addressLine2|city|state|zip5|zip4|urbanizationCode (<span>=
+Puerto Rico only)</span></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><br></p>
+<p><strong>Response Elaboration</strong></p>
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class=3D"confluenceTd"><p><strong>Attributes</strong></p></td>
+<td class=3D"confluenceTd"><p><strong>Desc</strong></p></td>
+<td class=3D"confluenceTd"><p><strong>Attribute Type</strong></p></td>
+<td class=3D"confluenceTd"><p><strong>Max</strong></p><p><strong>Len.</stro=
+ng></p></td>
+<td class=3D"confluenceTd"><p><strong>R/O/C</strong></p></td>
+<td class=3D"confluenceTd"><p><strong>Valid values/Example Values/Rules</st=
+rong></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>idp-trace-id</p><p><br></p></td>
+<td class=3D"confluenceTd"><p>Same as the in request header</p></td>
+<td class=3D"confluenceTd"><p>String</p></td>
+<td class=3D"confluenceTd"><p>100</p></td>
+<td class=3D"confluenceTd"><p>R</p></td>
+<td class=3D"confluenceTd"><p>47e8df49d3410d77:e9123acf450013b3:22</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>appStatusMsg</p></td>
+<td class=3D"confluenceTd"><p><br></p></td>
+<td class=3D"confluenceTd"><p>String</p></td>
+<td class=3D"confluenceTd"><p>100</p></td>
+<td class=3D"confluenceTd"><p>R</p></td>
+<td class=3D"confluenceTd"><p>SUCCESS, ERR_USERNAME_EXISTS</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>appStatusCode</p></td>
+<td class=3D"confluenceTd"><p><br></p></td>
+<td class=3D"confluenceTd"><p>String</p></td>
+<td class=3D"confluenceTd"><p>5</p></td>
+<td class=3D"confluenceTd"><p>R</p></td>
+<td class=3D"confluenceTd"><p>0,118</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>guid</p></td>
+<td class=3D"confluenceTd"><p>Global unique identifier assigned to the acce=
+ssId</p></td>
+<td class=3D"confluenceTd"><p>String</p></td>
+<td class=3D"confluenceTd"><p>30</p></td>
+<td class=3D"confluenceTd"><p>R</p></td>
+<td class=3D"confluenceTd"><p>464356466366</p><p><br></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class=3D"confluenceTd"><p><strong>Attributes</strong></p></td>
+<td class=3D"confluenceTd"><p><strong>Desc</strong></p></td>
+<td class=3D"confluenceTd"><p><strong>Attributes Type</strong></p></td>
+<td class=3D"confluenceTd"><p><strong>R/O/C</strong></p></td>
+<td class=3D"confluenceTd"><p><strong>Sample Values</strong></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>error</p></td>
+<td class=3D"confluenceTd"><p><strong>&nbsp;</strong></p></td>
+<td class=3D"confluenceTd"><p>Hash Map</p></td>
+<td class=3D"confluenceTd"><p>C (Only During Error)</p></td>
+<td class=3D"confluenceTd"><br></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>error/errorId</p></td>
+<td class=3D"confluenceTd"><p>Error Id to be used for debug</p></td>
+<td class=3D"confluenceTd"><p>String</p></td>
+<td class=3D"confluenceTd"><p>C (Only During Error)</p></td>
+<td class=3D"confluenceTd"><p>398</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>error/message</p></td>
+<td class=3D"confluenceTd"><p>Error message which dectates the cause</p></t=
+d>
+<td class=3D"confluenceTd"><p>String</p></td>
+<td class=3D"confluenceTd"><p>C (Only During Error)</p></td>
+<td class=3D"confluenceTd"><p>ERR_ID_UNAVAILABLE</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id=3D"addUser-SampleRequest">Sample Request</h3>
+<p>{<br>
+ "userId" : "dgeurts6571",<br>
+ "passwordClear" : "mypasswd1234",<br>
+ "online1SecurityQuestion" : "What was your first job?",<br>
+ "online1SecurityAnswer" : "developer",<br>
+ "online2SecurityQuestion" : "What is your dream job?",<br>
+ "online2SecurityAnswer" : "at&amp;t",<br>
+ "contactEmail" : "myemail@<a href=3D"http://gmail.com" class=3D"external-l=
+ink" rel=3D"nofollow">gmail.com</a>",<br>
+ "firstName" : "John",<br>
+ "lastName" : "Doe",<br>
+ "browserLanguage" : "en",<br>
+ "isAccessIdAutoGen" : "Y", <br>
+ "isTempPassword" : "Y",<br>
+ "agentId" : "gd6435",<br>
+ "accessIdRTValidFlag" : "Y",<br>
+ "contactEmailRTValidFlag" : "Y"<br>
+ }</p>
+<h3 id=3D"addUser-SampleSuccessResponse">Sample Success Response</h3>
+<p>Success Response:<br>
+ {<br>
+ "appStatusMsg": "SUCCESS",<br>
+ "appStatusCode": "0",<br>
+ "guid": "1020440082",<br>
+ "appInfo": "SUCCESS",<br>
+ "idp-trace-id": "abff73ab63c6278f:abff73ab63c6278f:0:1"<br>
+ }</p>
+<p><strong>Sample Error Response</strong></p>
+<p>{<br>
+ "appStatusMsg": "ERR_USERNAME_EXISTS",<br>
+ "appStatusCode": "118",<br>
+ "appInfo": "Parent name already exists in MemberGroup table",<br>
+ "error": {<br>
+ "errorId": "MS_MPSYS_BE_118",<br>
+ "message": "ERR_USERNAME_EXISTS : Parent name already exists in MemberGrou=
+p table"<br>
+ },<br>
+ "idp-trace-id": "abff73ab63c6278f:abff73ab63c6278f:0:1"<br>
+ }</p>
+<p><strong><span style=3D"color: rgb(23,43,77);">Error Codes</span></strong=
+></p>
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class=3D"confluenceTd"><p><strong>HTTP Code</strong></p></td>
+<td class=3D"confluenceTd"><p><strong>appStatusCode</strong></p></td>
+<td class=3D"confluenceTd"><p><strong>appStatusMsg</strong></p></td>
+<td class=3D"confluenceTd"><p><strong>Cause/Handling</strong></p></td>
+<td class=3D"confluenceTd"><p><strong>errorId</strong></p></td>
+<td class=3D"confluenceTd"><p><strong>errorMessage</strong></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>400</p></td>
+<td class=3D"confluenceTd"><p>398</p></td>
+<td class=3D"confluenceTd"><p>ERR_ID_UNAVAILABLE</p></td>
+<td class=3D"confluenceTd"><p>Handle is NOT available for use</p></td>
+<td class=3D"confluenceTd"><p>MS_MPSYS_BE_398</p></td>
+<td class=3D"confluenceTd"><p>ERR_ID_UNAVAILABLE : &nbsp;Handle is NOT avai=
+lable for use</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>400</p></td>
+<td class=3D"confluenceTd"><p>100</p></td>
+<td class=3D"confluenceTd"><p>ERR_INVALID_DATA</p></td>
+<td class=3D"confluenceTd"><p>Input data invalid</p></td>
+<td class=3D"confluenceTd"><p>MS_MPSYS_BE_100</p></td>
+<td class=3D"confluenceTd"><p>ERR_INVALID_DATA : &nbsp;Input data invalid</=
+p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>400</p></td>
+<td class=3D"confluenceTd"><p>397</p></td>
+<td class=3D"confluenceTd"><p>ERR_CANNOT_SUGGEST_HANDLE</p></td>
+<td class=3D"confluenceTd"><p>Unable to Suggest Handle::All Generated Handl=
+e found in MPS DB</p></td>
+<td class=3D"confluenceTd"><p>MS_MPSYS_BE_397</p></td>
+<td class=3D"confluenceTd"><p>ERR_CANNOT_SUGGEST_HANDLE : &nbsp;Unable to S=
+uggest Handle::All Generated Handle found in MPS DB</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>400</p></td>
+<td class=3D"confluenceTd"><p>102</p></td>
+<td class=3D"confluenceTd"><p>ERR_INVALID_CHARS</p></td>
+<td class=3D"confluenceTd"><p>String contains invalid chars</p></td>
+<td class=3D"confluenceTd"><p>MS_MPSYS_BE_102</p></td>
+<td class=3D"confluenceTd"><p>ERR_INVALID_CHARS : &nbsp;String contains inv=
+alid chars</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>400</p></td>
+<td class=3D"confluenceTd"><p>104</p></td>
+<td class=3D"confluenceTd"><p>ERR_INVALID_LENGTH</p></td>
+<td class=3D"confluenceTd"><p>String length invalid</p></td>
+<td class=3D"confluenceTd"><p>MS_MPSYS_BE_104</p></td>
+<td class=3D"confluenceTd"><p>ERR_INVALID_LENGTH : &nbsp;String length inva=
+lid</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>400</p></td>
+<td class=3D"confluenceTd"><p>118</p></td>
+<td class=3D"confluenceTd"><p>ERR_USERNAME_EXISTS</p></td>
+<td class=3D"confluenceTd"><p>Handle or Username already exists</p></td>
+<td class=3D"confluenceTd"><p>MS_MPSYS_BE_118</p></td>
+<td class=3D"confluenceTd"><p>ERR_USERNAME_EXISTS : &nbsp;Handle or Usernam=
+e already exists</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>400</p></td>
+<td class=3D"confluenceTd"><p>127</p></td>
+<td class=3D"confluenceTd"><p>ERR_USERNAME_EQUAL_PASS</p></td>
+<td class=3D"confluenceTd"><p>Password was equal to the username or variant=
+ thereof</p></td>
+<td class=3D"confluenceTd"><p>MS_MPSYS_BE_127</p></td>
+<td class=3D"confluenceTd"><p>ERR_USERNAME_EQUAL_PASS : &nbsp;Password was =
+equal to the username or variant thereof</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>400</p></td>
+<td class=3D"confluenceTd"><p>231</p></td>
+<td class=3D"confluenceTd"><p>ERR_CANNOT_OPERATE</p></td>
+<td class=3D"confluenceTd"><p>Foreign Domain is same as MPS domain</p></td>
+<td class=3D"confluenceTd"><p>MS_MPSYS_BE_231</p></td>
+<td class=3D"confluenceTd"><p>ERR_CANNOT_OPERATE : &nbsp;Foreign Domain is =
+same as MPS domain</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>400</p></td>
+<td class=3D"confluenceTd"><p>233</p></td>
+<td class=3D"confluenceTd"><p>ERR_INVALID_HANDLE</p></td>
+<td class=3D"confluenceTd"><p>Given handle is invalid or in use.&nbsp; This=
+ includes handles not satisfying configured minimum handle length criteria.=
+</p></td>
+<td class=3D"confluenceTd"><p>MS_MPSYS_BE_233</p></td>
+<td class=3D"confluenceTd"><p>ERR_INVALID_HANDLE : &nbsp;Given handle is in=
+valid or in use</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>401</p></td>
+<td class=3D"confluenceTd"><p>N/A</p></td>
+<td class=3D"confluenceTd"><p>N/A</p></td>
+<td class=3D"confluenceTd"><p>Authorization failure</p></td>
+<td class=3D"confluenceTd"><p>N/A</p></td>
+<td class=3D"confluenceTd"><p><br></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>500</p></td>
+<td class=3D"confluenceTd"><p>602</p></td>
+<td class=3D"confluenceTd"><p>ERR_SYS_APPL</p></td>
+<td class=3D"confluenceTd"><p>System Error</p></td>
+<td class=3D"confluenceTd"><p>MS_MPSYS_BE_602</p></td>
+<td class=3D"confluenceTd"><p>ERR_SYS_APPL : &nbsp;System Error</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>500</p></td>
+<td class=3D"confluenceTd"><p>304</p></td>
+<td class=3D"confluenceTd"><p>ERR_DB</p></td>
+<td class=3D"confluenceTd"><p>Database error</p></td>
+<td class=3D"confluenceTd"><p>MS_MPSYS_BE_304</p></td>
+<td class=3D"confluenceTd"><p>ERR_DB : Database error</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>500</p></td>
+<td class=3D"confluenceTd"><p>605</p></td>
+<td class=3D"confluenceTd"><p>ERR_CONFIG</p></td>
+<td class=3D"confluenceTd"><p>Configuration error</p></td>
+<td class=3D"confluenceTd"><p>MS_MPSYS_BE_605</p></td>
+<td class=3D"confluenceTd"><p>ERR_CONFIG : Configuration error</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>400</p></td>
+<td class=3D"confluenceTd"><p>395</p></td>
+<td class=3D"confluenceTd"><p><span style=3D"color: rgb(23,43,77);">ERR_BAD=
+_PATTERN</span></p></td>
+<td class=3D"confluenceTd"><p><span style=3D"color: rgb(0,0,0);">password&n=
+bsp;Validation&nbsp;Failed::Failed&nbsp;due&nbsp;to&nbsp;binary&nbsp;search=
+&nbsp;::&nbsp;commonWords_whole&nbsp;condition</span></p></td>
+<td class=3D"confluenceTd"><p><span style=3D"color: rgb(23,43,77);">MPS_MPS=
+YS_BE_395</span></p></td>
+<td class=3D"confluenceTd"><p><span style=3D"color: rgb(23,43,77);">ERR_BAD=
+_PATTERN_NUM:&nbsp;</span></p><p><span style=3D"color: rgb(0,0,0);">passwor=
+d&nbsp;Validation&nbsp;Failed::Failed&nbsp;due&nbsp;to&nbsp;binary&nbsp;sea=
+rch&nbsp;::&nbsp;commonWords_whole&nbsp;condition</span></p></td>
+</tr>
+<tr>
+<td colspan=3D"4" class=3D"confluenceTd"><p>NOTE: Client is expected to han=
+dle any other errors gracefully</p></td>
+<td class=3D"confluenceTd"><p><br></p></td>
+<td class=3D"confluenceTd"><p><br></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+    </div>
+</body>
+</html>
+------=_Part_110028_1522924593.1786801698461--

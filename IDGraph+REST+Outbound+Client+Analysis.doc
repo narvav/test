@@ -1,0 +1,1912 @@
+Date: Sat, 15 Aug 2026 09:53:18 -0400 (EDT)
+Message-ID: <1211403984.110061.1786801998329@twiki-eastus2-prod-app-vm-02.internal.cloudapp.net>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_110060_920981695.1786801998322"
+
+------=_Part_110060_920981695.1786801998322
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>IDGraph REST Outbound Client Analysis</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>IDGraph REST Outbound Client Analysis</h1>
+    <div class=3D"Section1">
+        <p><br></p>
+<h2 class=3D"code-line" style=3D"" data-line=3D"7" id=3D"IDGraphRESTOutboun=
+dClientAnalysis-ExecutiveSummary">Executive Summary</h2>
+<div class=3D"table-wrap">
+<table style=3D"" class=3D"confluenceTable">
+<thead class=3D"">
+<tr class=3D"">
+<th style=3D"text-align: left;" class=3D"confluenceTh">Metric</th>
+<th style=3D"text-align: left;" class=3D"confluenceTh">Value</th>
+</tr>
+</thead>
+<tbody class=3D"">
+<tr class=3D"">
+<td class=3D"confluenceTd"><strong>Total REST outbound clients</strong></td=
+>
+<td class=3D"confluenceTd">55</td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd"><strong>Using<span>&nbsp;</span><code>RestTempla=
+teBeanFactory</code><span>&nbsp;</span>(IDP standard)</strong></td>
+<td class=3D"confluenceTd">50</td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd"><strong>Using direct Spring<span>&nbsp;</span><c=
+ode>RestTemplate</code></strong></td>
+<td class=3D"confluenceTd">5</td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd"><strong>MS with per-API client-specific timeouts=
+</strong></td>
+<td class=3D"confluenceTd">1 (MPSAdapterMs =E2=80=94 21 APIs)</td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd"><strong>MS with per-client named timeouts</stron=
+g></td>
+<td class=3D"confluenceTd">3 (ContactInfoMs, UserEventsMs, UserAssociationM=
+s)</td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd"><strong>MS using only SDK defaults</strong></td>
+<td class=3D"confluenceTd">3 (ConsumerMs, BatchMs, UserEventsMs IdentityGra=
+phClient)</td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd"><strong>MS with no REST outbound clients</strong=
+></td>
+<td class=3D"confluenceTd">3 (SubSvcMs, UserProfileMs, AcctEventsMs)</td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr class=3D"code-line" style=3D"" data-line=3D"19">
+<h2 class=3D"code-line" style=3D"" data-line=3D"21" id=3D"IDGraphRESTOutbou=
+ndClientAnalysis-TableofContents">Table of Contents</h2>
+<ol class=3D"code-line" style=3D"" data-line=3D"23">
+<li class=3D"code-line" data-line=3D"23"><a style=3D"text-decoration: none;=
+" data-href=3D"#per-microservice-detail" href=3D"https://file+.vscode-resou=
+rce.vscode-cdn.net/Users/ss254y/Workspace/IDGraph/apm0045194-idgraph-team-d=
+ocuments/docs/IDGraph-REST-Outbound-Client-Analysis.md#per-microservice-det=
+ail" class=3D"external-link" rel=3D"nofollow">Per-Microservice Detail</a></=
+li>
+<li class=3D"code-line" data-line=3D"24"><a href=3D"https://file+.vscode-re=
+source.vscode-cdn.net/Users/ss254y/Workspace/IDGraph/apm0045194-idgraph-tea=
+m-documents/docs/IDGraph-REST-Outbound-Client-Analysis.md#shared-libraries"=
+ data-href=3D"#shared-libraries" style=3D"text-decoration: none;" class=3D"=
+external-link" rel=3D"nofollow">Shared Libraries</a></li>
+<li class=3D"code-line" data-line=3D"25"><a href=3D"https://file+.vscode-re=
+source.vscode-cdn.net/Users/ss254y/Workspace/IDGraph/apm0045194-idgraph-tea=
+m-documents/docs/IDGraph-REST-Outbound-Client-Analysis.md#timeout-configura=
+tion-summary" data-href=3D"#timeout-configuration-summary" style=3D"text-de=
+coration: none;" class=3D"external-link" rel=3D"nofollow">Timeout Configura=
+tion Summary</a></li>
+<li class=3D"code-line" data-line=3D"26"><a data-href=3D"#recommendations" =
+href=3D"https://file+.vscode-resource.vscode-cdn.net/Users/ss254y/Workspace=
+/IDGraph/apm0045194-idgraph-team-documents/docs/IDGraph-REST-Outbound-Clien=
+t-Analysis.md#recommendations" style=3D"text-decoration: none;" class=3D"ex=
+ternal-link" rel=3D"nofollow">Recommendations</a></li>
+<li class=3D"code-line" data-line=3D"27"><a data-href=3D"#proposed-standard=
+ized-rest-client-pattern" style=3D"text-decoration: none;" href=3D"https://=
+file+.vscode-resource.vscode-cdn.net/Users/ss254y/Workspace/IDGraph/apm0045=
+194-idgraph-team-documents/docs/IDGraph-REST-Outbound-Client-Analysis.md#pr=
+oposed-standardized-rest-client-pattern" class=3D"external-link" rel=3D"nof=
+ollow">Proposed Standardized REST Client Pattern</a></li>
+</ol>
+<hr class=3D"code-line" style=3D"" data-line=3D"29">
+<h2 class=3D"code-line" style=3D"" data-line=3D"31" id=3D"IDGraphRESTOutbou=
+ndClientAnalysis-Per-MicroserviceDetail">Per-Microservice Detail</h2>
+<h3 class=3D"code-line" style=3D"" data-line=3D"33" id=3D"IDGraphRESTOutbou=
+ndClientAnalysis-1.idgraphmpsadapterms=E2=80=94SOAP-to-RESTAdapter">1.<span=
+>&nbsp;</span><code>idgraphmpsadapterms</code><span>&nbsp;</span>=E2=80=94 =
+SOAP-to-REST Adapter</h3>
+<p class=3D"code-line" style=3D"" data-line=3D"35"><strong>RestTemplate Sou=
+rce</strong>:<span>&nbsp;</span><code>RestTemplateBeanFactory</code><span>&=
+nbsp;</span>via centralized<span>&nbsp;</span><code>RestTemplateConfig</cod=
+e><span>&nbsp;</span>=E2=86=92 21 named<span>&nbsp;</span><code>@Bean</code=
+>s<br><strong>Timeout Strategy</strong>: =E2=9C=85<span>&nbsp;</span><stron=
+g>Per-API client-specific timeouts</strong><span>&nbsp;</span>via Azure App=
+ Config (best in platform)<br><strong>Dynamic Refresh</strong>: =E2=9C=85<s=
+pan>&nbsp;</span><code>RefreshScopeRefreshedEvent</code><span>&nbsp;</span>=
+listener rebuilds all 21 RestTemplate factories in-place<br><strong>Connect=
+ion Pool</strong>: =E2=9C=85 Per-API<span>&nbsp;</span><code>maxConnections=
+Total</code><span>&nbsp;</span>configurable</p>
+<div class=3D"table-wrap">
+<table style=3D"" class=3D"confluenceTable">
+<thead class=3D"">
+<tr class=3D"">
+<th style=3D"text-align: left;" class=3D"confluenceTh">#</th>
+<th style=3D"text-align: left;" class=3D"confluenceTh">Client Class</th>
+<th style=3D"text-align: left;" class=3D"confluenceTh"><code>@Qualifier</co=
+de><span>&nbsp;</span>Bean</th>
+<th style=3D"text-align: left;" class=3D"confluenceTh">Target MS</th>
+<th style=3D"text-align: left;" class=3D"confluenceTh">API Endpoint</th>
+<th style=3D"text-align: left;" class=3D"confluenceTh">HTTP Method</th>
+</tr>
+</thead>
+<tbody class=3D"">
+<tr class=3D"">
+<td class=3D"confluenceTd">1</td>
+<td class=3D"confluenceTd"><code>AddSubscriberClient</code></td>
+<td class=3D"confluenceTd"><code>addSubscriberRestTemplate</code></td>
+<td class=3D"confluenceTd">SubSvcMs</td>
+<td class=3D"confluenceTd"><code>/v1/addsubscriber</code></td>
+<td class=3D"confluenceTd">POST</td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd">2</td>
+<td class=3D"confluenceTd"><code>UpdateSubscriberClient</code></td>
+<td class=3D"confluenceTd"><code>updateSubscriberRestTemplate</code></td>
+<td class=3D"confluenceTd">SubSvcMs</td>
+<td class=3D"confluenceTd"><code>/v1/updatesubscriber</code></td>
+<td class=3D"confluenceTd">POST</td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd">3</td>
+<td class=3D"confluenceTd"><code>DeleteSubscriberClient</code></td>
+<td class=3D"confluenceTd"><code>deleteSubscriberRestTemplate</code></td>
+<td class=3D"confluenceTd">SubSvcMs</td>
+<td class=3D"confluenceTd"><code>/v1/deletesubscriber</code></td>
+<td class=3D"confluenceTd">POST</td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd">4</td>
+<td class=3D"confluenceTd"><code>SearchSubscriberClient</code></td>
+<td class=3D"confluenceTd"><code>searchSubscriberRestTemplate</code></td>
+<td class=3D"confluenceTd">SubSvcMs</td>
+<td class=3D"confluenceTd"><code>/v1/searchsubscriber</code></td>
+<td class=3D"confluenceTd">POST</td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd">5</td>
+<td class=3D"confluenceTd"><code>AddUserClient</code></td>
+<td class=3D"confluenceTd"><code>addUserRestTemplate</code></td>
+<td class=3D"confluenceTd">SubSvcMs</td>
+<td class=3D"confluenceTd"><code>/v1/adduser</code></td>
+<td class=3D"confluenceTd">POST</td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd">6</td>
+<td class=3D"confluenceTd"><code>UpdateUserClient</code></td>
+<td class=3D"confluenceTd"><code>updateUserRestTemplate</code></td>
+<td class=3D"confluenceTd">SubSvcMs</td>
+<td class=3D"confluenceTd"><code>/v1/updateuser</code></td>
+<td class=3D"confluenceTd">POST</td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd">7</td>
+<td class=3D"confluenceTd"><code>DeleteUserClient</code></td>
+<td class=3D"confluenceTd"><code>deleteUserRestTemplate</code></td>
+<td class=3D"confluenceTd">SubSvcMs</td>
+<td class=3D"confluenceTd"><code>/v1/deleteuser</code></td>
+<td class=3D"confluenceTd">POST</td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd">8</td>
+<td class=3D"confluenceTd"><code>SearchUserClient</code></td>
+<td class=3D"confluenceTd"><code>searchUserRestTemplate</code></td>
+<td class=3D"confluenceTd">SubSvcMs</td>
+<td class=3D"confluenceTd"><code>/v1/searchuser</code></td>
+<td class=3D"confluenceTd">POST</td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd">9</td>
+<td class=3D"confluenceTd"><code>AddComponentClient</code></td>
+<td class=3D"confluenceTd"><code>addComponentRestTemplate</code></td>
+<td class=3D"confluenceTd">SubSvcMs</td>
+<td class=3D"confluenceTd"><code>/v1/addcomponent</code></td>
+<td class=3D"confluenceTd">POST</td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd">10</td>
+<td class=3D"confluenceTd"><code>UpdateComponentClient</code></td>
+<td class=3D"confluenceTd"><code>updateComponentRestTemplate</code></td>
+<td class=3D"confluenceTd">SubSvcMs</td>
+<td class=3D"confluenceTd"><code>/v1/updatecomponent</code></td>
+<td class=3D"confluenceTd">POST</td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd">11</td>
+<td class=3D"confluenceTd"><code>DeleteComponentClient</code></td>
+<td class=3D"confluenceTd"><code>deleteComponentRestTemplate</code></td>
+<td class=3D"confluenceTd">SubSvcMs</td>
+<td class=3D"confluenceTd"><code>/v1/deletecomponent</code></td>
+<td class=3D"confluenceTd">POST</td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd">12</td>
+<td class=3D"confluenceTd"><code>SearchComponentClient</code></td>
+<td class=3D"confluenceTd"><code>searchComponentRestTemplate</code></td>
+<td class=3D"confluenceTd">SubSvcMs</td>
+<td class=3D"confluenceTd"><code>/v1/searchcomponent</code></td>
+<td class=3D"confluenceTd">POST</td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd">13</td>
+<td class=3D"confluenceTd"><code>AddCompCompAssociationClient</code></td>
+<td class=3D"confluenceTd"><code>addCompCompAssociationRestTemplate</code><=
+/td>
+<td class=3D"confluenceTd">SubSvcMs</td>
+<td class=3D"confluenceTd"><code>/v1/addcompcompassociation</code></td>
+<td class=3D"confluenceTd">POST</td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd">14</td>
+<td class=3D"confluenceTd"><code>DeleteCompCompAssociationClient</code></td=
+>
+<td class=3D"confluenceTd"><code>deleteCompCompAssociationRestTemplate</cod=
+e></td>
+<td class=3D"confluenceTd">SubSvcMs</td>
+<td class=3D"confluenceTd"><code>/v1/deletecompcompassociation</code></td>
+<td class=3D"confluenceTd">POST</td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd">15</td>
+<td class=3D"confluenceTd"><code>AddUserCompAssociationClient</code></td>
+<td class=3D"confluenceTd"><code>addUserCompAssociationRestTemplate</code><=
+/td>
+<td class=3D"confluenceTd">SubSvcMs</td>
+<td class=3D"confluenceTd"><code>/v1/addusercompassociation</code></td>
+<td class=3D"confluenceTd">POST</td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd">16</td>
+<td class=3D"confluenceTd"><code>DeleteUserCompAssociationClient</code></td=
+>
+<td class=3D"confluenceTd"><code>deleteUserCompAssociationRestTemplate</cod=
+e></td>
+<td class=3D"confluenceTd">SubSvcMs</td>
+<td class=3D"confluenceTd"><code>/v1/deleteusercompassociation</code></td>
+<td class=3D"confluenceTd">POST</td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd">17</td>
+<td class=3D"confluenceTd"><code>SearchUserCompAssociationClient</code></td=
+>
+<td class=3D"confluenceTd"><code>searchUserCompAssociationRestTemplate</cod=
+e></td>
+<td class=3D"confluenceTd">SubSvcMs</td>
+<td class=3D"confluenceTd"><code>/v1/searchusercompassociation</code></td>
+<td class=3D"confluenceTd">POST</td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd">18</td>
+<td class=3D"confluenceTd"><code>UpdateContactMethodRestClient</code></td>
+<td class=3D"confluenceTd"><code>updateContatctMethodRestTemplate</code></t=
+d>
+<td class=3D"confluenceTd">UserAssociationMs</td>
+<td class=3D"confluenceTd"><code>/v1/contactMethods</code></td>
+<td class=3D"confluenceTd">POST</td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd">19</td>
+<td class=3D"confluenceTd"><code>DeleteSecurityCodeClient</code></td>
+<td class=3D"confluenceTd"><code>deleteSecurityPinRestTemplate</code></td>
+<td class=3D"confluenceTd">ContactInfoMs</td>
+<td class=3D"confluenceTd"><code>/v1/securitycode/delete</code></td>
+<td class=3D"confluenceTd">POST</td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd">20</td>
+<td class=3D"confluenceTd"><code>ValidateSecurityCodeClient</code></td>
+<td class=3D"confluenceTd"><code>validateSecurityPinRestTemplate</code></td=
+>
+<td class=3D"confluenceTd">ContactInfoMs</td>
+<td class=3D"confluenceTd"><code>/v1/securitycode/validate</code></td>
+<td class=3D"confluenceTd">POST</td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd">21</td>
+<td class=3D"confluenceTd"><code>GenerateSecurityCodeClient</code></td>
+<td class=3D"confluenceTd"><code>generateSecurityCodeRestTemplate</code></t=
+d>
+<td class=3D"confluenceTd">ContactInfoMs</td>
+<td class=3D"confluenceTd"><code>/v1/securitycode/generate</code></td>
+<td class=3D"confluenceTd">POST</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class=3D"code-line" style=3D"" data-line=3D"64"><strong>Timeout Config</=
+strong><span>&nbsp;</span>(from<span>&nbsp;</span><code>IDGraphAzureAppConf=
+ig</code>):</p>
+<ul class=3D"code-line" style=3D"" data-line=3D"65">
+<li class=3D"code-line" data-line=3D"65">Cascade:<span>&nbsp;</span><code>a=
+ppconfig.apiclient.rest.{Operation}.{timeout}</code><span>&nbsp;</span>=E2=
+=86=92<span>&nbsp;</span><code>apiclient.rest.{Operation}.{timeout}</code><=
+span>&nbsp;</span>=E2=86=92<span>&nbsp;</span><code>apiclient.rest.default.=
+{timeout}</code><span>&nbsp;</span>=E2=86=92 hardcoded default (10000/15000=
+/200)</li>
+<li class=3D"code-line" data-line=3D"66">All 21 APIs have independent<span>=
+&nbsp;</span><code>connectTimeout</code>,<span>&nbsp;</span><code>readTimeo=
+ut</code>,<span>&nbsp;</span><code>maxConnectionsTotal</code></li>
+</ul>
+<hr class=3D"code-line" style=3D"" data-line=3D"68">
+<h3 class=3D"code-line" style=3D"" data-line=3D"70" id=3D"IDGraphRESTOutbou=
+ndClientAnalysis-2.idgraphcontactinfoms=E2=80=94ContactInfo/OTP">2.<span>&n=
+bsp;</span><code>idgraphcontactinfoms</code><span>&nbsp;</span>=E2=80=94 Co=
+ntact Info / OTP</h3>
+<p class=3D"code-line" style=3D"" data-line=3D"72"><strong>RestTemplate Sou=
+rce</strong>:<span>&nbsp;</span><code>RestTemplateBeanFactory</code><br><st=
+rong>Timeout Strategy</strong>: =E2=9C=85 Per-client named timeouts in<span=
+>&nbsp;</span><code>application.properties</code><br><strong>Dynamic Refres=
+h</strong>: =E2=9C=85<span>&nbsp;</span><code>RefreshScopeRefreshedEvent</c=
+ode><span>&nbsp;</span>+<span>&nbsp;</span><code>OutboundRestClientBuilder<=
+/code><span>&nbsp;</span>for dynamic timeout updates</p>
+<div class=3D"table-wrap">
+<table style=3D"" class=3D"confluenceTable">
+<thead class=3D"">
+<tr class=3D"">
+<th style=3D"text-align: left;" class=3D"confluenceTh">#</th>
+<th style=3D"text-align: left;" class=3D"confluenceTh">Client Class</th>
+<th style=3D"text-align: left;" class=3D"confluenceTh">Factory Key</th>
+<th style=3D"text-align: left;" class=3D"confluenceTh">Target</th>
+<th style=3D"text-align: left;" class=3D"confluenceTh">API Endpoints</th>
+<th style=3D"text-align: left;" class=3D"confluenceTh">HTTP Method</th>
+<th style=3D"text-align: left;" class=3D"confluenceTh">Timeout Config</th>
+</tr>
+</thead>
+<tbody class=3D"">
+<tr class=3D"">
+<td class=3D"confluenceTd">1</td>
+<td class=3D"confluenceTd"><code>InquireProfileRestClient</code></td>
+<td class=3D"confluenceTd"><code>"InquireProfileRestClient"</code></td>
+<td class=3D"confluenceTd">OUD / UserProfileMs</td>
+<td class=3D"confluenceTd">InquireProfile</td>
+<td class=3D"confluenceTd">POST</td>
+<td class=3D"confluenceTd"><code>apiclient.rest.inquireprofilerestclient.co=
+nnectTimeout/readTimeout</code></td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd">2</td>
+<td class=3D"confluenceTd"><code>MuleSoftRestClient</code></td>
+<td class=3D"confluenceTd"><code>"ccmulesoft"</code></td>
+<td class=3D"confluenceTd">MuleSoft / CLM</td>
+<td class=3D"confluenceTd">POST<span>&nbsp;</span><code>/ccmulesoft/clm/not=
+ification</code></td>
+<td class=3D"confluenceTd">POST</td>
+<td class=3D"confluenceTd"><code>apiclient.rest.ccmulesoft.connectTimeout/r=
+eadTimeout</code></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class=3D"code-line" style=3D"" data-line=3D"81"><strong>Additional REST =
+Clients via shared libraries</strong><span>&nbsp;</span>(CGClientHelpers):<=
+span>&nbsp;</span><code>cgrestclient</code>,<span>&nbsp;</span><code>profil=
+erestclient</code><span>&nbsp;</span>=E2=80=94 each with named timeout conf=
+ig.</p>
+<p class=3D"code-line" style=3D"" data-line=3D"83"><strong>Non-REST Client<=
+/strong>:<span>&nbsp;</span><code>LscrmGetAuthInfoClient</code><span>&nbsp;=
+</span>=E2=80=94 SOAP via<span>&nbsp;</span><code>WebServiceGatewaySupport<=
+/code><span>&nbsp;</span>(not in scope).</p>
+<hr class=3D"code-line" style=3D"" data-line=3D"85">
+<h3 class=3D"code-line" style=3D"" data-line=3D"87" id=3D"IDGraphRESTOutbou=
+ndClientAnalysis-3.idgraphuserassociationms=E2=80=94UserAssociation">3.<spa=
+n>&nbsp;</span><code>idgraphuserassociationms</code><span>&nbsp;</span>=E2=
+=80=94 User Association</h3>
+<p class=3D"code-line" style=3D"" data-line=3D"89"><strong>RestTemplate Sou=
+rce</strong>:<span>&nbsp;</span><code>RestTemplateBeanFactory</code><br><st=
+rong>Timeout Strategy</strong>: =E2=9A=A0=EF=B8=8F Default SDK timeouts onl=
+y (<code>apiclient.rest.default.connectTimeout/readTimeout</code>)<br><stro=
+ng>Dynamic Refresh</strong>: =E2=9D=8C No dynamic timeout refresh for REST =
+clients</p>
+<div class=3D"table-wrap">
+<table style=3D"" class=3D"confluenceTable">
+<thead class=3D"">
+<tr class=3D"">
+<th style=3D"text-align: left;" class=3D"confluenceTh">#</th>
+<th style=3D"text-align: left;" class=3D"confluenceTh">Client Class</th>
+<th style=3D"text-align: left;" class=3D"confluenceTh">Factory Key</th>
+<th style=3D"text-align: left;" class=3D"confluenceTh">Target</th>
+<th style=3D"text-align: left;" class=3D"confluenceTh">API Endpoints</th>
+<th style=3D"text-align: left;" class=3D"confluenceTh">HTTP Method</th>
+</tr>
+</thead>
+<tbody class=3D"">
+<tr class=3D"">
+<td class=3D"confluenceTd">1</td>
+<td class=3D"confluenceTd"><code>IdentityGraphClient</code></td>
+<td class=3D"confluenceTd"><code>"idgraph"</code></td>
+<td class=3D"confluenceTd">IDGraph API</td>
+<td class=3D"confluenceTd"><code>linkMemberId</code>,<span>&nbsp;</span><co=
+de>inquirePin</code></td>
+<td class=3D"confluenceTd">POST</td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd">2</td>
+<td class=3D"confluenceTd"><code>MPSYSInternalRestClient</code></td>
+<td class=3D"confluenceTd"><code>"MPSYSInternalRestClient"</code></td>
+<td class=3D"confluenceTd">UserManagementMs, UserAssociationMs, UserProfile=
+Ms, OrderGraph</td>
+<td class=3D"confluenceTd">Multiple IDP MS-to-MS (CheckUserIdAvailability, =
+AddAssociation, InquireAssociatedAccessIds, InquireProfile, AddUser, OrderG=
+raph, UpdateUnifiedTOS)</td>
+<td class=3D"confluenceTd">POST</td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd">3</td>
+<td class=3D"confluenceTd"><code>IdGraphSubSvcMsClient</code></td>
+<td class=3D"confluenceTd"><code>"idgraph"</code></td>
+<td class=3D"confluenceTd">SubSvcMs</td>
+<td class=3D"confluenceTd"><code>deleteSubscriber</code></td>
+<td class=3D"confluenceTd">POST</td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd">4</td>
+<td class=3D"confluenceTd"><code>MbizClientHelper</code></td>
+<td class=3D"confluenceTd"><code>"mbiz"</code></td>
+<td class=3D"confluenceTd">Mbiz API</td>
+<td class=3D"confluenceTd">ValidatePin POST</td>
+<td class=3D"confluenceTd">POST</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class=3D"code-line" style=3D"" data-line=3D"100"><strong>Timeout Config<=
+/strong>: Only<span>&nbsp;</span><code>apiclient.rest.default.connectTimeou=
+t/readTimeout</code><span>&nbsp;</span>from Helm values. Per-client<span>&n=
+bsp;</span><code>mcafee</code><span>&nbsp;</span>has specific timeout (<cod=
+e>apiclient.rest.mcafee.connectTimeout=3D5000/readTimeout=3D10000</code>).<=
+/p>
+<hr class=3D"code-line" style=3D"" data-line=3D"102">
+<h3 class=3D"code-line" style=3D"" data-line=3D"104" id=3D"IDGraphRESTOutbo=
+undClientAnalysis-4.idgraphusermanagementms=E2=80=94UserManagement">4.<span=
+>&nbsp;</span><code>idgraphusermanagementms</code><span>&nbsp;</span>=E2=80=
+=94 User Management</h3>
+<p class=3D"code-line" style=3D"" data-line=3D"106"><strong>RestTemplate So=
+urce</strong>:<span>&nbsp;</span><code>RestTemplateBeanFactory</code><br><s=
+trong>Timeout Strategy</strong>: =E2=9A=A0=EF=B8=8F Default SDK timeouts<br=
+><strong>Dynamic Refresh</strong>: =E2=9D=8C No dynamic timeout refresh for=
+ REST clients</p>
+<div class=3D"table-wrap">
+<table style=3D"" class=3D"confluenceTable">
+<thead class=3D"">
+<tr class=3D"">
+<th style=3D"text-align: left;" class=3D"confluenceTh">#</th>
+<th style=3D"text-align: left;" class=3D"confluenceTh">Client Class</th>
+<th style=3D"text-align: left;" class=3D"confluenceTh">Factory Key</th>
+<th style=3D"text-align: left;" class=3D"confluenceTh">Target</th>
+<th style=3D"text-align: left;" class=3D"confluenceTh">API Endpoints</th>
+<th style=3D"text-align: left;" class=3D"confluenceTh">HTTP Method</th>
+</tr>
+</thead>
+<tbody class=3D"">
+<tr class=3D"">
+<td class=3D"confluenceTd">1</td>
+<td class=3D"confluenceTd"><code>MPSYSInternalRestClient</code></td>
+<td class=3D"confluenceTd"><code>"MPSYSInternalRestClient"</code></td>
+<td class=3D"confluenceTd">Multiple IDGraph MSes</td>
+<td class=3D"confluenceTd">CheckUserIdAvailability, AddAssociation, Inquire=
+Profile, InquireAssociatedAccessIds, AddUser, OrderGraph, UpdateUnifiedTOS<=
+/td>
+<td class=3D"confluenceTd">POST</td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd">2</td>
+<td class=3D"confluenceTd"><code>RegistrationOrchestrationRestClient</code>=
+</td>
+<td class=3D"confluenceTd"><code>"RegistrationOrchestrationRestClient"</cod=
+e></td>
+<td class=3D"confluenceTd">UserAssociationMs</td>
+<td class=3D"confluenceTd">Registration orchestration</td>
+<td class=3D"confluenceTd">POST</td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr class=3D"code-line" style=3D"" data-line=3D"115">
+<h3 class=3D"code-line" style=3D"" data-line=3D"117" id=3D"IDGraphRESTOutbo=
+undClientAnalysis-5.idmcustomerhubms=E2=80=94CustomerHub">5.<span>&nbsp;</s=
+pan><code>idmcustomerhubms</code><span>&nbsp;</span>=E2=80=94 Customer Hub<=
+/h3>
+<p class=3D"code-line" style=3D"" data-line=3D"119"><strong>RestTemplate So=
+urce</strong>:<span>&nbsp;</span><code>RestTemplateBeanFactory</code><br><s=
+trong>Timeout Strategy</strong>: =E2=9A=A0=EF=B8=8F Default SDK timeouts<br=
+><strong>Dynamic Refresh</strong>: =E2=9D=8C No dynamic timeout refresh for=
+ REST clients</p>
+<div class=3D"table-wrap">
+<table style=3D"" class=3D"confluenceTable">
+<thead class=3D"">
+<tr class=3D"">
+<th style=3D"text-align: left;" class=3D"confluenceTh">#</th>
+<th style=3D"text-align: left;" class=3D"confluenceTh">Client Class</th>
+<th style=3D"text-align: left;" class=3D"confluenceTh">Factory Key</th>
+<th style=3D"text-align: left;" class=3D"confluenceTh">Target</th>
+<th style=3D"text-align: left;" class=3D"confluenceTh">API Endpoints</th>
+<th style=3D"text-align: left;" class=3D"confluenceTh">HTTP Method</th>
+</tr>
+</thead>
+<tbody class=3D"">
+<tr class=3D"">
+<td class=3D"confluenceTd">1</td>
+<td class=3D"confluenceTd"><code>CustomerGraphMsClient</code></td>
+<td class=3D"confluenceTd"><code>"cgms"</code></td>
+<td class=3D"confluenceTd">CustomerGraphMs</td>
+<td class=3D"confluenceTd"><code>getAllAccountTypesByAccountId</code>,<span=
+>&nbsp;</span><code>searchByAccountIdAndAccountType</code>,<span>&nbsp;</sp=
+an><code>searchByPhoneNumber</code>,<span>&nbsp;</span><code>searchByEmailA=
+ddress</code>,<span>&nbsp;</span><code>searchByAddressId</code>,<span>&nbsp=
+;</span><code>searchByUserId</code>,<span>&nbsp;</span><code>getByAccessIdU=
+ri</code></td>
+<td class=3D"confluenceTd">GET</td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd">2</td>
+<td class=3D"confluenceTd"><code>IdGraphMsClient</code></td>
+<td class=3D"confluenceTd"><code>"idgraph"</code><span>&nbsp;</span>+<span>=
+&nbsp;</span><code>"mpsys"</code></td>
+<td class=3D"confluenceTd">IDGraph API / MPSYS</td>
+<td class=3D"confluenceTd"><code>deLink</code></td>
+<td class=3D"confluenceTd">POST</td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd">3</td>
+<td class=3D"confluenceTd"><code>CgGraphqlClient</code></td>
+<td class=3D"confluenceTd"><code>"cgraphql"</code></td>
+<td class=3D"confluenceTd">CG GraphQL</td>
+<td class=3D"confluenceTd">GraphQL search query</td>
+<td class=3D"confluenceTd">POST</td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr class=3D"code-line" style=3D"" data-line=3D"129">
+<h3 class=3D"code-line" style=3D"" data-line=3D"131" id=3D"IDGraphRESTOutbo=
+undClientAnalysis-6.idgraphuserregistrationms=E2=80=94UserRegistration">6.<=
+span>&nbsp;</span><code>idgraphuserregistrationms</code><span>&nbsp;</span>=
+=E2=80=94 User Registration</h3>
+<p class=3D"code-line" style=3D"" data-line=3D"133"><strong>RestTemplate So=
+urce</strong>:<span>&nbsp;</span><code>RestTemplateBeanFactory</code><br><s=
+trong>Timeout Strategy</strong>: =E2=9A=A0=EF=B8=8F Default SDK timeouts<br=
+><strong>Dynamic Refresh</strong>: =E2=9D=8C No dynamic timeout refresh (CL=
+MRestClient has<span>&nbsp;</span><code>@RefreshScope</code><span>&nbsp;</s=
+pan>but for URL config, not timeouts)</p>
+<div class=3D"table-wrap">
+<table style=3D"" class=3D"confluenceTable">
+<thead class=3D"">
+<tr class=3D"">
+<th style=3D"text-align: left;" class=3D"confluenceTh">#</th>
+<th style=3D"text-align: left;" class=3D"confluenceTh">Client Class</th>
+<th style=3D"text-align: left;" class=3D"confluenceTh">Factory Key</th>
+<th style=3D"text-align: left;" class=3D"confluenceTh">Target</th>
+<th style=3D"text-align: left;" class=3D"confluenceTh">API Endpoints</th>
+<th style=3D"text-align: left;" class=3D"confluenceTh">HTTP Method</th>
+</tr>
+</thead>
+<tbody class=3D"">
+<tr class=3D"">
+<td class=3D"confluenceTd">1</td>
+<td class=3D"confluenceTd"><code>CLMRestClient</code></td>
+<td class=3D"confluenceTd"><code>"ccmulesoft"</code></td>
+<td class=3D"confluenceTd">MuleSoft / CLM</td>
+<td class=3D"confluenceTd">POST<span>&nbsp;</span><code>/ccmulesoft/clm/not=
+ification</code></td>
+<td class=3D"confluenceTd">POST</td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd">2</td>
+<td class=3D"confluenceTd"><code>MPSYSInternalRestClient</code></td>
+<td class=3D"confluenceTd"><code>"MPSYSInternalRestClient"</code></td>
+<td class=3D"confluenceTd">UserManagementMs, UserAssociationMs, UserProfile=
+Ms, OrderGraph</td>
+<td class=3D"confluenceTd">CheckUserIdAvailability, AddAssociation, Inquire=
+Profile, InquireAssociatedAccessIds, AddUser, OrderGraph, UpdateUnifiedTOS<=
+/td>
+<td class=3D"confluenceTd">POST</td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr class=3D"code-line" style=3D"" data-line=3D"142">
+<h3 class=3D"code-line" style=3D"" data-line=3D"144" id=3D"IDGraphRESTOutbo=
+undClientAnalysis-7.idgraphusereventsms=E2=80=94UserEvents(KafkaConsumer)">=
+7.<span>&nbsp;</span><code>idgraphusereventsms</code><span>&nbsp;</span>=E2=
+=80=94 User Events (Kafka Consumer)</h3>
+<p class=3D"code-line" style=3D"" data-line=3D"146"><strong>RestTemplate So=
+urce</strong>: =E2=9A=A0=EF=B8=8F<span>&nbsp;</span><strong>Direct Spring<s=
+pan>&nbsp;</span><code>RestTemplate</code><span>&nbsp;</span>injection</str=
+ong><span>&nbsp;</span>(NOT<span>&nbsp;</span><code>RestTemplateBeanFactory=
+</code>)<br><strong>Timeout Strategy</strong>: =E2=9D=8C Uses SDK default o=
+nly =E2=80=94 no client-specific timeout<br><strong>Dynamic Refresh</strong=
+>: =E2=9D=8C None<br><strong>Retry</strong>: =E2=9C=85 Custom exponential b=
+ack-off with configurable<span>&nbsp;</span><code>maxAttempts</code>,<span>=
+&nbsp;</span><code>backoffDelayMs</code>,<span>&nbsp;</span><code>backoffMu=
+ltiplier</code></p>
+<div class=3D"table-wrap">
+<table style=3D"" class=3D"confluenceTable">
+<thead class=3D"">
+<tr class=3D"">
+<th style=3D"text-align: left;" class=3D"confluenceTh">#</th>
+<th style=3D"text-align: left;" class=3D"confluenceTh">Client Class</th>
+<th style=3D"text-align: left;" class=3D"confluenceTh">Factory Key</th>
+<th style=3D"text-align: left;" class=3D"confluenceTh">Target</th>
+<th style=3D"text-align: left;" class=3D"confluenceTh">API Endpoints</th>
+<th style=3D"text-align: left;" class=3D"confluenceTh">HTTP Method</th>
+</tr>
+</thead>
+<tbody class=3D"">
+<tr class=3D"">
+<td class=3D"confluenceTd">1</td>
+<td class=3D"confluenceTd"><code>IdentityGraphClient</code></td>
+<td class=3D"confluenceTd">Direct<span>&nbsp;</span><code>RestTemplate</cod=
+e></td>
+<td class=3D"confluenceTd">UserAssociationMs, UserRegistrationMs, SubSvcMs<=
+/td>
+<td class=3D"confluenceTd"><strong>12 APIs</strong>: addOrder, retriggerQAR=
+, nullifyBan, updateByBan, moveProductByBan, disconnectServicesAsync, updat=
+eUnifiedTOS, addServicesAsync, changeStatusByBanAsync, rgActivation, addUse=
+r, updateSubscriber</td>
+<td class=3D"confluenceTd">POST</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class=3D"code-line" style=3D"" data-line=3D"155"><strong>Gap</strong>: T=
+his client makes calls to 12 different downstream APIs but uses a single<sp=
+an>&nbsp;</span><code>RestTemplate</code><span>&nbsp;</span>with one global=
+ timeout. High-traffic APIs compete for the same connection pool.</p>
+<hr class=3D"code-line" style=3D"" data-line=3D"157">
+<h3 class=3D"code-line" style=3D"" data-line=3D"159" id=3D"IDGraphRESTOutbo=
+undClientAnalysis-8.idgraphconsumerms=E2=80=94DMCTN/EventConsumer">8.<span>=
+&nbsp;</span><code>idgraphconsumerms</code><span>&nbsp;</span>=E2=80=94 DMC=
+TN / Event Consumer</h3>
+<p class=3D"code-line" style=3D"" data-line=3D"161"><strong>RestTemplate So=
+urce</strong>: =E2=9A=A0=EF=B8=8F<span>&nbsp;</span><strong>Direct Spring<s=
+pan>&nbsp;</span><code>RestTemplate</code><span>&nbsp;</span>injection</str=
+ong><span>&nbsp;</span>(NOT<span>&nbsp;</span><code>RestTemplateBeanFactory=
+</code>)<br><strong>Timeout Strategy</strong>: =E2=9D=8C Uses SDK default o=
+nly (<code>apiclient.rest.default.connectTimeout/readTimeout</code><span>&n=
+bsp;</span>from Helm)<br><strong>Dynamic Refresh</strong>: =E2=9D=8C None<b=
+r><strong>Retry</strong>: =E2=9C=85 Spring<span>&nbsp;</span><code>@Retryab=
+le</code><span>&nbsp;</span>with<span>&nbsp;</span><code>maxAttempts=3D2</c=
+ode></p>
+<div class=3D"table-wrap">
+<table style=3D"" class=3D"confluenceTable">
+<thead class=3D"">
+<tr class=3D"">
+<th style=3D"text-align: left;" class=3D"confluenceTh">#</th>
+<th style=3D"text-align: left;" class=3D"confluenceTh">Client Class</th>
+<th style=3D"text-align: left;" class=3D"confluenceTh">Factory Key</th>
+<th style=3D"text-align: left;" class=3D"confluenceTh">Target</th>
+<th style=3D"text-align: left;" class=3D"confluenceTh">API Endpoints</th>
+<th style=3D"text-align: left;" class=3D"confluenceTh">HTTP Method</th>
+</tr>
+</thead>
+<tbody class=3D"">
+<tr class=3D"">
+<td class=3D"confluenceTd">1</td>
+<td class=3D"confluenceTd"><code>ApiRestClient</code></td>
+<td class=3D"confluenceTd">Direct<span>&nbsp;</span><code>RestTemplate</cod=
+e></td>
+<td class=3D"confluenceTd">UserAssociationMs</td>
+<td class=3D"confluenceTd"><code>/association/remove</code>,<span>&nbsp;</s=
+pan><code>/association/changeStatus</code>,<span>&nbsp;</span><code>/associ=
+ation/changeData</code>,<span>&nbsp;</span><code>/platformhandler</code>,<s=
+pan>&nbsp;</span><code>/rgactivation</code>,<span>&nbsp;</span><code>/provi=
+sion/enableracct</code>,<span>&nbsp;</span><code>/migration/bsse</code>,<sp=
+an>&nbsp;</span><code>/credentials</code></td>
+<td class=3D"confluenceTd">POST</td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd">2</td>
+<td class=3D"confluenceTd"><code>OrchestrationWirelessApiRestClient</code><=
+/td>
+<td class=3D"confluenceTd">Direct<span>&nbsp;</span><code>RestTemplate</cod=
+e></td>
+<td class=3D"confluenceTd">UserRegistrationMs</td>
+<td class=3D"confluenceTd"><code>/orchestration/wireless</code></td>
+<td class=3D"confluenceTd">POST</td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd">3</td>
+<td class=3D"confluenceTd"><code>GenericApiRestClient</code></td>
+<td class=3D"confluenceTd">Direct<span>&nbsp;</span><code>RestTemplate</cod=
+e></td>
+<td class=3D"confluenceTd">UserAssociationMs</td>
+<td class=3D"confluenceTd"><code>/migration/bsse</code>,<span>&nbsp;</span>=
+<code>/credentials</code>,<span>&nbsp;</span><code>/reversemig/bsse</code><=
+/td>
+<td class=3D"confluenceTd">POST</td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr class=3D"code-line" style=3D"" data-line=3D"172">
+<h3 class=3D"code-line" style=3D"" data-line=3D"174" id=3D"IDGraphRESTOutbo=
+undClientAnalysis-9.idgraphbatchms=E2=80=94BatchProcessing">9.<span>&nbsp;<=
+/span><code>idgraphbatchms</code><span>&nbsp;</span>=E2=80=94 Batch Process=
+ing</h3>
+<p class=3D"code-line" style=3D"" data-line=3D"176"><strong>RestTemplate So=
+urce</strong>: =E2=9A=A0=EF=B8=8F<span>&nbsp;</span><strong>Direct Spring<s=
+pan>&nbsp;</span><code>RestTemplate</code><span>&nbsp;</span>injection</str=
+ong><span>&nbsp;</span>(NOT<span>&nbsp;</span><code>RestTemplateBeanFactory=
+</code>)<br><strong>Timeout Strategy</strong>: =E2=9D=8C No client-specific=
+ timeouts<br><strong>Dynamic Refresh</strong>: =E2=9D=8C None</p>
+<div class=3D"table-wrap">
+<table style=3D"" class=3D"confluenceTable">
+<thead class=3D"">
+<tr class=3D"">
+<th style=3D"text-align: left;" class=3D"confluenceTh">#</th>
+<th style=3D"text-align: left;" class=3D"confluenceTh">Client Class</th>
+<th style=3D"text-align: left;" class=3D"confluenceTh">Factory Key</th>
+<th style=3D"text-align: left;" class=3D"confluenceTh">Target</th>
+<th style=3D"text-align: left;" class=3D"confluenceTh">API Endpoints</th>
+<th style=3D"text-align: left;" class=3D"confluenceTh">HTTP Method</th>
+</tr>
+</thead>
+<tbody class=3D"">
+<tr class=3D"">
+<td class=3D"confluenceTd">1</td>
+<td class=3D"confluenceTd"><code>RestAPIClient</code></td>
+<td class=3D"confluenceTd">Direct<span>&nbsp;</span><code>RestTemplate</cod=
+e></td>
+<td class=3D"confluenceTd">UserAssociationMs, UserRegistrationMs</td>
+<td class=3D"confluenceTd"><code>/association/remove</code>,<span>&nbsp;</s=
+pan><code>/contactMethods</code>,<span>&nbsp;</span><code>/account/qar/retr=
+igger</code></td>
+<td class=3D"confluenceTd">POST (generic<span>&nbsp;</span><code>exchange</=
+code>)</td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr class=3D"code-line" style=3D"" data-line=3D"184">
+<h3 class=3D"code-line" style=3D"" data-line=3D"186" id=3D"IDGraphRESTOutbo=
+undClientAnalysis-MicroserviceswithNoRESTOutboundClients">Microservices wit=
+h No REST Outbound Clients</h3>
+<div class=3D"table-wrap">
+<table style=3D"" class=3D"confluenceTable">
+<thead class=3D"">
+<tr class=3D"">
+<th style=3D"text-align: left;" class=3D"confluenceTh">MS</th>
+<th style=3D"text-align: left;" class=3D"confluenceTh">Reason</th>
+</tr>
+</thead>
+<tbody class=3D"">
+<tr class=3D"">
+<td class=3D"confluenceTd"><code>idgraphsubsvcms</code></td>
+<td class=3D"confluenceTd">Pure REST provider =E2=80=94 no outbound REST ca=
+lls</td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd"><code>idgraphuserprofilems</code></td>
+<td class=3D"confluenceTd">Pure REST provider =E2=80=94 no outbound REST ca=
+lls</td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd"><code>idgraphaccteventsms</code></td>
+<td class=3D"confluenceTd">Kafka event processor only =E2=80=94 no outbound=
+ REST calls</td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr class=3D"code-line" style=3D"" data-line=3D"194">
+<h2 class=3D"code-line" style=3D"" data-line=3D"196" id=3D"IDGraphRESTOutbo=
+undClientAnalysis-SharedLibraries">Shared Libraries</h2>
+<h3 class=3D"code-line" style=3D"" data-line=3D"198" id=3D"IDGraphRESTOutbo=
+undClientAnalysis-cgclienthelpers(SharedLibrary=E2=80=94JAR)"><code>cgclien=
+thelpers</code><span>&nbsp;</span>(Shared Library =E2=80=94 JAR)</h3>
+<p class=3D"code-line" style=3D"" data-line=3D"200"><strong>RestTemplate So=
+urce</strong>:<span>&nbsp;</span><code>RestTemplateBeanFactory</code><br><s=
+trong>Timeout Strategy</strong>: =E2=9C=85 Per-client named timeouts (resol=
+ved from consuming MS's Helm config)<br><strong>Error Handling</strong>: Ce=
+ntralized via<span>&nbsp;</span><code>ClientHelper.handleRestClientExceptio=
+n()</code></p>
+<div class=3D"table-wrap">
+<table style=3D"" class=3D"confluenceTable">
+<thead class=3D"">
+<tr class=3D"">
+<th style=3D"text-align: left;" class=3D"confluenceTh">#</th>
+<th style=3D"text-align: left;" class=3D"confluenceTh">Client Class</th>
+<th style=3D"text-align: left;" class=3D"confluenceTh">Factory Key</th>
+<th style=3D"text-align: left;" class=3D"confluenceTh">Target</th>
+<th style=3D"text-align: left;" class=3D"confluenceTh">API Endpoints</th>
+<th style=3D"text-align: left;" class=3D"confluenceTh">HTTP Method</th>
+</tr>
+</thead>
+<tbody class=3D"">
+<tr class=3D"">
+<td class=3D"confluenceTd">1</td>
+<td class=3D"confluenceTd"><code>CGRestClient</code></td>
+<td class=3D"confluenceTd"><code>"cgrestclient"</code></td>
+<td class=3D"confluenceTd">CustomerGraph Platform API</td>
+<td class=3D"confluenceTd">Customer search (GET), Secure account profile (G=
+ET), Update billing account (PUT)</td>
+<td class=3D"confluenceTd">GET/PUT</td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd">2</td>
+<td class=3D"confluenceTd"><code>ProfileRestClient</code></td>
+<td class=3D"confluenceTd"><code>"ProfileRestClient"</code></td>
+<td class=3D"confluenceTd">IDM Profile MS</td>
+<td class=3D"confluenceTd"><code>/msapi/acct/profile/v1/user/individualCont=
+actInfo</code><span>&nbsp;</span>(GET)</td>
+<td class=3D"confluenceTd">GET</td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd">3</td>
+<td class=3D"confluenceTd"><code>CGApiRestClient</code></td>
+<td class=3D"confluenceTd"><code>"CGApiRestClient"</code></td>
+<td class=3D"confluenceTd">CG v4 Unified Customer API</td>
+<td class=3D"confluenceTd"><code>/msapi/customergraphorchestrationms/v4/cus=
+tomer</code><span>&nbsp;</span>(GET)</td>
+<td class=3D"confluenceTd">GET</td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd">4</td>
+<td class=3D"confluenceTd"><code>CGAssociatedUserClient</code></td>
+<td class=3D"confluenceTd"><code>"CGAssociatedUserClient"</code></td>
+<td class=3D"confluenceTd">CG User Associations</td>
+<td class=3D"confluenceTd"><code>/msapi/cgraph/customergraph/v1/usersassoci=
+ations</code><span>&nbsp;</span>(GET)</td>
+<td class=3D"confluenceTd">GET</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 class=3D"code-line" style=3D"" data-line=3D"211" id=3D"IDGraphRESTOutbo=
+undClientAnalysis-idgraphextclienthelpers(SharedLibrary=E2=80=94JAR)"><code=
+>idgraphextclienthelpers</code><span>&nbsp;</span>(Shared Library =E2=80=94=
+ JAR)</h3>
+<p class=3D"code-line" style=3D"" data-line=3D"213"><strong>RestTemplate So=
+urce</strong>:<span>&nbsp;</span><code>RestTemplateBeanFactory</code><br><s=
+trong>Timeout Strategy</strong>: =E2=9C=85 Per-client named timeouts with A=
+zure App Config dynamic refresh<br><strong>Conditional Activation</strong>:=
+<span>&nbsp;</span><code>@ConditionalOnProperty</code><span>&nbsp;</span>pe=
+r client module</p>
+<div class=3D"table-wrap">
+<table style=3D"" class=3D"confluenceTable">
+<thead class=3D"">
+<tr class=3D"">
+<th style=3D"text-align: left;" class=3D"confluenceTh">#</th>
+<th style=3D"text-align: left;" class=3D"confluenceTh">Client Class</th>
+<th style=3D"text-align: left;" class=3D"confluenceTh">Factory Key</th>
+<th style=3D"text-align: left;" class=3D"confluenceTh">Target</th>
+<th style=3D"text-align: left;" class=3D"confluenceTh">Timeout Config</th>
+<th style=3D"text-align: left;" class=3D"confluenceTh">API Endpoints</th>
+</tr>
+</thead>
+<tbody class=3D"">
+<tr class=3D"">
+<td class=3D"confluenceTd">1</td>
+<td class=3D"confluenceTd"><code>HaloCClientHelper</code></td>
+<td class=3D"confluenceTd"><code>"haloc"</code></td>
+<td class=3D"confluenceTd">HaloC ILM API</td>
+<td class=3D"confluenceTd"><code>apiclient.rest.haloc.connectTimeout=3D5000=
+ / readTimeout=3D10000</code></td>
+<td class=3D"confluenceTd">Identity auth verification (POST)</td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd">2</td>
+<td class=3D"confluenceTd"><code>BbnmsClientHelper</code></td>
+<td class=3D"confluenceTd"><code>"bbnms"</code></td>
+<td class=3D"confluenceTd">BBNMS API</td>
+<td class=3D"confluenceTd"><code>apiclient.rest.bbnms.connectTimeout=3D5000=
+ / readTimeout=3D10000</code></td>
+<td class=3D"confluenceTd">Broadband subscriber operations (POST)</td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd">3</td>
+<td class=3D"confluenceTd"><code>McafeeClientHelper</code></td>
+<td class=3D"confluenceTd"><code>"mcafee"</code></td>
+<td class=3D"confluenceTd">McAfee API</td>
+<td class=3D"confluenceTd"><code>apiclient.rest.mcafee.connectTimeout=3D500=
+0 / readTimeout=3D10000</code></td>
+<td class=3D"confluenceTd">McAfee subscription management (POST)</td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd">4</td>
+<td class=3D"confluenceTd"><code>YahooRestClient</code></td>
+<td class=3D"confluenceTd"><code>"yahoo"</code></td>
+<td class=3D"confluenceTd">Yahoo UMAPI</td>
+<td class=3D"confluenceTd"><code>apiclient.rest.yahoo.connectTimeout=3D5000=
+ / readTimeout=3D10000</code></td>
+<td class=3D"confluenceTd">Yahoo account operations (POST/XML)</td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr class=3D"code-line" style=3D"" data-line=3D"224">
+<h2 class=3D"code-line" style=3D"" data-line=3D"226" id=3D"IDGraphRESTOutbo=
+undClientAnalysis-TimeoutConfigurationSummary">Timeout Configuration Summar=
+y</h2>
+<h3 class=3D"code-line" style=3D"" data-line=3D"228" id=3D"IDGraphRESTOutbo=
+undClientAnalysis-Per-Client-SpecificTimeout(BestPractice=E2=9C=85)">Per-Cl=
+ient-Specific Timeout (Best Practice =E2=9C=85)</h3>
+<div class=3D"table-wrap">
+<table style=3D"" class=3D"confluenceTable">
+<thead class=3D"">
+<tr class=3D"">
+<th style=3D"text-align: left;" class=3D"confluenceTh">MS / Library</th>
+<th style=3D"text-align: left;" class=3D"confluenceTh">Client</th>
+<th style=3D"text-align: left;" class=3D"confluenceTh"><code>connectTimeout=
+</code></th>
+<th style=3D"text-align: left;" class=3D"confluenceTh"><code>readTimeout</c=
+ode></th>
+<th style=3D"text-align: left;" class=3D"confluenceTh">Source</th>
+<th style=3D"text-align: left;" class=3D"confluenceTh">Dynamic Refresh</th>
+</tr>
+</thead>
+<tbody class=3D"">
+<tr class=3D"">
+<td class=3D"confluenceTd"><strong>MPSAdapterMs</strong></td>
+<td class=3D"confluenceTd">All 21 clients</td>
+<td class=3D"confluenceTd">Per-API via Azure App Config</td>
+<td class=3D"confluenceTd">Per-API via Azure App Config</td>
+<td class=3D"confluenceTd"><code>IDGraphAzureAppConfig</code></td>
+<td class=3D"confluenceTd">=E2=9C=85 Yes</td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd"><strong>ContactInfoMs</strong></td>
+<td class=3D"confluenceTd"><code>InquireProfileRestClient</code></td>
+<td class=3D"confluenceTd"><code>{{.Values.restConnectTimeout}}</code></td>
+<td class=3D"confluenceTd"><code>{{.Values.restReadTimeout}}</code></td>
+<td class=3D"confluenceTd">Helm values =E2=86=92 named key</td>
+<td class=3D"confluenceTd">=E2=9C=85 Yes</td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd"><strong>ContactInfoMs</strong></td>
+<td class=3D"confluenceTd"><code>MuleSoftRestClient</code></td>
+<td class=3D"confluenceTd"><code>{{.Values.restConnectTimeout}}</code></td>
+<td class=3D"confluenceTd"><code>{{.Values.restReadTimeout}}</code></td>
+<td class=3D"confluenceTd">Helm values =E2=86=92 named key</td>
+<td class=3D"confluenceTd">=E2=9C=85 Yes</td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd"><strong>ExtClientHelpers</strong></td>
+<td class=3D"confluenceTd"><code>HaloCClientHelper</code></td>
+<td class=3D"confluenceTd">5000</td>
+<td class=3D"confluenceTd">10000</td>
+<td class=3D"confluenceTd"><code>application.properties</code></td>
+<td class=3D"confluenceTd">=E2=9C=85 Yes</td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd"><strong>ExtClientHelpers</strong></td>
+<td class=3D"confluenceTd"><code>BbnmsClientHelper</code></td>
+<td class=3D"confluenceTd">5000</td>
+<td class=3D"confluenceTd">10000</td>
+<td class=3D"confluenceTd"><code>application.properties</code></td>
+<td class=3D"confluenceTd">=E2=9C=85 Yes</td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd"><strong>ExtClientHelpers</strong></td>
+<td class=3D"confluenceTd"><code>McafeeClientHelper</code></td>
+<td class=3D"confluenceTd">5000</td>
+<td class=3D"confluenceTd">10000</td>
+<td class=3D"confluenceTd"><code>application.properties</code></td>
+<td class=3D"confluenceTd">=E2=9C=85 Yes</td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd"><strong>ExtClientHelpers</strong></td>
+<td class=3D"confluenceTd"><code>YahooRestClient</code></td>
+<td class=3D"confluenceTd">5000</td>
+<td class=3D"confluenceTd">10000</td>
+<td class=3D"confluenceTd"><code>application.properties</code></td>
+<td class=3D"confluenceTd">=E2=9C=85 Yes</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 class=3D"code-line" style=3D"" data-line=3D"240" id=3D"IDGraphRESTOutbo=
+undClientAnalysis-SDKDefaultTimeoutOnly(NeedsImprovement=E2=9A=A0=EF=B8=8F)=
+">SDK Default Timeout Only (Needs Improvement =E2=9A=A0=EF=B8=8F)</h3>
+<div class=3D"table-wrap">
+<table style=3D"" class=3D"confluenceTable">
+<thead class=3D"">
+<tr class=3D"">
+<th style=3D"text-align: left;" class=3D"confluenceTh">MS</th>
+<th style=3D"text-align: left;" class=3D"confluenceTh">Clients</th>
+<th style=3D"text-align: left;" class=3D"confluenceTh">Timeout Source</th>
+<th style=3D"text-align: left;" class=3D"confluenceTh">Gap</th>
+</tr>
+</thead>
+<tbody class=3D"">
+<tr class=3D"">
+<td class=3D"confluenceTd"><strong>UserAssociationMs</strong></td>
+<td class=3D"confluenceTd">4 clients</td>
+<td class=3D"confluenceTd"><code>apiclient.rest.default.*</code></td>
+<td class=3D"confluenceTd">All share one timeout; no per-client tuning</td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd"><strong>UserManagementMs</strong></td>
+<td class=3D"confluenceTd">2 clients</td>
+<td class=3D"confluenceTd"><code>apiclient.rest.default.*</code></td>
+<td class=3D"confluenceTd">Same</td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd"><strong>CustomerHubMs</strong></td>
+<td class=3D"confluenceTd">3 clients</td>
+<td class=3D"confluenceTd"><code>apiclient.rest.default.*</code></td>
+<td class=3D"confluenceTd">Same</td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd"><strong>UserRegistrationMs</strong></td>
+<td class=3D"confluenceTd">2 clients</td>
+<td class=3D"confluenceTd"><code>apiclient.rest.default.*</code></td>
+<td class=3D"confluenceTd">Same</td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd"><strong>UserEventsMs</strong></td>
+<td class=3D"confluenceTd">1 client (12 APIs)</td>
+<td class=3D"confluenceTd"><code>apiclient.rest.default.*</code></td>
+<td class=3D"confluenceTd">12 APIs sharing one RestTemplate/timeout</td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd"><strong>ConsumerMs</strong></td>
+<td class=3D"confluenceTd">3 clients</td>
+<td class=3D"confluenceTd"><code>apiclient.rest.default.*</code></td>
+<td class=3D"confluenceTd">Direct RestTemplate, no factory benefits</td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd"><strong>BatchMs</strong></td>
+<td class=3D"confluenceTd">1 client</td>
+<td class=3D"confluenceTd"><code>apiclient.rest.default.*</code></td>
+<td class=3D"confluenceTd">Direct RestTemplate, no factory benefits</td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr class=3D"code-line" style=3D"" data-line=3D"252">
+<h2 class=3D"code-line" style=3D"" data-line=3D"254" id=3D"IDGraphRESTOutbo=
+undClientAnalysis-Recommendations">Recommendations</h2>
+<h3 class=3D"code-line" style=3D"" data-line=3D"256" id=3D"IDGraphRESTOutbo=
+undClientAnalysis-R1.MigrateDirectRestTemplateClientstoRestTemplateBeanFact=
+ory">R1. Migrate Direct<span>&nbsp;</span><code>RestTemplate</code><span>&n=
+bsp;</span>Clients to<span>&nbsp;</span><code>RestTemplateBeanFactory</code=
+></h3>
+<p class=3D"code-line" style=3D"" data-line=3D"258"><strong>Priority</stron=
+g>: HIGH<br><strong>Affected</strong>:<span>&nbsp;</span><code>idgraphusere=
+ventsms</code>,<span>&nbsp;</span><code>idgraphconsumerms</code>,<span>&nbs=
+p;</span><code>idgraphbatchms</code><span>&nbsp;</span>(5 clients total)</p=
+>
+<p class=3D"code-line" style=3D"" data-line=3D"261"><strong>Problem</strong=
+>: Direct<span>&nbsp;</span><code>RestTemplate</code><span>&nbsp;</span>inj=
+ection bypasses IDP SDK's TLS configuration, connection pool management, lo=
+gging interceptors, and timeout management provided by<span>&nbsp;</span><c=
+ode>RestTemplateBeanFactory</code>.</p>
+<p class=3D"code-line" style=3D"" data-line=3D"263"><strong>Action</strong>=
+:</p>
+<ol class=3D"code-line" style=3D"" data-line=3D"264">
+<li class=3D"code-line" data-line=3D"264">Register each client with a named=
+ factory key in<span>&nbsp;</span><code>application.properties</code><span>=
+&nbsp;</span>(e.g.,<span>&nbsp;</span><code>apiclient.rest.identitygraphcli=
+ent.*</code>)</li>
+<li class=3D"code-line" data-line=3D"265">Change constructor to accept<span=
+>&nbsp;</span><code>RestTemplateBeanFactory</code><span>&nbsp;</span>and ca=
+ll<span>&nbsp;</span><code>.getObject(clientName)</code></li>
+<li class=3D"code-line" data-line=3D"266">Add per-client<span>&nbsp;</span>=
+<code>connectTimeout</code><span>&nbsp;</span>and<span>&nbsp;</span><code>r=
+eadTimeout</code><span>&nbsp;</span>properties</li>
+</ol>
+<hr class=3D"code-line" style=3D"" data-line=3D"268">
+<h3 class=3D"code-line" style=3D"" data-line=3D"270" id=3D"IDGraphRESTOutbo=
+undClientAnalysis-R2.AddPer-ClientTimeoutConfiguration">R2. Add Per-Client =
+Timeout Configuration</h3>
+<p class=3D"code-line" style=3D"" data-line=3D"272"><strong>Priority</stron=
+g>: HIGH<br><strong>Affected</strong>: All MSes currently using only<span>&=
+nbsp;</span><code>apiclient.rest.default.*</code></p>
+<p class=3D"code-line" style=3D"" data-line=3D"275"><strong>Problem</strong=
+>: A slow downstream service (e.g., OrderGraph) blocks threads with the glo=
+bal timeout, starving faster APIs.</p>
+<p class=3D"code-line" style=3D"" data-line=3D"277"><strong>Action</strong>=
+:</p>
+<ol class=3D"code-line" style=3D"" data-line=3D"278">
+<li class=3D"code-line" data-line=3D"278">Define<span>&nbsp;</span><code>ap=
+iclient.rest.&lt;clientKey&gt;.connectTimeout</code><span>&nbsp;</span>and<=
+span>&nbsp;</span><code>apiclient.rest.&lt;clientKey&gt;.readTimeout</code>=
+<span>&nbsp;</span>in Helm configs</li>
+<li class=3D"code-line" data-line=3D"279">Follow the naming pattern:<span>&=
+nbsp;</span><code>apiclient.rest.{factoryKey}.connectTimeout/readTimeout</c=
+ode></li>
+<li class=3D"code-line" data-line=3D"280">For MSes with Azure App Config, a=
+dd<span>&nbsp;</span><code>appconfig.apiclient.rest.{factoryKey}.*</code><s=
+pan>&nbsp;</span>overrides</li>
+</ol>
+<hr class=3D"code-line" style=3D"" data-line=3D"282">
+<h3 class=3D"code-line" style=3D"" data-line=3D"284" id=3D"IDGraphRESTOutbo=
+undClientAnalysis-R3.AdoptCentralizedRestTemplateConfigPattern">R3. Adopt C=
+entralized<span>&nbsp;</span><code>RestTemplateConfig</code><span>&nbsp;</s=
+pan>Pattern</h3>
+<p class=3D"code-line" style=3D"" data-line=3D"286"><strong>Priority</stron=
+g>: MEDIUM<br><strong>Model</strong>:<span>&nbsp;</span><code>idgraphmpsada=
+pterms</code><span>&nbsp;</span><code>RestTemplateConfig</code></p>
+<p class=3D"code-line" style=3D"" data-line=3D"289"><strong>Problem</strong=
+>: Most MSes create<span>&nbsp;</span><code>RestTemplate</code><span>&nbsp;=
+</span>inline in each client constructor, making timeout refresh require in=
+dividual<span>&nbsp;</span><code>@EventListener</code><span>&nbsp;</span>in=
+ every client.</p>
+<p class=3D"code-line" style=3D"" data-line=3D"291"><strong>Action</strong>=
+: Create one<span>&nbsp;</span><code>RestTemplateConfig</code><span>&nbsp;<=
+/span>per MS that:</p>
+<ol class=3D"code-line" style=3D"" data-line=3D"292">
+<li class=3D"code-line" data-line=3D"292">Creates all named<span>&nbsp;</sp=
+an><code>@Bean</code><span>&nbsp;</span>RestTemplate instances centrally</l=
+i>
+<li class=3D"code-line" data-line=3D"293">Handles<span>&nbsp;</span><code>R=
+efreshScopeRefreshedEvent</code><span>&nbsp;</span>to refresh all timeouts =
+in one place</li>
+<li class=3D"code-line" data-line=3D"294">Exposes beans via<span>&nbsp;</sp=
+an><code>@Qualifier</code><span>&nbsp;</span>for each client</li>
+</ol>
+<hr class=3D"code-line" style=3D"" data-line=3D"296">
+<h3 class=3D"code-line" style=3D"" data-line=3D"298" id=3D"IDGraphRESTOutbo=
+undClientAnalysis-R4.StandardizeErrorHandling">R4. Standardize Error Handli=
+ng</h3>
+<p class=3D"code-line" style=3D"" data-line=3D"300"><strong>Priority</stron=
+g>: MEDIUM</p>
+<p class=3D"code-line" style=3D"" data-line=3D"302"><strong>Problem</strong=
+>: Error handling varies widely:</p>
+<ul class=3D"code-line" style=3D"" data-line=3D"303">
+<li class=3D"code-line" data-line=3D"303">Some use<span>&nbsp;</span><code>=
+CommonErrorMap.makeCategoryMap()</code><span>&nbsp;</span>(CGRestClient, MP=
+SYSInternalRestClient)</li>
+<li class=3D"code-line" data-line=3D"304">Some throw<span>&nbsp;</span><cod=
+e>ServiceException</code><span>&nbsp;</span>(CGAssociatedUserClient)</li>
+<li class=3D"code-line" data-line=3D"305">Some save to Cosmos (ApiRestClien=
+t, GenericApiRestClient)</li>
+<li class=3D"code-line" data-line=3D"306">Some just rethrow (McafeeClientHe=
+lper)</li>
+</ul>
+<p class=3D"code-line" style=3D"" data-line=3D"308"><strong>Action</strong>=
+: Create a shared<span>&nbsp;</span><code>RestClientErrorHandler</code><spa=
+n>&nbsp;</span>in<span>&nbsp;</span><code>idgraphcommonhelper</code><span>&=
+nbsp;</span>that:</p>
+<ol class=3D"code-line" style=3D"" data-line=3D"309">
+<li class=3D"code-line" data-line=3D"309">Classifies exceptions as retryabl=
+e vs non-retryable</li>
+<li class=3D"code-line" data-line=3D"310">Returns a standard<span>&nbsp;</s=
+pan><code>RestClientResult&lt;T&gt;</code><span>&nbsp;</span>with success/e=
+rror state</li>
+<li class=3D"code-line" data-line=3D"311">Optionally persists failed events=
+ to Cosmos (configurable)</li>
+</ol>
+<hr class=3D"code-line" style=3D"" data-line=3D"313">
+<h3 class=3D"code-line" style=3D"" data-line=3D"315" id=3D"IDGraphRESTOutbo=
+undClientAnalysis-R5.StandardizeRetryConfiguration">R5. Standardize Retry C=
+onfiguration</h3>
+<p class=3D"code-line" style=3D"" data-line=3D"317"><strong>Priority</stron=
+g>: MEDIUM</p>
+<p class=3D"code-line" style=3D"" data-line=3D"319"><strong>Problem</strong=
+>: Retry patterns differ across clients:</p>
+<ul class=3D"code-line" style=3D"" data-line=3D"320">
+<li class=3D"code-line" data-line=3D"320">Spring<span>&nbsp;</span><code>@R=
+etryable</code><span>&nbsp;</span>annotations (CLMRestClient, ApiRestClient=
+)</li>
+<li class=3D"code-line" data-line=3D"321"><code>RetryTemplate</code><span>&=
+nbsp;</span>beans (HaloCClientHelper, BbnmsClientHelper, McafeeClientHelper=
+, MbizClientHelper)</li>
+<li class=3D"code-line" data-line=3D"322">Manual retry loops (IdentityGraph=
+Client in UserEventsMs)</li>
+<li class=3D"code-line" data-line=3D"323">No retry (CustomerGraphMsClient, =
+IdGraphMsClient)</li>
+</ul>
+<p class=3D"code-line" style=3D"" data-line=3D"325"><strong>Action</strong>=
+:</p>
+<ol class=3D"code-line" style=3D"" data-line=3D"326">
+<li class=3D"code-line" data-line=3D"326">Use<span>&nbsp;</span><code>Retry=
+Template</code><span>&nbsp;</span>beans for all REST clients (consistent wi=
+th extclienthelpers pattern)</li>
+<li class=3D"code-line" data-line=3D"327">Configure retry via properties:<s=
+pan>&nbsp;</span><code>apiclient.rest.&lt;clientKey&gt;.retry.maxAttempts</=
+code>,<span>&nbsp;</span><code>backoffDelay</code>,<span>&nbsp;</span><code=
+>multiplier</code></li>
+<li class=3D"code-line" data-line=3D"328">Define retryable exceptions consi=
+stently: 5xx +<span>&nbsp;</span><code>ResourceAccessException</code><span>=
+&nbsp;</span>=3D retryable; 4xx =3D non-retryable</li>
+</ol>
+<hr class=3D"code-line" style=3D"" data-line=3D"330">
+<h3 class=3D"code-line" style=3D"" data-line=3D"332" id=3D"IDGraphRESTOutbo=
+undClientAnalysis-R6.ConnectionPoolIsolation">R6. Connection Pool Isolation=
+</h3>
+<p class=3D"code-line" style=3D"" data-line=3D"334"><strong>Priority</stron=
+g>: LOW<br><strong>Model</strong>:<span>&nbsp;</span><code>idgraphmpsadapte=
+rms</code><span>&nbsp;</span>per-API<span>&nbsp;</span><code>maxConnections=
+Total</code></p>
+<p class=3D"code-line" style=3D"" data-line=3D"337"><strong>Problem</strong=
+>: Multiple clients sharing one<span>&nbsp;</span><code>RestTemplate</code>=
+<span>&nbsp;</span>share one connection pool. A downstream outage exhausts =
+the pool and impacts all APIs.</p>
+<p class=3D"code-line" style=3D"" data-line=3D"339"><strong>Action</strong>=
+: For high-traffic MSes (ConsumerMs, UserEventsMs), create separate<span>&n=
+bsp;</span><code>RestTemplate</code><span>&nbsp;</span>beans per downstream=
+ target with isolated connection pools.</p>
+<hr class=3D"code-line" style=3D"" data-line=3D"341">
+<h2 class=3D"code-line" style=3D"" data-line=3D"343" id=3D"IDGraphRESTOutbo=
+undClientAnalysis-ProposedStandardizedRESTClientPattern">Proposed Standardi=
+zed REST Client Pattern</h2>
+<h3 class=3D"code-line" style=3D"" data-line=3D"345" id=3D"IDGraphRESTOutbo=
+undClientAnalysis-BaseClass:AbstractIdGraphRestClient">Base Class:<span>&nb=
+sp;</span><code>AbstractIdGraphRestClient</code></h3>
+<pre><code class=3D"code-line language-java" data-line=3D"347"><span class=
+=3D"hljs-comment" style=3D"color: rgb(87,166,74);">/**
+ * Base class for all IDGraph REST outbound clients.
+ * Provides: RestTemplateBeanFactory integration, per-client timeout,
+ * retry, error classification, SPI logging markers, header population.
+ */</span>
+<span class=3D"hljs-keyword" style=3D"color: rgb(86,156,214);">public</span=
+> <span class=3D"hljs-keyword" style=3D"color: rgb(86,156,214);">abstract</=
+span> <span class=3D"hljs-keyword" style=3D"color: rgb(86,156,214);">class<=
+/span> <span class=3D"hljs-title class_" style=3D"color: rgb(220,220,220);"=
+>AbstractIdGraphRestClient</span> <span class=3D"hljs-keyword" style=3D"col=
+or: rgb(86,156,214);">implements</span> <span class=3D"hljs-title class_" s=
+tyle=3D"color: rgb(220,220,220);">RestApiClient</span> {
+
+    <span class=3D"hljs-keyword" style=3D"color: rgb(86,156,214);">private<=
+/span> <span class=3D"hljs-keyword" style=3D"color: rgb(86,156,214);">volat=
+ile</span> RestTemplate restTemplate;
+    <span class=3D"hljs-keyword" style=3D"color: rgb(86,156,214);">private<=
+/span> <span class=3D"hljs-keyword" style=3D"color: rgb(86,156,214);">final=
+</span> RestTemplateBeanFactory restTemplateFactory;
+    <span class=3D"hljs-keyword" style=3D"color: rgb(86,156,214);">private<=
+/span> <span class=3D"hljs-keyword" style=3D"color: rgb(86,156,214);">final=
+</span> OutboundRestClientBuilder outboundRestClientBuilder; <span class=3D=
+"hljs-comment" style=3D"color: rgb(87,166,74);">// optional</span>
+    <span class=3D"hljs-keyword" style=3D"color: rgb(86,156,214);">private<=
+/span> <span class=3D"hljs-keyword" style=3D"color: rgb(86,156,214);">final=
+</span> RetryTemplate retryTemplate;
+
+    <span class=3D"hljs-comment" style=3D"color: rgb(87,166,74);">// =E2=94=
+=80=E2=94=80 Subclass provides =E2=94=80=E2=94=80</span>
+    <span class=3D"hljs-keyword" style=3D"color: rgb(86,156,214);">protecte=
+d</span> <span class=3D"hljs-keyword" style=3D"color: rgb(86,156,214);">abs=
+tract</span> String <span class=3D"hljs-title function_" style=3D"color: rg=
+b(220,220,220);">getClientName</span><span class=3D"hljs-params" style=3D"c=
+olor: rgb(220,220,220);">()</span>;        <span class=3D"hljs-comment" sty=
+le=3D"color: rgb(87,166,74);">// factory key</span>
+    <span class=3D"hljs-keyword" style=3D"color: rgb(86,156,214);">protecte=
+d</span> <span class=3D"hljs-keyword" style=3D"color: rgb(86,156,214);">abs=
+tract</span> String <span class=3D"hljs-title function_" style=3D"color: rg=
+b(220,220,220);">getBaseUrl</span><span class=3D"hljs-params" style=3D"colo=
+r: rgb(220,220,220);">()</span>;            <span class=3D"hljs-comment" st=
+yle=3D"color: rgb(87,166,74);">// @Value injected</span>
+    <span class=3D"hljs-keyword" style=3D"color: rgb(86,156,214);">protecte=
+d</span> <span class=3D"hljs-keyword" style=3D"color: rgb(86,156,214);">abs=
+tract</span> String <span class=3D"hljs-title function_" style=3D"color: rg=
+b(220,220,220);">getClientId</span><span class=3D"hljs-params" style=3D"col=
+or: rgb(220,220,220);">()</span>;           <span class=3D"hljs-comment" st=
+yle=3D"color: rgb(87,166,74);">// @Value injected</span>
+    <span class=3D"hljs-keyword" style=3D"color: rgb(86,156,214);">protecte=
+d</span> <span class=3D"hljs-keyword" style=3D"color: rgb(86,156,214);">abs=
+tract</span> String <span class=3D"hljs-title function_" style=3D"color: rg=
+b(220,220,220);">getClientSecret</span><span class=3D"hljs-params" style=3D=
+"color: rgb(220,220,220);">()</span>;       <span class=3D"hljs-comment" st=
+yle=3D"color: rgb(87,166,74);">// @Value injected</span>
+
+    <span class=3D"hljs-keyword" style=3D"color: rgb(86,156,214);">protecte=
+d</span> <span class=3D"hljs-title function_" style=3D"color: rgb(220,220,2=
+20);">AbstractIdGraphRestClient</span><span class=3D"hljs-params" style=3D"=
+color: rgb(220,220,220);">(
+            RestTemplateBeanFactory factory,
+            OutboundRestClientBuilder builder,   // nullable
+            RetryTemplate retryTemplate)</span> <span class=3D"hljs-keyword=
+" style=3D"color: rgb(86,156,214);">throws</span> Exception {
+        <span class=3D"hljs-built_in" style=3D"color: rgb(78,201,176);">thi=
+s</span>.restTemplateFactory =3D factory;
+        <span class=3D"hljs-built_in" style=3D"color: rgb(78,201,176);">thi=
+s</span>.outboundRestClientBuilder =3D builder;
+        <span class=3D"hljs-built_in" style=3D"color: rgb(78,201,176);">thi=
+s</span>.retryTemplate =3D retryTemplate;
+        <span class=3D"hljs-built_in" style=3D"color: rgb(78,201,176);">thi=
+s</span>.restTemplate =3D factory.getObject(getClientName());
+    }
+
+    <span class=3D"hljs-comment" style=3D"color: rgb(87,166,74);">// =E2=94=
+=80=E2=94=80 Core HTTP call with retry + SPI logging =E2=94=80=E2=94=80</sp=
+an>
+    <span class=3D"hljs-keyword" style=3D"color: rgb(86,156,214);">protecte=
+d</span> &lt;T&gt; ResponseEntity&lt;T&gt; <span class=3D"hljs-title functi=
+on_" style=3D"color: rgb(220,220,220);">executeWithRetry</span><span class=
+=3D"hljs-params" style=3D"color: rgb(220,220,220);">(
+            String path, HttpMethod method,
+            Object requestBody, Class&lt;T&gt; responseType,
+            String traceId, String callingSystemId)</span> {
+
+        <span class=3D"hljs-keyword" style=3D"color: rgb(86,156,214);">retu=
+rn</span> retryTemplate.execute(context -&gt; {
+            <span class=3D"hljs-type" style=3D"color: rgb(78,201,176);">Str=
+ing</span> <span class=3D"hljs-variable" style=3D"color: rgb(189,99,197);">=
+url</span> <span class=3D"hljs-operator">=3D</span> getBaseUrl() + path;
+            <span class=3D"hljs-type" style=3D"color: rgb(78,201,176);">Htt=
+pHeaders</span> <span class=3D"hljs-variable" style=3D"color: rgb(189,99,19=
+7);">headers</span> <span class=3D"hljs-operator">=3D</span> buildHeaders(t=
+raceId, callingSystemId);
+            HttpEntity&lt;?&gt; entity =3D <span class=3D"hljs-keyword" sty=
+le=3D"color: rgb(86,156,214);">new</span> <span class=3D"hljs-title class_"=
+ style=3D"color: rgb(220,220,220);">HttpEntity</span>&lt;&gt;(requestBody, =
+headers);
+
+            log.info(SpiMarker.getInstance(), <span class=3D"hljs-string" s=
+tyle=3D"color: rgb(214,157,133);">"EXT000: {} {} request to {}"</span>,
+                    getClientName(), method, url);
+            <span class=3D"hljs-type" style=3D"color: rgb(78,201,176);">lon=
+g</span> <span class=3D"hljs-variable" style=3D"color: rgb(189,99,197);">st=
+art</span> <span class=3D"hljs-operator">=3D</span> System.currentTimeMilli=
+s();
+
+            ResponseEntity&lt;T&gt; response =3D restTemplate.exchange(
+                    url, method, entity, responseType);
+
+            log.info(<span class=3D"hljs-string" style=3D"color: rgb(214,15=
+7,133);">"EXT999: {} response in {}ms, status=3D{}"</span>,
+                    getClientName(), System.currentTimeMillis() - start,
+                    response.getStatusCode());
+            <span class=3D"hljs-keyword" style=3D"color: rgb(86,156,214);">=
+return</span> response;
+        });
+    }
+
+    <span class=3D"hljs-comment" style=3D"color: rgb(87,166,74);">// =E2=94=
+=80=E2=94=80 Standard header population =E2=94=80=E2=94=80</span>
+    <span class=3D"hljs-keyword" style=3D"color: rgb(86,156,214);">private<=
+/span> HttpHeaders <span class=3D"hljs-title function_" style=3D"color: rgb=
+(220,220,220);">buildHeaders</span><span class=3D"hljs-params" style=3D"col=
+or: rgb(220,220,220);">(String traceId, String callingSystemId)</span> {
+        <span class=3D"hljs-type" style=3D"color: rgb(78,201,176);">HttpHea=
+ders</span> <span class=3D"hljs-variable" style=3D"color: rgb(189,99,197);"=
+>headers</span> <span class=3D"hljs-operator">=3D</span> <span class=3D"hlj=
+s-keyword" style=3D"color: rgb(86,156,214);">new</span> <span class=3D"hljs=
+-title class_" style=3D"color: rgb(220,220,220);">HttpHeaders</span>();
+        headers.setContentType(MediaType.APPLICATION_JSON);
+        headers.add(<span class=3D"hljs-string" style=3D"color: rgb(214,157=
+,133);">"Authorization"</span>, <span class=3D"hljs-string" style=3D"color:=
+ rgb(214,157,133);">"Basic "</span> +
+                Base64.getEncoder().encodeToString(
+                    (getClientId() + <span class=3D"hljs-string" style=3D"c=
+olor: rgb(214,157,133);">":"</span> + getClientSecret()).getBytes()));
+        headers.add(<span class=3D"hljs-string" style=3D"color: rgb(214,157=
+,133);">"idp-trace-id"</span>, traceId);
+        headers.add(<span class=3D"hljs-string" style=3D"color: rgb(214,157=
+,133);">"X-ATT-ClientId"</span>, callingSystemId);
+        <span class=3D"hljs-keyword" style=3D"color: rgb(86,156,214);">retu=
+rn</span> headers;
+    }
+
+    <span class=3D"hljs-comment" style=3D"color: rgb(87,166,74);">// =E2=94=
+=80=E2=94=80 Dynamic refresh handler =E2=94=80=E2=94=80</span>
+    <span class=3D"hljs-meta" style=3D"color: rgb(155,155,155);">@EventList=
+ener(RefreshScopeRefreshedEvent.class)</span>
+    <span class=3D"hljs-keyword" style=3D"color: rgb(86,156,214);">public</=
+span> <span class=3D"hljs-keyword" style=3D"color: rgb(86,156,214);">synchr=
+onized</span> <span class=3D"hljs-keyword" style=3D"color: rgb(86,156,214);=
+">void</span> <span class=3D"hljs-title function_" style=3D"color: rgb(220,=
+220,220);">onRefresh</span><span class=3D"hljs-params" style=3D"color: rgb(=
+220,220,220);">()</span> {
+        <span class=3D"hljs-keyword" style=3D"color: rgb(86,156,214);">try<=
+/span> {
+            <span class=3D"hljs-type" style=3D"color: rgb(78,201,176);">Res=
+tTemplate</span> <span class=3D"hljs-variable" style=3D"color: rgb(189,99,1=
+97);">updated</span> <span class=3D"hljs-operator">=3D</span> outboundRestC=
+lientBuilder !=3D <span class=3D"hljs-literal" style=3D"color: rgb(86,156,2=
+14);">null</span>
+                    ? outboundRestClientBuilder.buildRefreshedRestTemplate(
+                          restTemplateFactory, getClientName())
+                    : restTemplateFactory.getObject(getClientName());
+            <span class=3D"hljs-built_in" style=3D"color: rgb(78,201,176);"=
+>this</span>.restTemplate =3D updated;
+            log.info(<span class=3D"hljs-string" style=3D"color: rgb(214,15=
+7,133);">"{} RestTemplate refreshed with new timeouts"</span>, getClientNam=
+e());
+        } <span class=3D"hljs-keyword" style=3D"color: rgb(86,156,214);">ca=
+tch</span> (Exception e) {
+            log.error(<span class=3D"hljs-string" style=3D"color: rgb(214,1=
+57,133);">"{} RestTemplate refresh failed, retaining existing instance"</sp=
+an>,
+                    getClientName(), e);
+        }
+    }
+}
+</code></pre>
+<h3 class=3D"code-line" style=3D"" data-line=3D"431" id=3D"IDGraphRESTOutbo=
+undClientAnalysis-ConcreteClientExample">Concrete Client Example</h3>
+<pre><code class=3D"code-line language-java" data-line=3D"433"><span class=
+=3D"hljs-meta" style=3D"color: rgb(155,155,155);">@Component</span>
+<span class=3D"hljs-keyword" style=3D"color: rgb(86,156,214);">public</span=
+> <span class=3D"hljs-keyword" style=3D"color: rgb(86,156,214);">class</spa=
+n> <span class=3D"hljs-title class_" style=3D"color: rgb(220,220,220);">IdG=
+raphSubSvcMsClient</span> <span class=3D"hljs-keyword" style=3D"color: rgb(=
+86,156,214);">extends</span> <span class=3D"hljs-title class_" style=3D"col=
+or: rgb(220,220,220);">AbstractIdGraphRestClient</span> {
+
+    <span class=3D"hljs-meta" style=3D"color: rgb(155,155,155);">@Value("${=
+apiclient.rest.idgraph.subsvcms.baseurl}")</span>
+    <span class=3D"hljs-keyword" style=3D"color: rgb(86,156,214);">private<=
+/span> String baseUrl;
+
+    <span class=3D"hljs-meta" style=3D"color: rgb(155,155,155);">@Value("${=
+apiclient.rest.default.userTypes.registered.username}")</span>
+    <span class=3D"hljs-keyword" style=3D"color: rgb(86,156,214);">private<=
+/span> String clientId;
+
+    <span class=3D"hljs-meta" style=3D"color: rgb(155,155,155);">@Value("${=
+apiclient.rest.default.userTypes.registered.password}")</span>
+    <span class=3D"hljs-keyword" style=3D"color: rgb(86,156,214);">private<=
+/span> String clientSecret;
+
+    <span class=3D"hljs-keyword" style=3D"color: rgb(86,156,214);">public</=
+span> <span class=3D"hljs-title function_" style=3D"color: rgb(220,220,220)=
+;">IdGraphSubSvcMsClient</span><span class=3D"hljs-params" style=3D"color: =
+rgb(220,220,220);">(
+            RestTemplateBeanFactory factory,
+            <span class=3D"hljs-meta" style=3D"color: rgb(155,155,155);">@Q=
+ualifier("subsvcRetryTemplate")</span> RetryTemplate retryTemplate)</span>
+            <span class=3D"hljs-keyword" style=3D"color: rgb(86,156,214);">=
+throws</span> Exception {
+        <span class=3D"hljs-built_in" style=3D"color: rgb(78,201,176);">sup=
+er</span>(factory, <span class=3D"hljs-literal" style=3D"color: rgb(86,156,=
+214);">null</span>, retryTemplate);
+    }
+
+    <span class=3D"hljs-meta" style=3D"color: rgb(155,155,155);">@Override<=
+/span> <span class=3D"hljs-keyword" style=3D"color: rgb(86,156,214);">prote=
+cted</span> String <span class=3D"hljs-title function_" style=3D"color: rgb=
+(220,220,220);">getClientName</span><span class=3D"hljs-params" style=3D"co=
+lor: rgb(220,220,220);">()</span>   { <span class=3D"hljs-keyword" style=3D=
+"color: rgb(86,156,214);">return</span> <span class=3D"hljs-string" style=
+=3D"color: rgb(214,157,133);">"subsvcms"</span>; }
+    <span class=3D"hljs-meta" style=3D"color: rgb(155,155,155);">@Override<=
+/span> <span class=3D"hljs-keyword" style=3D"color: rgb(86,156,214);">prote=
+cted</span> String <span class=3D"hljs-title function_" style=3D"color: rgb=
+(220,220,220);">getBaseUrl</span><span class=3D"hljs-params" style=3D"color=
+: rgb(220,220,220);">()</span>       { <span class=3D"hljs-keyword" style=
+=3D"color: rgb(86,156,214);">return</span> baseUrl; }
+    <span class=3D"hljs-meta" style=3D"color: rgb(155,155,155);">@Override<=
+/span> <span class=3D"hljs-keyword" style=3D"color: rgb(86,156,214);">prote=
+cted</span> String <span class=3D"hljs-title function_" style=3D"color: rgb=
+(220,220,220);">getClientId</span><span class=3D"hljs-params" style=3D"colo=
+r: rgb(220,220,220);">()</span>      { <span class=3D"hljs-keyword" style=
+=3D"color: rgb(86,156,214);">return</span> clientId; }
+    <span class=3D"hljs-meta" style=3D"color: rgb(155,155,155);">@Override<=
+/span> <span class=3D"hljs-keyword" style=3D"color: rgb(86,156,214);">prote=
+cted</span> String <span class=3D"hljs-title function_" style=3D"color: rgb=
+(220,220,220);">getClientSecret</span><span class=3D"hljs-params" style=3D"=
+color: rgb(220,220,220);">()</span>  { <span class=3D"hljs-keyword" style=
+=3D"color: rgb(86,156,214);">return</span> clientSecret; }
+
+    <span class=3D"hljs-keyword" style=3D"color: rgb(86,156,214);">public</=
+span> ResponseEntity&lt;JsonNode&gt; <span class=3D"hljs-title function_" s=
+tyle=3D"color: rgb(220,220,220);">deleteSubscriber</span><span class=3D"hlj=
+s-params" style=3D"color: rgb(220,220,220);">(
+            Object request, String traceId, String clientId)</span> {
+        <span class=3D"hljs-keyword" style=3D"color: rgb(86,156,214);">retu=
+rn</span> executeWithRetry(<span class=3D"hljs-string" style=3D"color: rgb(=
+214,157,133);">"/v1/deletesubscriber"</span>, HttpMethod.POST,
+                request, JsonNode.class, traceId, clientId);
+    }
+}
+</code></pre>
+<h3 class=3D"code-line" style=3D"" data-line=3D"466" id=3D"IDGraphRESTOutbo=
+undClientAnalysis-CorrespondingProperties">Corresponding Properties</h3>
+<pre><code class=3D"code-line language-properties" data-line=3D"468"><span =
+class=3D"hljs-comment" style=3D"color: rgb(87,166,74);"># Per-client timeou=
+t (consumed by RestTemplateBeanFactory)</span>
+<span class=3D"hljs-attr" style=3D"color: rgb(156,220,254);">apiclient.rest=
+.subsvcms.connectTimeout</span>=3D<span class=3D"hljs-string" style=3D"colo=
+r: rgb(214,157,133);">5000</span>
+<span class=3D"hljs-attr" style=3D"color: rgb(156,220,254);">apiclient.rest=
+.subsvcms.readTimeout</span>=3D<span class=3D"hljs-string" style=3D"color: =
+rgb(214,157,133);">10000</span>
+<span class=3D"hljs-attr" style=3D"color: rgb(156,220,254);">apiclient.rest=
+.subsvcms.logging.enabled</span>=3D<span class=3D"hljs-string" style=3D"col=
+or: rgb(214,157,133);">true</span>
+<span class=3D"hljs-attr" style=3D"color: rgb(156,220,254);">apiclient.rest=
+.subsvcms.logging.bodyEnabled</span>=3D<span class=3D"hljs-string" style=3D=
+"color: rgb(214,157,133);">true</span>
+<span class=3D"hljs-comment" style=3D"color: rgb(87,166,74);">
+# Retry config</span>
+<span class=3D"hljs-attr" style=3D"color: rgb(156,220,254);">apiclient.rest=
+.subsvcms.retry.maxAttempts</span>=3D<span class=3D"hljs-string" style=3D"c=
+olor: rgb(214,157,133);">3</span>
+<span class=3D"hljs-attr" style=3D"color: rgb(156,220,254);">apiclient.rest=
+.subsvcms.retry.backoffDelay</span>=3D<span class=3D"hljs-string" style=3D"=
+color: rgb(214,157,133);">500</span>
+<span class=3D"hljs-attr" style=3D"color: rgb(156,220,254);">apiclient.rest=
+.subsvcms.retry.multiplier</span>=3D<span class=3D"hljs-string" style=3D"co=
+lor: rgb(214,157,133);">2.0</span>
+</code></pre>
+<h3 class=3D"code-line" style=3D"" data-line=3D"481" id=3D"IDGraphRESTOutbo=
+undClientAnalysis-RetryBeanConfiguration">Retry Bean Configuration</h3>
+<pre><code class=3D"code-line language-java" data-line=3D"483"><span class=
+=3D"hljs-meta" style=3D"color: rgb(155,155,155);">@Configuration</span>
+<span class=3D"hljs-keyword" style=3D"color: rgb(86,156,214);">public</span=
+> <span class=3D"hljs-keyword" style=3D"color: rgb(86,156,214);">class</spa=
+n> <span class=3D"hljs-title class_" style=3D"color: rgb(220,220,220);">Res=
+tClientRetryConfig</span> {
+
+    <span class=3D"hljs-meta" style=3D"color: rgb(155,155,155);">@Bean("sub=
+svcRetryTemplate")</span>
+    <span class=3D"hljs-keyword" style=3D"color: rgb(86,156,214);">public</=
+span> RetryTemplate <span class=3D"hljs-title function_" style=3D"color: rg=
+b(220,220,220);">subsvcRetryTemplate</span><span class=3D"hljs-params" styl=
+e=3D"color: rgb(220,220,220);">(
+            <span class=3D"hljs-meta" style=3D"color: rgb(155,155,155);">@V=
+alue("${apiclient.rest.subsvcms.retry.maxAttempts:3}")</span> <span class=
+=3D"hljs-type" style=3D"color: rgb(78,201,176);">int</span> maxAttempts,
+            <span class=3D"hljs-meta" style=3D"color: rgb(155,155,155);">@V=
+alue("${apiclient.rest.subsvcms.retry.backoffDelay:500}")</span> <span clas=
+s=3D"hljs-type" style=3D"color: rgb(78,201,176);">long</span> delay,
+            <span class=3D"hljs-meta" style=3D"color: rgb(155,155,155);">@V=
+alue("${apiclient.rest.subsvcms.retry.multiplier:2.0}")</span> <span class=
+=3D"hljs-type" style=3D"color: rgb(78,201,176);">double</span> multiplier)<=
+/span> {
+        <span class=3D"hljs-keyword" style=3D"color: rgb(86,156,214);">retu=
+rn</span> RetryTemplate.builder()
+                .maxAttempts(maxAttempts)
+                .exponentialBackoff(delay, multiplier, delay * (<span class=
+=3D"hljs-type" style=3D"color: rgb(78,201,176);">long</span>) Math.pow(mult=
+iplier, maxAttempts))
+                .retryOn(HttpServerErrorException.class)
+                .retryOn(ResourceAccessException.class)
+                .build();
+    }
+}
+</code></pre>
+<h3 class=3D"code-line" style=3D"" data-line=3D"502" id=3D"IDGraphRESTOutbo=
+undClientAnalysis-BenefitsofThisPattern">Benefits of This Pattern</h3>
+<div class=3D"table-wrap">
+<table style=3D"" class=3D"confluenceTable">
+<thead class=3D"">
+<tr class=3D"">
+<th style=3D"text-align: left;" class=3D"confluenceTh">Benefit</th>
+<th style=3D"text-align: left;" class=3D"confluenceTh">Before</th>
+<th style=3D"text-align: left;" class=3D"confluenceTh">After</th>
+</tr>
+</thead>
+<tbody class=3D"">
+<tr class=3D"">
+<td class=3D"confluenceTd"><strong>TLS/SSL</strong></td>
+<td class=3D"confluenceTd">Missing for direct<span>&nbsp;</span><code>RestT=
+emplate</code><span>&nbsp;</span>clients</td>
+<td class=3D"confluenceTd">Always via<span>&nbsp;</span><code>RestTemplateB=
+eanFactory</code></td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd"><strong>Timeouts</strong></td>
+<td class=3D"confluenceTd">Global default for most</td>
+<td class=3D"confluenceTd">Per-client configurable</td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd"><strong>Retry</strong></td>
+<td class=3D"confluenceTd">Inconsistent (annotation / manual / none)</td>
+<td class=3D"confluenceTd">Uniform<span>&nbsp;</span><code>RetryTemplate</c=
+ode></td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd"><strong>Error handling</strong></td>
+<td class=3D"confluenceTd">Varied per client</td>
+<td class=3D"confluenceTd">Centralized in base class</td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd"><strong>SPI logging</strong></td>
+<td class=3D"confluenceTd">Some use EXT000/EXT999, some don't</td>
+<td class=3D"confluenceTd">Always via base class</td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd"><strong>Dynamic refresh</strong></td>
+<td class=3D"confluenceTd">Only in 3 clients</td>
+<td class=3D"confluenceTd">Built into base class</td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd"><strong>Header population</strong></td>
+<td class=3D"confluenceTd">Duplicated in every client</td>
+<td class=3D"confluenceTd">Shared via<span>&nbsp;</span><code>buildHeaders(=
+)</code></td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd"><strong>Connection pool</strong></td>
+<td class=3D"confluenceTd">Shared across APIs</td>
+<td class=3D"confluenceTd">Isolated per client name</td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd"><strong>Testability</strong></td>
+<td class=3D"confluenceTd">Hard to mock =E2=80=94 inline RestTemplate</td>
+<td class=3D"confluenceTd">Mock<span>&nbsp;</span><code>RestTemplateBeanFac=
+tory</code></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 class=3D"code-line" style=3D"" data-line=3D"516" id=3D"IDGraphRESTOutbo=
+undClientAnalysis-MigrationPriority">Migration Priority</h3>
+<div class=3D"table-wrap">
+<table style=3D"" class=3D"confluenceTable">
+<thead class=3D"">
+<tr class=3D"">
+<th style=3D"text-align: left;" class=3D"confluenceTh">Priority</th>
+<th style=3D"text-align: left;" class=3D"confluenceTh">MS</th>
+<th style=3D"text-align: left;" class=3D"confluenceTh">Effort</th>
+<th style=3D"text-align: left;" class=3D"confluenceTh">Risk</th>
+</tr>
+</thead>
+<tbody class=3D"">
+<tr class=3D"">
+<td class=3D"confluenceTd"><strong>P0</strong></td>
+<td class=3D"confluenceTd"><code>idgraphusereventsms</code><span>&nbsp;</sp=
+an>(IdentityGraphClient =E2=80=94 12 APIs, no factory)</td>
+<td class=3D"confluenceTd">Medium</td>
+<td class=3D"confluenceTd">High =E2=80=94 high-traffic Kafka consumer</td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd"><strong>P0</strong></td>
+<td class=3D"confluenceTd"><code>idgraphconsumerms</code><span>&nbsp;</span=
+>(3 clients =E2=80=94 no factory)</td>
+<td class=3D"confluenceTd">Medium</td>
+<td class=3D"confluenceTd">High =E2=80=94 high-traffic Kafka consumer</td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd"><strong>P1</strong></td>
+<td class=3D"confluenceTd"><code>idgraphbatchms</code><span>&nbsp;</span>(R=
+estAPIClient =E2=80=94 no factory)</td>
+<td class=3D"confluenceTd">Low</td>
+<td class=3D"confluenceTd">Low =E2=80=94 batch processing</td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd"><strong>P2</strong></td>
+<td class=3D"confluenceTd"><code>idgraphuserassociationms</code><span>&nbsp=
+;</span>(add per-client timeouts)</td>
+<td class=3D"confluenceTd">Low</td>
+<td class=3D"confluenceTd">Medium</td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd"><strong>P2</strong></td>
+<td class=3D"confluenceTd"><code>idgraphusermanagementms</code><span>&nbsp;=
+</span>(add per-client timeouts)</td>
+<td class=3D"confluenceTd">Low</td>
+<td class=3D"confluenceTd">Medium</td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd"><strong>P3</strong></td>
+<td class=3D"confluenceTd"><code>idmcustomerhubms</code><span>&nbsp;</span>=
+(add per-client timeouts)</td>
+<td class=3D"confluenceTd">Low</td>
+<td class=3D"confluenceTd">Low</td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd"><strong>P3</strong></td>
+<td class=3D"confluenceTd"><code>idgraphuserregistrationms</code><span>&nbs=
+p;</span>(add per-client timeouts)</td>
+<td class=3D"confluenceTd">Low</td>
+<td class=3D"confluenceTd">Low</td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr class=3D"code-line" style=3D"" data-line=3D"528">
+<h2 class=3D"code-line" style=3D"" data-line=3D"530" id=3D"IDGraphRESTOutbo=
+undClientAnalysis-Appendix:ClientCountbyRestTemplateSource">Appendix: Clien=
+t Count by RestTemplate Source</h2>
+<pre><code class=3D"code-line" data-line=3D"532">RestTemplateBeanFactory (d=
+irect)     : 29 clients
+RestTemplateBeanFactory (via config) : 21 clients (MPSAdapterMs)
+Direct Spring RestTemplate           :  5 clients
+                                     =E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80
+Total                                : 55 clients</code></pre>
+    </div>
+</body>
+</html>
+------=_Part_110060_920981695.1786801998322--

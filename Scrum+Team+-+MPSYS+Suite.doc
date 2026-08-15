@@ -1,0 +1,1207 @@
+Date: Sat, 15 Aug 2026 09:50:09 -0400 (EDT)
+Message-ID: <890093041.110037.1786801809733@twiki-eastus2-prod-app-vm-02.internal.cloudapp.net>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_110036_1798502287.1786801809726"
+
+------=_Part_110036_1798502287.1786801809726
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Scrum Team - MPSYS Suite</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Scrum Team - MPSYS Suite</h1>
+    <div class=3D"Section1">
+        <div class=3D"contentLayout2">
+<div class=3D"columnLayout two-right-sidebar" data-layout=3D"two-right-side=
+bar">
+<div class=3D"cell normal" data-type=3D"normal">
+<div class=3D"innerCell">
+<p><strong>Page Contents</strong></p>
+<p><strong><style type=3D"text/css">/*<![CDATA[*/
+div.rbtoc1786801809674 {padding: 0px;}
+div.rbtoc1786801809674 ul {margin-left: 0px;}
+div.rbtoc1786801809674 li {margin-left: 0px;padding-left: 0px;}
+
+/*]]>*/</style></strong></p>
+<div class=3D"toc-macro rbtoc1786801809674"><strong>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#ScrumTeamMPSYSSuite-WhatisMemberProfileSystem(MPSYS):">What=
+ is Member Profile System (MPSYS):</a></li>
+<li><a href=3D"#ScrumTeamMPSYSSuite-Leadership">Leadership</a></li>
+<li><a href=3D"#ScrumTeamMPSYSSuite-TeamRoster">Team Roster</a></li>
+<li><a href=3D"#ScrumTeamMPSYSSuite-SupportResources">Support Resources</a>=
+</li>
+<li><a href=3D"#ScrumTeamMPSYSSuite-Operations:Resources">Operations: Resou=
+rces</a></li>
+<li><a href=3D"#ScrumTeamMPSYSSuite-ADBAResources">ADBA Resources</a></li>
+<li><a href=3D"#ScrumTeamMPSYSSuite-SDBAEngagement:">SDBA Engagement:</a></=
+li>
+<li><a href=3D"#ScrumTeamMPSYSSuite-ImportantLinks">Important Links</a></li=
+>
+<li><a href=3D"#ScrumTeamMPSYSSuite-APIs">APIs</a></li>
+<li><a href=3D"#ScrumTeamMPSYSSuite-Reporting">Reporting</a></li>
+</ul></strong>
+</div>
+<p></p>
+<p><br></p>
+<h2 id=3D"ScrumTeamMPSYSSuite-WhatisMemberProfileSystem(MPSYS):"><strong>Wh=
+at is Member Profile System (MPSYS): </strong></h2>
+<p>The Member Profile System is the system of record for consumer and SMB i=
+dentity management. MPSYS creates and stores user=E2=80=99s online identity=
+, the user profile data such as the user ID, password, demographic informat=
+ion, SLID linkage, and information on the products &amp; services the user =
+currently is subscribed to. The Member Profile Data store is the authoritat=
+ive namespace for allocation all new user identities. The Member Profile Sy=
+stem provides APIs to support all AT&amp;T Internet Services, Uverse applic=
+ations, DTV, Wireless and partners such as Yahoo and Motive to manage user =
+Ids and user related information. This system also provides a transaction h=
+ub (Resource Integration Layer) that houses all business rules and gates al=
+l transactions to MPSYS, manages transaction distribution via a home-grown =
+distribution bus (DBus) across various systems like Member Profile Store, N=
+etwork engineering LDAP, MPS LDAP, HaloC, CustomerGraph, CCR, BBNMS, G2 and=
+ third parties such as Yahoo, McAfee and Motive and keeps the member data i=
+n sync across the disparate systems. MPSYS also handles account and identit=
+y level fraud locking, manage OTP generation and validation for various onl=
+ine and retail channels.</p>
+<p><br></p>
+<p>The Member Profile System supports the following products/services:</p>
+<ul>
+<li>AT&amp;T Internet Services such as DSL, Portal, Email</li>
+<li>U-verse services such as HSIA, IPTV, VOIP</li>
+<li>Mobility, Prepaid and Fixed Wireless Internet (WLL), Over the top Voice=
+ (OTTV)</li>
+<li>Bundled services for Uverse, DirecTV and Mobility</li>
+<li>DTV Streaming, DTV satellite and other dynamic services</li>
+<li>Wireline accounts</li>
+<li>McAfee Internet Security Service (ISS)</li>
+<li>Mobility Subscription (DMCTN) service</li>
+<li>Association between accessId and INDIVIDUAL ID.</li>
+</ul>
+<p><br></p>
+<p><strong>MPSYS-Subscription Services:</strong></p>
+<p>Member Profile System Subscription Services is a sub application of Memb=
+er Profile System. MPSYS Subscription Services manages Uverse Subscribers, =
+Components, Users and the Associations between them. It manages Uverse comp=
+onents that have been provisioned for a subscriber. Components include HSIA=
+, VOIP and IPTV and also Mailbox, VoIPLine, VoIP Device, STB, Genre, WiFi, =
+RG, WLL, DTV and Unified Mobility. It also manages settings established for=
+ a user and components they control and the degree of control they the user=
+ is given.</p>
+<ul>
+<li>Provisioning flow from LS-OMS (via BBNMS) initiates Access ID auto-regi=
+stration and Uverse Member ID service provisioning flow</li>
+<li>MPSYS-SS manages Uverse Subscribers, Components, Users and the Associat=
+ions between them.</li>
+<li>MPSYS-SS manages what Uverse components have been provisioned for a sub=
+scriber. Components include HSIA, VOIP and IPTV and also Mailbox, VoIPLine,=
+ VoIP Device, STB, Genre, WiFi and RG.</li>
+<li>MPSYS-SS also manages settings that have been established for a user an=
+d what components they control and the degree of control they have been giv=
+en for MAILBOX and Address Book management.</li>
+<li>MPSYS-SS manages basic information for unified mobility, Directv, Fixed=
+ Wireless Internet (WLL).</li>
+<li>MPSYS-SS manages AT&amp;T Phone Advanced (APA/OTTV) provisioning and au=
+to-registration.</li>
+</ul>
+<h2 id=3D"ScrumTeamMPSYSSuite-Leadership"><strong>Leadership</strong></h2>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable" style=3D"width: 51.=
+3469%;">
+<colgroup>
+<col style=3D"width: 23.4101%;">
+<col style=3D"width: 11.6242%;">
+<col style=3D"width: 28.0305%;">
+<col style=3D"width: 18.1554%;">
+<col style=3D"width: 18.7998%;">
+</colgroup>
+<thead>
+<tr>
+<th class=3D"highlight-blue confluenceTh" style=3D"text-align: center;" dat=
+a-highlight-colour=3D"blue">Team member</th>
+<th class=3D"highlight-blue confluenceTh" style=3D"text-align: center;" dat=
+a-highlight-colour=3D"blue"><p>ATTUID</p></th>
+<th class=3D"highlight-blue confluenceTh" style=3D"text-align: center;" dat=
+a-highlight-colour=3D"blue"><p>Role</p></th>
+<th class=3D"highlight-blue confluenceTh" style=3D"text-align: left;" data-=
+highlight-colour=3D"blue"><p style=3D"text-align: center;">Location</p></th=
+>
+<th class=3D"highlight-blue confluenceTh" style=3D"text-align: center;" dat=
+a-highlight-colour=3D"blue"><p>Contact information</p></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><a href=3D"https://w=
+ebphone.att.com/cgi-bin/webphones.pl?id=3Dst124e" class=3D"external-link" r=
+el=3D"nofollow">Srinivas Tata</a></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span style=3D"color: rgb(0,0,0);">st124e</span></p>
+</div></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">Engineering Lead</td=
+>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><span style=3D"color=
+: rgb(23,43,77);">Dallas, TX</span></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">(425) 647-5909</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd"><a class=3D"confluence-userlink us=
+er-mention" data-username=3D"pj883n" href=3D"/display/~pj883n" data-linked-=
+resource-id=3D"462785737" data-linked-resource-version=3D"2" data-linked-re=
+source-type=3D"userinfo" data-base-url=3D"https://wiki.web.att.com">Puneet =
+Jashnani</a></td>
+<td colspan=3D"1" class=3D"confluenceTd">pj883n</td>
+<td colspan=3D"1" class=3D"confluenceTd">Product Lead</td>
+<td colspan=3D"1" class=3D"confluenceTd">El Segundo, CA</td>
+<td colspan=3D"1" class=3D"confluenceTd">(424)225-0811</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd"><p><a href=3D"https://webphone.att=
+.com/cgi-bin/webphones.pl?id=3Dvd7314" class=3D"external-link" rel=3D"nofol=
+low">Vijay Dara</a></p></td>
+<td colspan=3D"1" class=3D"confluenceTd">vd7314</td>
+<td colspan=3D"1" class=3D"confluenceTd">IDM Architect</td>
+<td colspan=3D"1" class=3D"confluenceTd">Chicago, IL</td>
+<td colspan=3D"1" class=3D"confluenceTd">(630) 605-3254</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd"><a href=3D"https://webphone.att.co=
+m/cgi-bin/webphones.pl?id=3Dvs3652" class=3D"external-link" rel=3D"nofollow=
+">Vikas Saini</a></td>
+<td colspan=3D"1" class=3D"confluenceTd">vs3652</td>
+<td colspan=3D"1" class=3D"confluenceTd">Dev Lead, Architect</td>
+<td colspan=3D"1" class=3D"confluenceTd">Atlanta, GA</td>
+<td colspan=3D"1" class=3D"confluenceTd">(732) 939-5852</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd"><a href=3D"https://webphone.att.co=
+m/cgi-bin/webphones.pl?id=3Drl1364" class=3D"external-link" rel=3D"nofollow=
+">Rich Leggett</a></td>
+<td colspan=3D"1" class=3D"confluenceTd">rl1364</td>
+<td colspan=3D"1" class=3D"confluenceTd">SPM/TBA/SM</td>
+<td colspan=3D"1" class=3D"confluenceTd">Bothell, WA</td>
+<td colspan=3D"1" class=3D"confluenceTd">(425) 985-1008</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id=3D"ScrumTeamMPSYSSuite-TeamRoster"><strong>Team Roster</strong></h2>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable" style=3D"width: 52.=
+8998%;">
+<colgroup>
+<col style=3D"width: 25.6227%;">
+<col style=3D"width: 13.7571%;">
+<col style=3D"width: 20.4637%;">
+<col style=3D"width: 18.5721%;">
+<col style=3D"width: 21.8394%;">
+</colgroup>
+<thead>
+<tr>
+<th class=3D"highlight-blue confluenceTh" style=3D"text-align: center;" dat=
+a-highlight-colour=3D"blue">Team member</th>
+<th class=3D"highlight-blue confluenceTh" style=3D"text-align: center;" dat=
+a-highlight-colour=3D"blue"><p>ATTUID</p></th>
+<th class=3D"highlight-blue confluenceTh" style=3D"text-align: center;" dat=
+a-highlight-colour=3D"blue"><p>Role</p></th>
+<th class=3D"highlight-blue confluenceTh" style=3D"text-align: left;" data-=
+highlight-colour=3D"blue"><p style=3D"text-align: center;">Location</p></th=
+>
+<th class=3D"highlight-blue confluenceTh" style=3D"text-align: center;" dat=
+a-highlight-colour=3D"blue"><p>Contact information</p></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><a href=3D"https://w=
+ebphone.att.com/cgi-bin/webphones.pl?id=3Dvp1820" class=3D"external-link" r=
+el=3D"nofollow">Vijay Palavalasa</a></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><a href=3D"https://wiki.web.att.com/display/~vp1820" rel=3D"nofollow"><s=
+pan style=3D"color: rgb(23,43,77);">vp1820</span></a></p>
+</div></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">Onshore Dev</td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><span style=3D"color=
+: rgb(23,43,77);">Plano, TX</span></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">+1 4044550969</td>
+</tr>
+<tr>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><s><a href=3D"https:=
+//webphone.att.com/cgi-bin/webphones.pl?id=3Dpb6583" class=3D"external-link=
+" rel=3D"nofollow">Pragathi Baskar</a></s></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><s>pb6583</s></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><s>Offshore Dev</s><=
+/td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><s>Bangalore, India<=
+/s></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><s>+91 8610796940</s=
+></td>
+</tr>
+<tr>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><s><a href=3D"https:=
+//webphone.att.com/cgi-bin/webphones.pl?id=3Dcd1936" class=3D"external-link=
+" rel=3D"nofollow">Chinmay Desai</a></s></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><s>cd1936</s></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><s>Offshore Dev</s><=
+/td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><s>Pune, India</s></=
+td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><s>+91 8866869674</s=
+></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><a href=3D"https://webphone.att.com/cgi-bin/webp=
+hones.pl?id=3Dpm675e" class=3D"external-link" rel=3D"nofollow">Pooja Malik<=
+/a></td>
+<td class=3D"confluenceTd"><span>pm675e</span></td>
+<td class=3D"confluenceTd">Offshore Dev</td>
+<td class=3D"confluenceTd">Pune, India</td>
+<td class=3D"confluenceTd">+91 7276123745</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><a href=3D"https://webphone.att.com/cgi-bin/webp=
+hones.pl?id=3Dgs799f" class=3D"external-link" rel=3D"nofollow">Geetha Soman=
+depalli</a></td>
+<td class=3D"confluenceTd"><span>gs799f</span></td>
+<td class=3D"confluenceTd">Offshore Dev</td>
+<td class=3D"confluenceTd">Bangalore, India</td>
+<td class=3D"confluenceTd">+91 9986831249</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><a href=3D"https://webphone.att.com/cgi-bin/webp=
+hones.pl?id=3Daw4531" class=3D"external-link" rel=3D"nofollow">Amruta Wairk=
+ar</a></td>
+<td class=3D"confluenceTd"><span style=3D"color: rgb(0,0,0);">aw4531</span>=
+</td>
+<td class=3D"confluenceTd">Onshore Test</td>
+<td class=3D"confluenceTd">Plano, TX</td>
+<td class=3D"confluenceTd">+1(469) 605-6220</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><s><a href=3D"https://webphone.att.com/cgi-bin/w=
+ebphones.pl?id=3Dbb2039" class=3D"external-link" rel=3D"nofollow">Bharati J=
+adhav</a></s></td>
+<td class=3D"confluenceTd"><s><span style=3D"color: rgb(0,0,0);">bb2039</sp=
+an></s></td>
+<td class=3D"confluenceTd"><s>Offshore Test</s></td>
+<td class=3D"confluenceTd"><s>Pune, India</s></td>
+<td class=3D"confluenceTd"><s>+ 9503759910</s></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><s><a href=3D"https://webphone.att.com/cgi-bin/webphones.pl?id=3Ddp332j"=
+ class=3D"external-link" rel=3D"nofollow">Devang Patadia</a></s></p>
+</div></td>
+<td class=3D"confluenceTd"><s>dp332j</s></td>
+<td class=3D"confluenceTd"><s>Onshore Data Management, Testing, RM</s></td>
+<td class=3D"confluenceTd"><s>Plano, TX</s></td>
+<td class=3D"confluenceTd"><s>+1 (469) 612- 9093</s></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><a href=3D"https://webphone.att.com/cgi-bin/webphones.pl?id=3Dvn3904" cl=
+ass=3D"external-link" rel=3D"nofollow">Venu Narva</a></p>
+</div></td>
+<td class=3D"confluenceTd">vn3904</td>
+<td class=3D"confluenceTd">Onshore Dev and Data Management</td>
+<td class=3D"confluenceTd"><span style=3D"color: rgb(23,43,77);">Plano, TX<=
+/span></td>
+<td class=3D"confluenceTd"><span><span class=3D"ui-provider gr b c d e f g =
+h i j k l m n o p q r s t u v w x y z ab ac ae af ag ah ai aj ak">1 (508) 3=
+33-8809</span></span></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><a href=3D"https://webphone.att.com/cgi-bin/webphones.pl?id=3Dss254y" cl=
+ass=3D"external-link" rel=3D"nofollow">Sajeev Sahajanandan</a></p>
+</div></td>
+<td class=3D"confluenceTd"><span style=3D"color: rgb(0,0,0);">ss254y</span>=
+</td>
+<td class=3D"confluenceTd">Onshore Dev</td>
+<td class=3D"confluenceTd"><span style=3D"color: rgb(23,43,77);">Plano, TX<=
+/span></td>
+<td class=3D"confluenceTd"><span><span class=3D"ui-provider gr b c d e f g =
+h i j k l m n o p q r s t u v w x y z ab ac ae af ag ah ai aj ak">1 (214) 9=
+71-2166</span></span></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><a href=3D"https://webphone.att.com/cgi-bin/webp=
+hones.pl?id=3Daw324f" class=3D"external-link" rel=3D"nofollow">Afzal Mohamm=
+ad</a></td>
+<td class=3D"confluenceTd"><span><span style=3D"color: rgb(0,0,0);">aw324f<=
+/span></span></td>
+<td class=3D"confluenceTd">Onshore Dev</td>
+<td class=3D"confluenceTd"><span style=3D"color: rgb(23,43,77);">Plano, TX<=
+/span></td>
+<td class=3D"confluenceTd"><br></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">SURENDRA MADDURI</td>
+<td class=3D"confluenceTd"><span><span style=3D"color: rgb(0,0,0);">&nbsp;<=
+/span></span></td>
+<td class=3D"confluenceTd"><br></td>
+<td class=3D"confluenceTd"><span style=3D"color: rgb(23,43,77);">&nbsp;</sp=
+an></td>
+<td class=3D"confluenceTd"><br></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">RAJA JEBAMANI</td>
+<td class=3D"confluenceTd"><span><span style=3D"color: rgb(0,0,0);">&nbsp;s=
+j2965</span></span></td>
+<td class=3D"confluenceTd"><br></td>
+<td class=3D"confluenceTd"><span style=3D"color: rgb(23,43,77);">Plano, TX<=
+/span></td>
+<td class=3D"confluenceTd">224-578-9692</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><a href=3D"https://webphone.att.com/cgi-bin/webp=
+hones.pl?id=3Drb830a" class=3D"external-link" rel=3D"nofollow">Rashmi Belaw=
+adi</a></td>
+<td class=3D"confluenceTd"><span><span style=3D"color: rgb(0,0,0);">rb830a<=
+/span></span></td>
+<td class=3D"confluenceTd">Onshore Dev</td>
+<td class=3D"confluenceTd">Plano, TX</td>
+<td class=3D"confluenceTd"><span>1 (945) 260-8202</span></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">YERRABOTHU, SANTHOSH</td>
+<td class=3D"confluenceTd"><span><span style=3D"color: rgb(0,0,0);">&nbsp;s=
+y8162</span></span></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+Onshore Dev</td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+Plano, TX</td>
+<td class=3D"confluenceTd"><span>&nbsp;1(737) 5101608</span></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">MISHRA, VISHWAJEET</td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<span><span style=3D"color: rgb(0,0,0);">vm660y</span></span></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+Onshore Dev</td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+Plano, TX</td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<span>1 (469) 381-6401</span></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">UNDRAKONDA, PRAMOD</td>
+<td class=3D"confluenceTd"><span><span style=3D"color: rgb(0,0,0);">&nbsp;p=
+u6945</span></span></td>
+<td class=3D"confluenceTd">Onshore Dev</td>
+<td class=3D"confluenceTd">Plano, TX</td>
+<td class=3D"confluenceTd"><span>&nbsp;+1 (857) 308-9301</span></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">SAI KIRAN KATRAGADDA</td>
+<td class=3D"confluenceTd"><span><span style=3D"color: rgb(0,0,0);">&nbsp;s=
+k4995</span></span></td>
+<td class=3D"confluenceTd">Onshore Dev</td>
+<td class=3D"confluenceTd">Plano,TX</td>
+<td class=3D"confluenceTd"><span>&nbsp;(309) 550-8153</span></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">PARITALA, MAMATHA</td>
+<td class=3D"confluenceTd"><span><span style=3D"color: rgb(0,0,0);">&nbsp;m=
+p454t</span></span></td>
+<td class=3D"confluenceTd">Onshore Test</td>
+<td class=3D"confluenceTd">Plano TX</td>
+<td class=3D"confluenceTd"><span>&nbsp;4699229297</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><br></p>
+<p><strong>CDP mS Support Contacts:</strong></p>
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"highlight-blue confluenceTh" style=3D"text-align: center;" dat=
+a-highlight-colour=3D"blue">Team member</th>
+<th class=3D"highlight-blue confluenceTh" style=3D"text-align: center;" dat=
+a-highlight-colour=3D"blue"><p>ATTUID</p></th>
+<th class=3D"highlight-blue confluenceTh" style=3D"text-align: center;" dat=
+a-highlight-colour=3D"blue"><p>Role</p></th>
+<th class=3D"highlight-blue confluenceTh" style=3D"text-align: left;" data-=
+highlight-colour=3D"blue"><p style=3D"text-align: center;">Location</p></th=
+>
+<th class=3D"highlight-blue confluenceTh" style=3D"text-align: center;" dat=
+a-highlight-colour=3D"blue"><p>Contact information</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">Abhinav Saxena&nbsp;</td>
+<td class=3D"confluenceTd"><a href=3D"mailto:as3494@att.com" class=3D"exter=
+nal-link" rel=3D"nofollow">as3494</a></td>
+<td class=3D"confluenceTd">DevOps</td>
+<td class=3D"confluenceTd">Plano TX</td>
+<td class=3D"confluenceTd">+1 (214) 435-0701</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">Pankaj Narkhede</td>
+<td class=3D"confluenceTd"><a href=3D"mailto:pn556p@att.com" class=3D"exter=
+nal-link" rel=3D"nofollow">pn556p</a></td>
+<td class=3D"confluenceTd">DevOps</td>
+<td class=3D"confluenceTd">Plano TX</td>
+<td class=3D"confluenceTd">+1 (914) 414-9667</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">Jeet Dhabuwala</td>
+<td class=3D"confluenceTd"><a href=3D"mailto:jd509r@att.com" class=3D"exter=
+nal-link" rel=3D"nofollow">jd509r</a></td>
+<td class=3D"confluenceTd">DevOps</td>
+<td class=3D"confluenceTd"><br></td>
+<td class=3D"confluenceTd">+1 (469) 430-3470</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id=3D"ScrumTeamMPSYSSuite-SupportResources"><strong>Support Resources</=
+strong></h2>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable" style=3D"width: 57.=
+3956%;">
+<colgroup>
+<col style=3D"width: 17.0647%;">
+<col style=3D"width: 15.942%;">
+<col style=3D"width: 27.3933%;">
+<col style=3D"width: 17.2892%;">
+<col style=3D"width: 22.229%;">
+</colgroup>
+<thead>
+<tr>
+<th class=3D"highlight-blue confluenceTh" style=3D"text-align: center;" dat=
+a-highlight-colour=3D"blue">Team member</th>
+<th class=3D"highlight-blue confluenceTh" style=3D"text-align: center;" dat=
+a-highlight-colour=3D"blue"><p>ATTUID</p></th>
+<th class=3D"highlight-blue confluenceTh" style=3D"text-align: center;" dat=
+a-highlight-colour=3D"blue"><p>Role</p></th>
+<th class=3D"highlight-blue confluenceTh" style=3D"text-align: left;" data-=
+highlight-colour=3D"blue"><p style=3D"text-align: center;">Location</p></th=
+>
+<th class=3D"highlight-blue confluenceTh" style=3D"text-align: center;" dat=
+a-highlight-colour=3D"blue"><p>Contact information</p></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style=3D"text-align: left;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><a href=3D"https://webphone.att.com/cgi-bin/webphones.pl?id=3Ddp332j" cl=
+ass=3D"external-link" rel=3D"nofollow">Devang Patadia</a></p>
+</div></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">dp332j</td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">Release Management</=
+td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">Plano, TX</td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">+1 (469) 612- 9093</=
+td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><a class=3D"confluence-userlink user-mention" da=
+ta-username=3D"nd8566" href=3D"/display/~nd8566" data-linked-resource-id=3D=
+"1560843075" data-linked-resource-version=3D"1" data-linked-resource-type=
+=3D"userinfo" data-base-url=3D"https://wiki.web.att.com">Nagaraju Dasapati<=
+/a>&nbsp;</td>
+<td class=3D"confluenceTd">nd8566</td>
+<td class=3D"confluenceTd">Infra lead</td>
+<td class=3D"confluenceTd">2ND FLOOR - 01-A-0</td>
+<td class=3D"confluenceTd"><br></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><a class=3D"confluence-userlink user-mention" data-username=3D"ra719s" h=
+ref=3D"/display/~ra719s" data-linked-resource-id=3D"1569719364" data-linked=
+-resource-version=3D"1" data-linked-resource-type=3D"userinfo" data-base-ur=
+l=3D"https://wiki.web.att.com">Rodrigo Aguirre Diego</a>&nbsp;</p>
+</div></td>
+<td class=3D"confluenceTd">ra719s</td>
+<td class=3D"confluenceTd">Infra</td>
+<td class=3D"confluenceTd">Guadalajara, Mexico</td>
+<td class=3D"confluenceTd">+52 33 2074 3286</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><a class=3D"confluence-userlink user-mention" da=
+ta-username=3D"aa897u" href=3D"/display/~aa897u" data-linked-resource-id=3D=
+"1376720200" data-linked-resource-version=3D"1" data-linked-resource-type=
+=3D"userinfo" data-base-url=3D"https://wiki.web.att.com">Alan Arvizu Hurtad=
+o</a>&nbsp;</td>
+<td class=3D"confluenceTd"><span><span class=3D"ui-provider bae baf bag bah=
+ bai baj bak bal bam ban bao bap baq bar bas bat bau bav baw bax bay baz bb=
+a bbb bbc bbd bbe bbf bbg bbh bbi bbj bbk bbl bbm">aa897u</span></span></td=
+>
+<td class=3D"confluenceTd">Infra&nbsp;</td>
+<td class=3D"confluenceTd">Guadalajara, Mexico</td>
+<td class=3D"confluenceTd">+52 33 1754 2204</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">Jaasiel Emanuel OchoaVarguez</td>
+<td class=3D"confluenceTd"><span><span class=3D"ui-provider bae baf bag bah=
+ bai baj bak bal bam ban bao bap baq bar bas bat bau bav baw bax bay baz bb=
+a bbb bbc bbd bbe bbf bbg bbh bbi bbj bbk bbl bbm">jo6606</span></span></td=
+>
+<td class=3D"confluenceTd">Infra</td>
+<td class=3D"confluenceTd">Guadalajara, Mexico</td>
+<td class=3D"confluenceTd">+52 33 2146 5596</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">Thayalan Ramanathan</td>
+<td class=3D"confluenceTd"><span><span class=3D"ui-provider bae baf bag bah=
+ bai baj bak bal bam ban bao bap baq bar bas bat bau bav baw bax bay baz bb=
+a bbb bbc bbd bbe bbf bbg bbh bbi bbj bbk bbl bbm">tr7137</span></span></td=
+>
+<td class=3D"confluenceTd">Infra Manager</td>
+<td class=3D"confluenceTd">St.Louis, MO</td>
+<td class=3D"confluenceTd">+1 (217) 819 7717</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><br></p>
+<p>Amdocs <strong>Infra </strong>team DL: <a href=3D"mailto:MPSYSINFRA@list=
+.att.com" class=3D"external-link" rel=3D"nofollow">MPSYSINFRA@list.att.com<=
+/a></p>
+<p>Escalation Level1: &nbsp;<span style=3D"color: rgb(36,36,36);">Nagaraju =
+Dasapati </span>(nd8566)</p>
+<p>Escalation Level2: Thayalan Ramanathan (tr7137)</p>
+<p>Responsibilities:</p>
+<ul>
+<li>Deployment on Dev/QA/Perf/PROD Env.</li>
+<li>Security Certificates</li>
+<li>Bounce of Test Envs</li>
+</ul>
+<p><br></p>
+<p>Amdocs <strong>Tier 2</strong>:</p>
+<p>Team DL -&nbsp;</p>
+<p>Escalation level 1 =E2=80=93 Tomar Tzafrir(<span><a href=3D"mailto:tt828=
+u@att.onmicrosoft.com" class=3D"external-link" rel=3D"nofollow">tt828u</a>)=
+</span></p>
+<p>Escalation level 2 =E2=80=93 Zeev Rutenberg &lt;ZEEVR@<a href=3D"http://=
+amdocs.com" class=3D"external-link" rel=3D"nofollow">amdocs.com</a>&gt;; Ya=
+el Salcedo Espinosa&nbsp;<span class=3D"___qkfytw0 f14t3ns0 fz5stix f1p9o1b=
+a f1cmbuwj f4ejq78">carlossa</span><span class=3D"___mkk9e40 f14t3ns0 fz5st=
+ix f1p9o1ba f1cmbuwj f6whfx8">@<a href=3D"http://amdocs.com" class=3D"exter=
+nal-link" rel=3D"nofollow">amdocs.com</a> (executed DR 4/16/2026)</span></p=
+>
+<p><br></p>
+<p>Amdocs <strong>Operations/Tier1</strong>:</p>
+<p>Team DL - *GMSC PSG ATT EMAS CBU OPS - SE &lt;GSSi<a href=3D"mailto:ATTE=
+MASCBUOPSSEEGSWSS@amdocs.com" class=3D"external-link" rel=3D"nofollow">ATTE=
+MASCBUOPSSEEGSWSS@amdocs.com</a>&gt;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;EMAS_OPS_E=
+B-IAS <a href=3D"mailto:DL-EMAS_OPS_EB-IAS@att.com" class=3D"external-link"=
+ rel=3D"nofollow">DL-EMAS_OPS_EB-IAS@att.com</a>; <a href=3D"mailto:DL-AMDO=
+CS-T1-IAS@att.com" class=3D"external-link" rel=3D"nofollow">DL-AMDOCS-T1-IA=
+S@att.com</a></p>
+<p>Escalation level 1 =E2=80=93 Karuna Pawar(kp917f), Vikas Jadhav <a href=
+=3D"mailto:vikjadha@amdocs.com" class=3D"external-link" rel=3D"nofollow">vi=
+kjadha@amdocs.com</a>&nbsp;</p>
+<p>Escalation level 2 =E2=80=93 Yogesh Guhagarkar (yg703r)</p>
+<h2 id=3D"ScrumTeamMPSYSSuite-Operations:Resources"><strong>Operations: Res=
+ources</strong></h2>
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<tbody class=3D"">
+<tr class=3D"">
+<td class=3D"confluenceTd">Team member</td>
+<td class=3D"confluenceTd">ATTUID</td>
+<td class=3D"confluenceTd">Role</td>
+<td class=3D"confluenceTd">Location</td>
+<td class=3D"confluenceTd">Contact information</td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd">Karuna Pawar</td>
+<td class=3D"confluenceTd">kp917f</td>
+<td class=3D"confluenceTd">operations Lead</td>
+<td class=3D"confluenceTd">Pune , India</td>
+<td class=3D"confluenceTd">+91 8208080509</td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd">Uttam Dangat</td>
+<td class=3D"confluenceTd">ud0909</td>
+<td class=3D"confluenceTd">operations&nbsp;</td>
+<td class=3D"confluenceTd">Pune , India</td>
+<td class=3D"confluenceTd">+91 9890868208</td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd">Vikas Jadhav</td>
+<td class=3D"confluenceTd">vj360p</td>
+<td class=3D"confluenceTd">operations&nbsp;</td>
+<td class=3D"confluenceTd">Pune , India</td>
+<td class=3D"confluenceTd">+91 8625006400</td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd">Shivam Kaushik</td>
+<td class=3D"confluenceTd">sk417a</td>
+<td class=3D"confluenceTd">operations&nbsp;</td>
+<td class=3D"confluenceTd">Pune , India</td>
+<td class=3D"confluenceTd">+91 7000133404</td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd">Yogesh Guhagarkar</td>
+<td class=3D"confluenceTd">yg703r</td>
+<td class=3D"confluenceTd">operations Manager</td>
+<td class=3D"confluenceTd">Pune , India</td>
+<td class=3D"confluenceTd">+91 9820458417</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id=3D"ScrumTeamMPSYSSuite-ADBAResources"><strong>ADBA Resources</strong=
+></h2>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable" style=3D"width: 71.=
+2372%;">
+<colgroup>
+<col style=3D"width: 23.2632%;">
+<col style=3D"width: 14.0698%;">
+<col style=3D"width: 20.0517%;">
+<col style=3D"width: 19.0532%;">
+<col style=3D"width: 23.5954%;">
+</colgroup>
+<thead>
+<tr>
+<th class=3D"highlight-blue confluenceTh" style=3D"text-align: center;" dat=
+a-highlight-colour=3D"blue">Team member</th>
+<th class=3D"highlight-blue confluenceTh" style=3D"text-align: center;" dat=
+a-highlight-colour=3D"blue"><p>ATTUID</p></th>
+<th class=3D"highlight-blue confluenceTh" style=3D"text-align: center;" dat=
+a-highlight-colour=3D"blue"><p>Role</p></th>
+<th class=3D"highlight-blue confluenceTh" style=3D"text-align: left;" data-=
+highlight-colour=3D"blue"><p style=3D"text-align: center;">Location</p></th=
+>
+<th class=3D"highlight-blue confluenceTh" style=3D"text-align: center;" dat=
+a-highlight-colour=3D"blue"><p>Contact information</p></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style=3D"text-align: left;" class=3D"confluenceTd">Tracy Liang</td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">xl2192</td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">ADBA Team Lead</td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">Los Angeles, CA</td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">+1 (847) 323-5072</t=
+d>
+</tr>
+<tr>
+<td class=3D"confluenceTd">Anandji&nbsp;Varadarajan</td>
+<td class=3D"confluenceTd">av1238</td>
+<td class=3D"confluenceTd">Principal ADBA</td>
+<td class=3D"confluenceTd"><span style=3D"color: rgb(0,0,0);">Bengaluru, In=
+dia</span></td>
+<td class=3D"confluenceTd">+91 9036077105</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">Madhava Rao VBV</td>
+<td class=3D"confluenceTd">mv7901</td>
+<td class=3D"confluenceTd">Sr. ADBA</td>
+<td class=3D"confluenceTd"><span style=3D"color: rgb(0,0,0);">Bengaluru, In=
+dia</span></td>
+<td class=3D"confluenceTd"><p>+91 9380236755</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">Saravana Mudaliar</td>
+<td class=3D"confluenceTd">sm048t</td>
+<td class=3D"confluenceTd">Onshore ADBA</td>
+<td class=3D"confluenceTd">Plano, TX</td>
+<td class=3D"confluenceTd">+1 (469) 618-7078</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">Rajkishor Gupta</td>
+<td class=3D"confluenceTd">rg207w</td>
+<td class=3D"confluenceTd">Offshore ADBA</td>
+<td class=3D"confluenceTd">Hyderabad, India</td>
+<td class=3D"confluenceTd">+91 9768083675</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id=3D"ScrumTeamMPSYSSuite-SDBAEngagement:"><strong>SDBA Engagement: <br=
+></strong></h2>
+<p>To create a ticket for <strong>SDBA support</strong>:</p>
+<ul>
+<li>Use the following link to submit a ticket for support:&nbsp;<a href=3D"=
+https://dbaportal.web.att.com/" class=3D"external-link" rel=3D"nofollow">db=
+aportal.web.att.com</a></li>
+</ul>
+<p>To create a ticket for <strong>Call to Work (C2W)</strong></p>
+<ul>
+<li>Use the following link to submit a ticket for support:&nbsp;<a href=3D"=
+http://onetool.it.att.com/c2w/" class=3D"external-link" rel=3D"nofollow">on=
+etool.it.att.com</a></li>
+</ul>
+<p><br></p>
+<p>Refer to DoD or send an email to the database distribution list below:</=
+p>
+<p><a href=3D"mailto:DXC-MIS-Dbase@dxc.com" class=3D"external-link" rel=3D"=
+nofollow">DXC-MIS-Dbase@dxc.com</a></p>
+<p>If you are experiencing issues and need to reach out immediately, please=
+ look up your MOTS ID in the DOD (Database of Databases) tool to determine =
+the primary and secondary DBA contact for your MOTS ID:</p>
+<ul>
+<li><a href=3D"https://cmsportal.it.att.com/index.cfm?do=3Dsrc.main" class=
+=3D"external-link" rel=3D"nofollow">https://cmsportal.it.att.com/index.cfm?=
+do=3Dsrc.main</a></li>
+</ul>
+<p>Send an email to the DXC Critical Incident Management Team at<br><a href=
+=3D"mailto:DL-DXC-MIS-CI-mgmt@att.com" class=3D"external-link" rel=3D"nofol=
+low">DXC-MIS-CI-mgmt</a>, <a href=3D"mailto:DXC_SDBA_Mgrs@list.att.com" cla=
+ss=3D"external-link" rel=3D"nofollow">DXC_SDBA_Mgrs@list.att.com</a></p>
+<ul>
+<ul>
+<li>DXC Incident &amp; Problem Management Lead</li>
+<ul>
+<li>John Finney<br>
+ Email:&nbsp;<a href=3D"mailto:john.finney@dxc.com" class=3D"external-link"=
+ rel=3D"nofollow">john.finney@dxc.com</a><br>
+ Phone: (719) 238-8822</li>
+</ul>
+<li>DXC SMO Lead</li>
+<ul>
+<li>Daniel Stonerock<br>
+ Email:&nbsp;<a href=3D"mailto:daniel.stonerock2@dxc.com" class=3D"external=
+-link" rel=3D"nofollow">daniel.stonerock2@dxc.com</a><br>
+ Phone: (360) 489-9365</li>
+</ul>
+<li>DXC Operations Lead</li>
+<ul>
+<li>William Mariani<br>
+ Email:&nbsp;<a href=3D"mailto:william.mariani@dxc.com" class=3D"external-l=
+ink" rel=3D"nofollow">william.mariani@dxc.com</a><br>
+ Phone: (470) 690-9760</li>
+</ul>
+<li>DXC Operations Manager</li>
+<ul>
+<li>Ken Coffman<br>
+ Email:&nbsp;<a href=3D"mailto:ken.coffman@dxc.com" class=3D"external-link"=
+ rel=3D"nofollow">ken.coffman@dxc.com</a><br>
+ Phone: (719) 200-9977</li>
+</ul>
+</ul>
+</ul>
+<p><strong>Team Channels:</strong></p>
+<p><a href=3D"https://teams.microsoft.com/_?tenantId=3De741d71c-c6b6-47b0-8=
+03c-0f3b32b07556#/conversations/19:a60c56a4b1c44473b162e793c4a7aa48@thread.=
+v2?ctx=3Dchat" class=3D"external-link" rel=3D"nofollow">DXC/Kyndryl/TechM-O=
+RACLE DBA - Coordination | Microsoft Teams</a></p>
+<p><a href=3D"https://teams.microsoft.com/l/channel/19%3a16b42da82e7848cd83=
+c24a7f1d52a77b%40thread.tacv2/DXC%2520-%2520DBA?groupId=3D3a7fcbe5-ec4a-46c=
+8-9692-ca8213f45aac&amp;tenantId=3De741d71c-c6b6-47b0-803c-0f3b32b07556" cl=
+ass=3D"external-link" rel=3D"nofollow">GTSS DXC-DBA-SQLSRV</a></p>
+<h2 id=3D"ScrumTeamMPSYSSuite-ImportantLinks"><strong style=3D"letter-spaci=
+ng: 0.0px;">Important Links</strong></h2>
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class=3D"highlight-blue confluenceTd" style=3D"text-align: left;" title=
+=3D"Background colour : Blue" colspan=3D"1" data-highlight-colour=3D"blue">=
+Scrum board</td>
+<td style=3D"text-align: left;" colspan=3D"1" class=3D"confluenceTd"><p><a =
+href=3D"http://itrvm1.web.att.com:8089/secure/RapidBoard.jspa?rapidView=3D1=
+3552&amp;projectKey=3DSPTAUTHREG&amp;view=3Dplanning&amp;selectedIssue=3DSP=
+TAUTHREG-6391&amp;issueLimit=3D100" class=3D"external-link" rel=3D"nofollow=
+">SPT-Auth Reg and Profile: MPSYS Suite</a></p></td>
+</tr>
+<tr>
+<td class=3D"highlight-blue confluenceTd" style=3D"text-align: left;" title=
+=3D"Background colour : Blue" data-highlight-colour=3D"blue">Distribution L=
+ists</td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>Scrum Team:&nbsp;=
+&nbsp;<a href=3D"mailto:DL-MPSScrumTeam1@att.com" class=3D"external-link" r=
+el=3D"nofollow">DL-MPSScrumTeam1@att.com</a></p><p>MPSYS Dev:&nbsp;&nbsp;<a=
+ href=3D"mailto:DL-MPSDevTeam@att.com" class=3D"external-link" rel=3D"nofol=
+low">DL-MPSDevTeam@att.com</a></p><p>Testing Team:&nbsp;&nbsp;<a href=3D"ma=
+ilto:qclightspeed@att.com" class=3D"external-link" rel=3D"nofollow">qclight=
+speed@att.com</a></p><p>Data Mgmt Team:&nbsp;<a href=3D"mailto:mpsdatamgmt@=
+att.com" class=3D"external-link" rel=3D"nofollow">mpsdatamgmt@att.com</a></=
+p><p>Production Support:&nbsp; <a href=3D"mailto:DL-EMAS_OPS_EB-IAS@att.com=
+" class=3D"external-link" rel=3D"nofollow">DL-EMAS_OPS_EB-IAS@att.com</a></=
+p><p>Tier 1:&nbsp;&nbsp;<a href=3D"mailto:DL-AMDOCS-T1-IAS@att.com" class=
+=3D"external-link" rel=3D"nofollow">DL-AMDOCS-T1-IAS@att.com</a></p><p>ADBA=
+ Team:&nbsp;<a href=3D"mailto:dl-mpsys_adba@att.com" class=3D"external-link=
+" rel=3D"nofollow">dl-mpsys_adba@att.com</a></p></td>
+</tr>
+<tr>
+<td class=3D"highlight-blue confluenceTd" title=3D"Background colour : Blue=
+" colspan=3D"1" data-highlight-colour=3D"blue">Production Chat</td>
+<td colspan=3D"1" class=3D"confluenceTd"><a href=3D"https://teams.microsoft=
+.com/l/meetup-join/19%3ameeting_NmEwNzk2MTItYWY1NC00ZmU5LWJjY2QtZWRjNWE4Mzc=
+wNGI1%40thread.v2/0?context=3D%7b%22Tid%22%3a%22e741d71c-c6b6-47b0-803c-0f3=
+b32b07556%22%2c%22Oid%22%3a%22391ebdc0-3c21-4d46-b60e-ea182d42c79e%22%7d" c=
+lass=3D"external-link" rel=3D"nofollow">MPSYS Production Support Chat</a></=
+td>
+</tr>
+<tr>
+<td class=3D"highlight-blue confluenceTd" colspan=3D"1" data-highlight-colo=
+ur=3D"blue">Dev On Call List</td>
+<td colspan=3D"1" class=3D"confluenceTd"><p><a href=3D"https://teams.micros=
+oft.com/l/entity/com.microsoft.teamspace.tab.wiki/tab::b118db1c-8483-47b8-b=
+c70-8a7fbb4e6306?context=3D%7B%22subEntityId%22%3A%22%7B%5C%22pageId%5C%22%=
+3A2%2C%5C%22origin%5C%22%3A2%7D%22%2C%22channelId%22%3A%2219%3Abfaf971cfcd2=
+45ef9c402d9ff8580a6b%40thread.tacv2%22%7D&amp;tenantId=3De741d71c-c6b6-47b0=
+-803c-0f3b32b07556" class=3D"external-link" rel=3D"nofollow">MPSYS Dev On-C=
+all Support in Wiki</a></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><br></p>
+<p><br></p>
+</div>
+</div>
+<div class=3D"cell aside" data-type=3D"aside">
+<div class=3D"innerCell">
+<h2 id=3D"ScrumTeamMPSYSSuite-APIs">APIs</h2>
+<div id=3D"expander-946467739" class=3D"expand-container">
+<div role=3D"heading" aria-level=3D"6" id=3D"expander-control-946467739" cl=
+ass=3D"expand-control"><button type=3D"button" id=3D"expand-button-94646773=
+9" class=3D"aui-button aui-button-link aui-button-link-icon-text" aria-expa=
+nded=3D"true" aria-controls=3D"expander-content-946467739"><span class=3D"e=
+xpand-icon aui-icon aui-icon-small aui-iconfont-chevron-down" aria-hidden=
+=3D"true"></span><span class=3D"expand-control-text conf-macro-render">CDP =
+Microservices</span></button>
+</div>
+<div role=3D"region" id=3D"expander-content-946467739" class=3D"expand-cont=
+ent" aria-labelledby=3D"expand-button-946467739">
+<p><a href=3D"https://wiki.web.att.com/display/DRC/ContactInfoManager" rel=
+=3D"nofollow">ContactInfoManager</a></p>
+<p><a href=3D"https://wiki.web.att.com/display/DRC/ManageOnlineUserAssociat=
+ion" rel=3D"nofollow">ManageOnlineUserAssociation</a></p>
+<p><a href=3D"https://wiki.web.att.com/display/DRC/ManageOnlineUserProfile"=
+ rel=3D"nofollow">ManageOnlineUserProfile</a></p>
+<p><a href=3D"https://wiki.web.att.com/display/DRC/SecurityPINManager" rel=
+=3D"nofollow">SecurityPINManager</a></p>
+<p><a href=3D"https://wiki.web.att.com/display/DRC/SyncUserProfileManager" =
+rel=3D"nofollow">SyncUserProfileManager</a></p>
+<p><a href=3D"https://wiki.web.att.com/display/DRC/UserFraudManager" rel=3D=
+"nofollow">UserFraudManager</a></p>
+<p><a href=3D"https://wiki.web.att.com/display/DRC/UserProfileAutoregOrches=
+tration" rel=3D"nofollow">UserProfileAutoregOrchestration</a></p>
+<p><a href=3D"https://wiki.web.att.com/display/DRC/UserRegistrationManager"=
+ rel=3D"nofollow">UserRegistrationManager</a></p>
+</div>
+</div>
+<div id=3D"expander-967037337" class=3D"expand-container">
+<div role=3D"heading" aria-level=3D"6" id=3D"expander-control-967037337" cl=
+ass=3D"expand-control"><button type=3D"button" id=3D"expand-button-96703733=
+7" class=3D"aui-button aui-button-link aui-button-link-icon-text" aria-expa=
+nded=3D"true" aria-controls=3D"expander-content-967037337"><span class=3D"e=
+xpand-icon aui-icon aui-icon-small aui-iconfont-chevron-down" aria-hidden=
+=3D"true"></span><span class=3D"expand-control-text conf-macro-render">IDP =
+Microservices</span></button>
+</div>
+<div role=3D"region" id=3D"expander-content-967037337" class=3D"expand-cont=
+ent" aria-labelledby=3D"expand-button-967037337">
+<p><a href=3D"https://wiki.web.att.com/display/DRC/IDMContactInfoRegMS" rel=
+=3D"nofollow">IDMContactInfoRegMS</a></p>
+<p><a href=3D"https://wiki.web.att.com/display/DRC/IDMInquireUserProfileMS?=
+src=3Dcontextnavpagetreemode" rel=3D"nofollow">IDMInquireUserProfileMS</a><=
+/p>
+<p><a href=3D"https://wiki.web.att.com/display/DRC/IDMOnlineUserAssociation=
+MS" rel=3D"nofollow">IDMOnlineUserAssociationMS</a></p>
+<p><a href=3D"https://wiki.web.att.com/display/DRC/IDMOnlineUserDetailsMS" =
+rel=3D"nofollow">IDMOnlineUserDetailsMS</a></p>
+<p><a href=3D"https://wiki.web.att.com/display/DRC/IDMUserRegistrationMS" r=
+el=3D"nofollow">IDMUserRegistrationMS</a></p>
+</div>
+</div>
+<div id=3D"expander-604708815" class=3D"expand-container">
+<div role=3D"heading" aria-level=3D"6" id=3D"expander-control-604708815" cl=
+ass=3D"expand-control"><button type=3D"button" id=3D"expand-button-60470881=
+5" class=3D"aui-button aui-button-link aui-button-link-icon-text" aria-expa=
+nded=3D"true" aria-controls=3D"expander-content-604708815"><span class=3D"e=
+xpand-icon aui-icon aui-icon-small aui-iconfont-chevron-down" aria-hidden=
+=3D"true"></span><span class=3D"expand-control-text conf-macro-render">SOAP=
+ APIs</span></button>
+</div>
+<div role=3D"region" id=3D"expander-content-604708815" class=3D"expand-cont=
+ent" aria-labelledby=3D"expand-button-604708815">
+<p><a href=3D"https://wiki.web.att.com/display/DRC/MPSYS+-+SOAP+APIs" rel=
+=3D"nofollow">MPSYS - SOAP APIs</a></p>
+</div>
+</div>
+<div id=3D"expander-1749602657" class=3D"expand-container">
+<div role=3D"heading" aria-level=3D"6" id=3D"expander-control-1749602657" c=
+lass=3D"expand-control"><button type=3D"button" id=3D"expand-button-1749602=
+657" class=3D"aui-button aui-button-link aui-button-link-icon-text" aria-ex=
+panded=3D"true" aria-controls=3D"expander-content-1749602657"><span class=
+=3D"expand-icon aui-icon aui-icon-small aui-iconfont-chevron-down" aria-hid=
+den=3D"true"></span><span class=3D"expand-control-text conf-macro-render">M=
+PS-LDAP</span></button>
+</div>
+<div role=3D"region" id=3D"expander-content-1749602657" class=3D"expand-con=
+tent" aria-labelledby=3D"expand-button-1749602657">
+<p><a href=3D"https://wiki.web.att.com/display/DRC/MPS-LDAP" rel=3D"nofollo=
+w">MPSYS-LDAP Overview</a></p>
+<p><a href=3D"https://wiki.web.att.com/display/DRC/MPS-LDAP+Architecture" r=
+el=3D"nofollow">MPSYS-LDAP Architecture</a></p>
+<p><a href=3D"https://wiki.web.att.com/display/DRC/MPS-LDAP+-+Client+Info" =
+rel=3D"nofollow">MPS-LDAP - Client Info</a></p>
+<p><a href=3D"https://wiki.web.att.com/display/DRC/MPS-LDAP+Schema" rel=3D"=
+nofollow">MPS-LDAP Schema</a></p>
+</div>
+</div>
+<h2 id=3D"ScrumTeamMPSYSSuite-Reporting">Reporting</h2>
+<div id=3D"expander-381859115" class=3D"expand-container">
+<div role=3D"heading" aria-level=3D"6" id=3D"expander-control-381859115" cl=
+ass=3D"expand-control"><button type=3D"button" id=3D"expand-button-38185911=
+5" class=3D"aui-button aui-button-link aui-button-link-icon-text" aria-expa=
+nded=3D"true" aria-controls=3D"expander-content-381859115"><span class=3D"e=
+xpand-icon aui-icon aui-icon-small aui-iconfont-chevron-down" aria-hidden=
+=3D"true"></span><span class=3D"expand-control-text conf-macro-render">Spri=
+nt and Release Reports</span></button>
+</div>
+<div role=3D"region" id=3D"expander-content-381859115" class=3D"expand-cont=
+ent" aria-labelledby=3D"expand-button-381859115">
+<p><a href=3D"https://wiki.web.att.com/display/DRC/MPSYS+-+Release+Reports"=
+ rel=3D"nofollow">MPSYS - Release Reports</a></p>
+<p><a href=3D"https://wiki.web.att.com/display/DRC/MPSYS+-+Sprint+Reports" =
+rel=3D"nofollow">MPSYS - Sprint Reports</a></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+    </div>
+</body>
+</html>
+------=_Part_110036_1798502287.1786801809726--

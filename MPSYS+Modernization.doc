@@ -1,0 +1,532 @@
+Date: Sat, 15 Aug 2026 09:50:17 -0400 (EDT)
+Message-ID: <1425517913.110039.1786801817141@twiki-eastus2-prod-app-vm-02.internal.cloudapp.net>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_110038_1080487892.1786801817124"
+
+------=_Part_110038_1080487892.1786801817124
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>MPSYS Modernization</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>MPSYS Modernization</h1>
+    <div class=3D"Section1">
+        <p><style type=3D"text/css">/*<![CDATA[*/
+div.rbtoc1786801817080 {padding: 0px;}
+div.rbtoc1786801817080 ul {margin-left: 0px;}
+div.rbtoc1786801817080 li {margin-left: 0px;padding-left: 0px;}
+
+/*]]>*/</style></p>
+<div class=3D"toc-macro rbtoc1786801817080">
+<ul class=3D"toc-indentation">
+<li><a href=3D"#MPSYSModernization-Introduction">Introduction</a></li>
+<li><a href=3D"#MPSYSModernization-WhymodernizeMPSYS?">Why modernize MPSYS?=
+</a></li>
+<li><a href=3D"#MPSYSModernization-Goals">Goals</a></li>
+<li><a href=3D"#MPSYSModernization-MPSYSsubcomponentsandfutureplan">MPSYS s=
+ub components and future plan</a></li>
+<li><a href=3D"#MPSYSModernization-MPSYScurrentstate(PresentModeofOperation=
+-PMO)">MPSYS current state (Present Mode of Operation - PMO)</a></li>
+<li><a href=3D"#MPSYSModernization-MPSYStargetstate(FutureModeofOperation-F=
+MO)">MPSYS target state (Future Mode of Operation - FMO)</a></li>
+<li><a href=3D"#MPSYSModernization-Executionphases">Execution phases</a></l=
+i>
+</ul>
+</div>
+<p></p>
+<h1 id=3D"MPSYSModernization-Introduction">Introduction</h1>
+<p><span style=3D"color: rgb(33,37,41);">Member Profile System (MPSYS) suit=
+e of applications is the system of record for consumer's identity managemen=
+t and notification preferences like Bill ready, Bill threshold etc. Access =
+ids (login ids)/Member ids are created and linked to billing accounts in MP=
+SYS.&nbsp;</span></p>
+<p><span style=3D"color: rgb(33,37,41);">High level functions of MPSYS:</sp=
+an></p>
+<ul>
+<li>User/Member ID Registration</li>
+<li>Forgot ID / PWD</li>
+<li>User ID/Member ID/Password management</li>
+<li>Lifecycle management of accounts/products/services linked to an User ID=
+</li>
+<li>Contact method (CBR for DSL, U-verse suite) and notification preference=
+s management</li>
+<li>User ID and Product level CPNI Notifications</li>
+<li>Account and User Level Fraud Lock</li>
+<li>Data translation and Replication to numerous clients</li>
+<li>Integration with BB/DSL provisioning Applications</li>
+<li>Manage Order tables for WLL and DSL</li>
+<li>Product Support Tools</li>
+<li>Sub account Mgmt for Member IDs</li>
+<li>OTP functionality</li>
+</ul>
+<p><span style=3D"color: rgb(33,37,41);">This wiki page outlines why MPSYS =
+needs to be modernized and current and target state of MPSYS.</span></p>
+<h1 id=3D"MPSYSModernization-WhymodernizeMPSYS?">Why modernize MPSYS?</h1>
+<ul>
+<li>Currently MPSYS uses multiple platforms in production. CDP platform for=
+ deploying microservices and Wildfly servers for SOAP APIs.</li>
+<li>Target IDP platform - will simplify deployment, maintenance, monitoring=
+ and support.</li>
+<li>CDP platform support takes longer time to take action due to ticket bas=
+ed support system. This causes longer MTTR incase of outages.</li>
+<li>Currently MPSYS has application downtime due to database maintenance ac=
+tivities.</li>
+<li>No tools available for developers to view MPSYS SOAP API metrics.</li>
+<li>Maintenance cost associated with technology supplier vendors (315K/year=
+ to Amdocs for deployment/monitoring/support).</li>
+<li>Infrastructure costs for on-prem VMs (47K/year).</li>
+<li>Licensing costs associated with various software components used (LDAP =
+- <span style=3D"color: rgb(23,43,77);">$318K/year)</span>.</li>
+<li>Tight coupling with client applications where clients directly lookup d=
+ata from MPS-LDAP.</li>
+</ul>
+<h1 id=3D"MPSYSModernization-Goals">Goals</h1>
+<p>These are goals that need to be met with MPSYS modernization efforts:</p=
+>
+<ul>
+<li>Application runs on IDP platform in cloud .</li>
+<li>Functionalities moved to target state applications as per target state =
+architecture.</li>
+<li>No application downtime due to maintenance activities.</li>
+<li>Eliminate software licensing costs (LDAP, IBM MQ).</li>
+<li>Cloud native technologies usage for database and event streaming.</li>
+<li>Use target state application APIs (CustomerGraph, Halo, IDM etc) instea=
+d of CSI.</li>
+<li>Meet target SLAs for API latencies.</li>
+<li>Loose coupling with other applications using APIs/event streaming.</li>
+</ul>
+<h1 id=3D"MPSYSModernization-MPSYSsubcomponentsandfutureplan">MPSYS sub com=
+ponents and future plan</h1>
+<p><br></p>
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh">Sub component</th>
+<th class=3D"confluenceTh">Functions</th>
+<th colspan=3D"1" class=3D"confluenceTh">Future plan</th>
+<th colspan=3D"1" class=3D"confluenceTh">Target application</th>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>Member Profile System (MPSYS)</p></td>
+<td class=3D"confluenceTd">
+<ol>
+<li>Manages user profile data such as password, proofing credentials, demog=
+raphic information, account and service associations, contact information, =
+TOS acceptance, 3rd Party Billing relationships and information on the prod=
+ucts &amp; services.</li>
+<li>The Member Profile Database is the authoritative namespace for allocati=
+on of new user identities (Access ID &amp; Member IDs).</li>
+</ol></td>
+<td colspan=3D"1" class=3D"confluenceTd">Modernize</td>
+<td colspan=3D"1" class=3D"confluenceTd"><p>IdentityGraph</p><p>Functions w=
+ill be moved to IdentityGraph as per below:</p><p><a href=3D"/display/DRC/F=
+unctional+Categories+and+Target+Platform">Functional Categories and Target =
+Platform</a></p></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">MPS Subscription Services (MPS-SS)=
+</td>
+<td colspan=3D"1" class=3D"confluenceTd">
+<ol>
+<li>Provisioning flow from LS-OMS (via BBNMS and SDP) initiates Access ID a=
+uto-registration and Uverse Member ID service provisioning flow</li>
+<li>Uverse Subscribers, Components, Users and the Associations between them=
+.</li>
+<li>Uverse components have been provisioned for a subscriber. Components in=
+clude HSIA, VOIP and IPTV and also Mailbox, VoIPLine, VoIP Device, STB, Gen=
+re, WiFi and RG.</li>
+<li>Manages settings that have been established for a user and what compone=
+nts they control and the degree of control they have been given.</li>
+<li>Manages basic information for unified mobility, Directv, Fixed Wireless=
+ Internet (WLL).</li>
+<li>Supports OTT Voice provisioning and auto-registration.</li>
+</ol></td>
+<td colspan=3D"1" class=3D"confluenceTd">Retire</td>
+<td colspan=3D"1" class=3D"confluenceTd"><p>As Broadband services move to B=
+SSe stack MPSSS can be retired.</p><p>Other products DSL and WLL need to be=
+ retired.</p></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">MPS-LDAP</td>
+<td colspan=3D"1" class=3D"confluenceTd"><p>MPS LDAP is a repository for id=
+entities related to Uverse, ISP accounts.</p>
+<ul>
+<li>Uverse customers info is the highest data retrieval from MPS-LDAP, whic=
+h includes the types of services/components that customer has registered wi=
+th BAN, the registered Id details and the individual component attribute de=
+tails. Highest data retrieval clients are UNS, RTTP, MRA, ISAAC.</li>
+</ul></td>
+<td colspan=3D"1" class=3D"confluenceTd">Retire</td>
+<td colspan=3D"1" class=3D"confluenceTd">&nbsp;CustomerGraph /Architecture =
+proposed MPSSS APIs.</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd"><p><br></p><p>DBUS- Distribution B=
+US</p></td>
+<td colspan=3D"1" class=3D"confluenceTd">
+<ol>
+<li>IBM MQ based event streaming platform to sync data between MPSYS and ot=
+her systems.</li>
+<li>Userse member id information is first created in Oracle database and as=
+ync events are published to MQ queues.</li>
+<li>DBUS is responsible for processing these events and update external app=
+lications like Yahoo, Ericsson etc.</li>
+</ol></td>
+<td colspan=3D"1" class=3D"confluenceTd">Modenize</td>
+<td colspan=3D"1" class=3D"confluenceTd">IdentityGraph</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">Product Support Tools (PST)</td>
+<td colspan=3D"1" class=3D"confluenceTd"><p>Product Support Tool consisting=
+ of various functions used for viewing, comparing and synching data across =
+various systems. Support functions include</p>
+<ul>
+<li>UST - Universal Sync Tool - aka MPS Sync tool</li>
+<li>AST - Account Status Tool - aka SART - Sub Account Reactivation Tool</l=
+i>
+<li>CST - Change Status Tool for 13 state Dial/DSL parent accounts</li>
+<li>QLT - Queue Lookup Tool for MPS and MPSSS queues</li>
+<li>RST - Remove Service Tool for 13 state DSL parent accounts</li>
+<li>ORC =E2=80=93 Onetime Registration Code creation tool for Wireline acco=
+unts</li>
+<li>WLT - WTN Lookup Tool for WTN availability for provisioning and setting=
+s for already provisioned WTNs</li>
+</ul></td>
+<td colspan=3D"1" class=3D"confluenceTd">Modernize</td>
+<td colspan=3D"1" class=3D"confluenceTd"><p><br></p><p>Admin console will b=
+e built for IdentityGraph similar to CustomerGraph admin console.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h1 id=3D"MPSYSModernization-MPSYScurrentstate(PresentModeofOperation-PMO)"=
+>MPSYS current state (Present Mode of Operation - PMO)</h1>
+<p>Current state of MPSYS is documented here:</p>
+<ul>
+<li><a href=3D"https://wiki.web.att.com/pages/viewpage.action?pageId=3D2027=
+619175" rel=3D"nofollow">MPSYS current state</a></li>
+</ul>
+<h1 id=3D"MPSYSModernization-MPSYStargetstate(FutureModeofOperation-FMO)">M=
+PSYS target state (Future Mode of Operation - FMO)</h1>
+<p>MPSYS target state details are documented here:</p>
+<ul>
+<li><a href=3D"/display/DRC/MPSYS+target+state">MPSYS target state</a></li>
+</ul>
+<p>In target state following functions are supported in IDP-IdentityGraph:&=
+nbsp;<a href=3D"/display/DRC/Functional+Categories+and+Target+Platform">Fun=
+ctional Categories and Target Platform</a></p>
+<h1 id=3D"MPSYSModernization-Executionphases">Execution phases</h1>
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh">Phases</th>
+<th class=3D"confluenceTh">Capabilities&nbsp;</th>
+</tr>
+<tr>
+<td rowspan=3D"5" class=3D"confluenceTd"><p><a href=3D"/display/DRC/Phase+1=
+a+%28PI17-19%29+Deliverables">Phase 1a (PI17-19)</a></p><p><a href=3D"/disp=
+lay/DRC/Phase+1b+%28PI20-24%29+Deliverables">Phase 1b (PI20-24)&nbsp;</a></=
+p><br><p><br></p></td>
+<td class=3D"confluenceTd">Merge MPSYS Subscription Services database to MP=
+SYS database</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>Buildout of Identity Graph Services:</p><p>CD=
+P mS migration -</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">Build CG services for LDAP retirement</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">As part of National Retail OTP project: onboard =
+them to IDG CIR and implement Kafka processing for courtesy notification de=
+livery (funded by that project)</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><span style=3D"color: rgb(23,43,77);">Migrate cr=
+edential validation functionality from Oracle to Cosmos DB</span></td>
+</tr>
+<tr>
+<td rowspan=3D"5" class=3D"confluenceTd"><a href=3D"/display/DRC/Phase+2+%2=
+8PI25-PI27%29+Deliverables">Phase 2 (PI25-PI27)</a></td>
+<td class=3D"confluenceTd">Client Onboarding to IDG services&nbsp;</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">Onboard MPS-LDAP clients to CG</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">Continue building IDG services</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><span style=3D"color: rgb(23,43,77);">Migrate On=
+e Time PIN (OTP) functionality from Oracle to Cosmos DB</span></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><span style=3D"color: rgb(23,43,77);">Migrate IB=
+M MQ and Async message processing to AEH and azure consumer mS event proces=
+sing&nbsp;</span></td>
+</tr>
+<tr>
+<td rowspan=3D"3" class=3D"confluenceTd"><a href=3D"/display/DRC/Phase+2+%2=
+8PI25-PI27%29+Deliverables">Phase 3 (PI25-PI27)</a></td>
+<td class=3D"confluenceTd">Onboard MPS-LDAP clients to CG (cont)</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">Retire MPS-LDAP</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">Continue onboarding clients to IDG services</td>
+</tr>
+<tr>
+<td rowspan=3D"2" class=3D"confluenceTd">Phase 4</td>
+<td class=3D"confluenceTd">Continue retirement IBM MQ async msg processing =
+in favor of&nbsp;Event Hub</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">Start DB cloud migration</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><br></p>
+<p>Plan review recording :&nbsp;<a href=3D"https://att-my.sharepoint.com/:v=
+:/p/pj883n/ESe7-jRVskVLq3f-8lo10TUBByyaVUGN8Ml_RP6Kl32hsw" class=3D"externa=
+l-link" rel=3D"nofollow">https://att-my.sharepoint.com/:v:/p/pj883n/ESe7-jR=
+VskVLq3f-8lo10TUBByyaVUGN8Ml_RP6Kl32hsw</a>&nbsp;</p>
+    </div>
+</body>
+</html>
+------=_Part_110038_1080487892.1786801817124--

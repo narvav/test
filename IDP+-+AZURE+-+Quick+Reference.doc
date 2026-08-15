@@ -1,0 +1,1720 @@
+Date: Sat, 15 Aug 2026 09:49:43 -0400 (EDT)
+Message-ID: <1551645989.110033.1786801783351@twiki-eastus2-prod-app-vm-02.internal.cloudapp.net>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_110032_1489875394.1786801783332"
+
+------=_Part_110032_1489875394.1786801783332
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>IDP - AZURE - Quick Reference</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>IDP - AZURE - Quick Reference</h1>
+    <div class=3D"Section1">
+        <div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable" style=3D"width: 61.=
+7275%;">
+<colgroup>
+<col style=3D"width: 34.5421%;">
+<col style=3D"width: 65.4655%;">
+</colgroup>
+<tbody>
+<tr>
+<td style=3D"text-align: left;" class=3D"confluenceTd">K8 Dashboard - Dev</=
+td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p><a href=3D"https:=
+//graph-aksdash-dev-e2.az.3pc.att.com/oauth2/sign_in" class=3D"external-lin=
+k" rel=3D"nofollow">https://graph-aksdash-dev-e2.az.3pc.att.com</a></p></td=
+>
+</tr>
+<tr>
+<td style=3D"text-align: left;" class=3D"confluenceTd">K8 Dashboard - Test<=
+/td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p><a href=3D"https:=
+//graph-aksdash-test-e2.az.3pc.att.com/oauth2/sign_in" class=3D"external-li=
+nk" rel=3D"nofollow">https://graph-aksdash-test-e2.az.3pc.att.com</a>&nbsp;=
+</p><p><a href=3D"https://graph-aksdash-test-w2.az.3pc.att.com/" class=3D"e=
+xternal-link" rel=3D"nofollow">https://graph-aksdash-test-w2.az.3pc.att.com=
+</a></p></td>
+</tr>
+<tr>
+<td style=3D"text-align: left;" class=3D"confluenceTd">K8 Dashboard - STAGE=
+(<span style=3D"color: rgb(52,55,65);">azgraphstageeu2)</span> and PRESTAGE=
+</td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p><a href=3D"https:=
+//graph-aksdash-stage-e2.az.3pc.att.com/oauth2/sign_in" class=3D"external-l=
+ink" rel=3D"nofollow">https://graph-aksdash-stage-e2.az.3pc.att.com</a>&nbs=
+p;&nbsp;</p></td>
+</tr>
+<tr>
+<td style=3D"text-align: left;" class=3D"confluenceTd">K8 Dashboard - PERF<=
+/td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p><a href=3D"https:=
+//graph-aksdash-perf-e2.az.3pc.att.com/oauth2/sign_in" class=3D"external-li=
+nk" rel=3D"nofollow">https://graph-aksdash-perf-e2.az.3pc.att.com</a>&nbsp;=
+&nbsp;&nbsp;</p></td>
+</tr>
+<tr>
+<td style=3D"text-align: left;" class=3D"confluenceTd">K8 Dashboard - PROD =
+EAST (a<span>zgraphprodeu2)</span></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p><a href=3D"https:=
+//graph-aksdash-e2.az.3pc.att.com/oauth2/sign_in" class=3D"external-link" r=
+el=3D"nofollow">https://graph-aksdash-e2.az.3pc.att.com</a>&nbsp;</p></td>
+</tr>
+<tr>
+<td style=3D"text-align: left;" class=3D"confluenceTd">K8 Dashboard - PROD =
+WEST (<span>azgraphprodwu2)</span></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p><a href=3D"https:=
+//graph-aksdash-w2.az.3pc.att.com/" class=3D"external-link" rel=3D"nofollow=
+">https://graph-aksdash-w2.az.3pc.att.com</a></p></td>
+</tr>
+<tr>
+<td style=3D"text-align: left;" class=3D"confluenceTd">K8 Dashboard - PROD =
+SouthCentral (azgraphprodscus<span>)</span></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p><a href=3D"https:=
+//graph-aksdash-sc.az.3pc.att.com" class=3D"external-link" rel=3D"nofollow"=
+>https://graph-aksdash-sc.az.3pc.att.com</a>&nbsp;</p></td>
+</tr>
+<tr>
+<td style=3D"text-align: left;" class=3D"confluenceTd">K8 Dashboard - PROD =
+CANARY (<span style=3D"color: rgb(23,43,77);">a</span><span style=3D"color:=
+ rgb(23,43,77);">zgraphprodcnryeu2</span><span>)</span></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><a href=3D"https://g=
+raph-aksdash-cnry-e2.az.3pc.att.com/" class=3D"external-link" rel=3D"nofoll=
+ow">https://graph-aksdash-cnry-e2.az.3pc.att.com</a></td>
+</tr>
+<tr>
+<td style=3D"text-align: left;" class=3D"confluenceTd">Azure Infra Contact<=
+/td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">Abhijeeth&nbsp;<a hr=
+ef=3D"mailto:ar376p@att.com" class=3D"external-link" rel=3D"nofollow">ar376=
+p@att.com</a>&nbsp;, Venkata&nbsp;<a href=3D"mailto:vv129c@att.com" class=
+=3D"external-link" rel=3D"nofollow">vv129c@att.com</a></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">DevOps Contact</td>
+<td class=3D"confluenceTd">Vipin (<a href=3D"mailto:vk869k@att.com" class=
+=3D"external-link" rel=3D"nofollow">vk869k@att.com</a>)</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">MPS DBA Contact</td>
+<td class=3D"confluenceTd">Madhava Rao (<a href=3D"mailto:mv7901@att.com" c=
+lass=3D"external-link" rel=3D"nofollow">mv7901@att.com</a>), Saravana (<a h=
+ref=3D"mailto:sm048t@att.com" class=3D"external-link" rel=3D"nofollow">sm04=
+8t@att.com</a>)</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">Cassandra DBA Contact</td>
+<td class=3D"confluenceTd">Anupriya, Goel (<a href=3D"mailto:ag343t@att.com=
+" class=3D"external-link" rel=3D"nofollow">ag343t@att.com</a>)</td>
+</tr>
+<tr>
+<td style=3D"text-align: left;" class=3D"confluenceTd">Prefix for all APIs =
+through app gateway port</td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p><a class=3D"exter=
+nal-link" title=3D"https://apporigin-dev2-idpgraph-e2.az.3pc.att.com:8443/m=
+sapi/idmcontactinforegms/v1/pin/generate" href=3D"https://apporigin-dev2-id=
+pgraph-e2.az.3pc.att.com:8443/msapi/idmcontactinforegms/v1/pin/generate" re=
+l=3D"nofollow">https://apporigin-dev2-idpgraph-e2.az.3pc.att.com:8443</a> -=
+ Dev</p><p><a class=3D"external-link" href=3D"https://apporigin-dev2-idpgra=
+ph-e2.az.3pc.att.com:8443" title=3D"https://apporigin-dev2-idpgraph-e2.az.3=
+pc.att.com:8443/" rel=3D"nofollow">https://</a><a class=3D"external-link" t=
+itle=3D"http://apporigin-tst2-idpgraph-e2.az.3pc.att.com/" href=3D"http://a=
+pporigin-tst2-idpgraph-e2.az.3pc.att.com/" rel=3D"nofollow">apporigin-tst2-=
+idpgraph-e2.az.3pc.att.com</a><a class=3D"external-link" href=3D"https://ap=
+porigin-dev2-idpgraph-e2.az.3pc.att.com:8443" title=3D"https://apporigin-de=
+v2-idpgraph-e2.az.3pc.att.com:8443/" rel=3D"nofollow">:8443</a> -&nbsp; Tes=
+t</p><p><a class=3D"external-link" href=3D"https://apporigin-dev2-idpgraph-=
+e2.az.3pc.att.com:8443" title=3D"https://apporigin-dev2-idpgraph-e2.az.3pc.=
+att.com:8443/" rel=3D"nofollow">https://</a><a class=3D"external-link" titl=
+e=3D"http://apporigin-perf1-idpgraph-e2.az.3pc.att.com/" href=3D"http://app=
+origin-perf1-idpgraph-e2.az.3pc.att.com/" rel=3D"nofollow">apporigin-perf2-=
+idpgraph-e2.az.3pc.att.com</a>:8443 - Perf</p><p>https://<a class=3D"extern=
+al-link" href=3D"http://apporigin-stg-idpgraph-e2.az.3pc.att.com/" title=3D=
+"http://apporigin-stg-idpgraph-e2.az.3pc.att.com/" rel=3D"nofollow">apporig=
+in-stg-idpgraph-e2.az.3pc.att.com</a>:8443 - Stage East</p><p><a href=3D"ht=
+tps://apporigin-stg-idpgraph-w2.az.3pc.att.com:8443" title=3D"https://appor=
+igin-stg-idpgraph-w2.az.3pc.att.com:8443/" class=3D"external-link" rel=3D"n=
+ofollow">https://apporigin-stg-idpgraph-w2.az.3pc.att.com:8443</a> - Stage =
+West</p><p>Prod:</p><p><a title=3D"https://apporigin-idpgraph-e2.az.3pc.att=
+.com:8443/" href=3D"https://apporigin-idpgraph-e2.az.3pc.att.com:8443" clas=
+s=3D"external-link" rel=3D"nofollow">https://apporigin-idpgraph-e2.az.3pc.a=
+tt.com:8443</a></p><p><a title=3D"https://apporigin-idpgraph-cnry-e2.az.3pc=
+.att.com:8443/" href=3D"https://apporigin-idpgraph-cnry-e2.az.3pc.att.com:8=
+443" class=3D"external-link" rel=3D"nofollow">https://apporigin-idpgraph-cn=
+ry-e2.az.3pc.att.com:8443</a></p><p><a title=3D"https://apporigin-idpgraph-=
+sc.az.3pc.att.com:8443/" href=3D"https://apporigin-idpgraph-sc.az.3pc.att.c=
+om:8443" class=3D"external-link" rel=3D"nofollow">https://apporigin-idpgrap=
+h-sc.az.3pc.att.com:8443</a></p><p><a title=3D"https://apporigin-idpgraph-w=
+2.az.3pc.att.com:8443/" href=3D"https://apporigin-idpgraph-w2.az.3pc.att.co=
+m:8443" class=3D"external-link" rel=3D"nofollow">https://apporigin-idpgraph=
+-w2.az.3pc.att.com:8443</a></p></td>
+</tr>
+<tr>
+<td style=3D"text-align: left;" class=3D"confluenceTd">ELK - Non prod</td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><a href=3D"https://d=
+igitalelk-nprd.az.3pc.att.com/login?next=3D%2F" style=3D"text-decoration: n=
+one;text-align: left;" rel=3D"nofollow" class=3D"external-link">https://dig=
+italelk-nprd.az.3pc.att.com/login</a>&nbsp;- use elk_user to login , check =
+with team for password.&nbsp;Alternatively setup test account.</td>
+</tr>
+<tr>
+<td style=3D"text-align: left;" class=3D"confluenceTd">ELK - prod</td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><a href=3D"https://d=
+igitalelk.az.3pc.att.com/app/discover" class=3D"external-link" rel=3D"nofol=
+low">https://digitalelk.az.3pc.att.com/app/discover</a></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">To check Event hubs and anything in Azure portal=
+</td>
+<td class=3D"confluenceTd"><a style=3D"text-decoration: none;" href=3D"http=
+s://portal.azure.com/#home" rel=3D"nofollow" class=3D"external-link">https:=
+//portal.azure.com/#home</a></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">External URL, MQ&nbsp; and DB details for Azure<=
+/td>
+<td class=3D"confluenceTd"><a href=3D"/pages/viewpage.action?pageId=3D19429=
+21284">Connections from Azure to On-prem:</a></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">Dynatrace - Non prod</td>
+<td class=3D"confluenceTd"><p><a href=3D"https://mxc41850.apps.dynatrace.co=
+m" class=3D"external-link" rel=3D"nofollow">https://mxc41850.apps.dynatrace=
+.com</a></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">Dynatrace - Prod</td>
+<td class=3D"confluenceTd"><p><a href=3D"https://dow36709.apps.dynatrace.co=
+m/" class=3D"external-link" rel=3D"nofollow">https://dow36709.apps.dynatrac=
+e.com/</a></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><br></p>
+<h2 id=3D"IDPAZUREQuickReference-IDGraphServicesURLs"><strong>IDGraph Servi=
+ces URLs</strong></h2>
+<p><strong>IDNS URL(Enabled only for idmcustomerhubms)</strong></p>
+<p>PROD - <a href=3D"https://idmcustomerhub-az.tnet.att.com:8443/msapi/idgr=
+aph/idmcustomerhubms/home" class=3D"external-link" rel=3D"nofollow">https:/=
+/idmcustomerhub-az.tnet.att.com:8443/msapi/idgraph/idmcustomerhubms/home</a=
+></p>
+<p>STAGE - <a href=3D"https://stg-idmcustomerhub-az.tnet.att.com:8443/msapi=
+/idgraph/idmcustomerhubms/home" class=3D"external-link" rel=3D"nofollow">ht=
+tps://stg-idmcustomerhub-az.tnet.att.com:8443/msapi/idgraph/idmcustomerhubm=
+s/home</a></p>
+<p><strong>A10 URL(Enabled only for idgraphmpsadapterms) </strong></p>
+<p>PROD - <a class=3D"external-link" href=3D"https://idgraphadapter.lbdel.w=
+eb.att.com:8443/msapi/idgraph/idgraphmpsadapterms/services/query-account" r=
+el=3D"nofollow">https://idgraphadapter.lbdel.web.att.com:8443/msapi/idgraph=
+/idgraphmpsadapterms/services/query-account</a></p>
+<p>STAGE - <a href=3D"https://stg-idgraphadapter-lbdel.web.att.com:8443/msa=
+pi/idgraph/idgraphmpsadapterms/services/query-account" class=3D"external-li=
+nk" rel=3D"nofollow">https://stg-idgraphadapter-lbdel.web.att.com:8443/msap=
+i/idgraph/idgraphmpsadapterms/services/query-account</a></p>
+<p>Post <strong style=3D"text-align: left;">08/10/2026 STAGE - </strong><a =
+class=3D"external-link" href=3D"https://stg-idgraphadapter-lbdel.dev.att.co=
+m:8443/msapi/idgraph/idgraphmpsadapterms/services/query-account" rel=3D"nof=
+ollow">https://stg-idgraphadapter-lbdel.dev.att.com:8443/msapi/idgraph/idgr=
+aphmpsadapterms/services/query-account</a></p>
+<p><strong>GTM Instructions:</strong></p>
+<ol>
+<li><span style=3D"color: rgb(23,43,77);">Regarding GTM URLS, If the incomi=
+ng connection is coming from Onprem then env name should not be mentioned i=
+n the namespace of the below mentioned URLs.</span></li>
+<li><span style=3D"color: rgb(23,43,77);"><span style=3D"color: rgb(23,43,7=
+7);">For any new clients connecting from onprem or Azure to IDGraph GTM clu=
+ster , the infra team of those clients needs</span></span> to <span><span c=
+lass=3D"ui-provider a b c d e f g h i j k l m n o p q r s t u v w x y z ab =
+ac ae af ag ah ai aj ak">onboard IDgraph in their IDP-GTM configs . Sample =
+dependency - &nbsp;<a href=3D"https://itrack.web.att.com/browse/SPTINFRENG-=
+49076" class=3D"external-link" rel=3D"nofollow">https://itrack.web.att.com/=
+browse/SPTINFRENG-49076</a></span></span></li>
+</ol>
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class=3D"confluenceTh"><p style=3D"margin-left: 0.0px;"><strong>ENV</st=
+rong></p></th>
+<th class=3D"confluenceTh"><p style=3D"margin-left: 0.0px;"><strong>GTM URL=
+ (when client are in Azure)</strong></p></th>
+<th class=3D"confluenceTh"><p style=3D"margin-left: 0.0px;"><strong>Service=
+ discovery URL</strong></p></th>
+<th class=3D"confluenceTh"><p style=3D"margin-left: 0.0px;"><strong>IntraAp=
+p GW URL&nbsp;<br></strong></p></th>
+<th class=3D"confluenceTh"><p style=3D"margin-left: 0.0px;"><strong>BIZ GW =
+URL</strong></p></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class=3D"confluenceTd">Context Path Pattern</td>
+<td class=3D"confluenceTd"><p style=3D"margin-left: 0.0px;"><span><span cla=
+ss=3D"ui-provider ed bhf bhg bhh bhi bhj bhk bhl bhm bhn bho bhp bhq bhr bh=
+s bht bhu bhv bhw bhx bhy bhz bia bib bic bid bie bif big bih bii bij bik b=
+il bim"><a class=3D"external-link" href=3D"https://idp-gtm.com-att-idp.svc.=
+cluster.local:9443/msapi/idgraph/idgraphcontactinfoms/v1/pin/generate" titl=
+e=3D"https://idp-gtm.com-att-idp.svc.cluster.local:9443/msapi/idgraph/idgra=
+phcontactinfoms/v1/pin/generate" rel=3D"nofollow"><strong>/msapi/idgraph/</=
+strong>&lt;mServicename&gt;/&lt;</a>operation end point&gt;&nbsp;</span></s=
+pan></p></td>
+<td class=3D"confluenceTd"><p style=3D"margin-left: 0.0px;"><strong>/msapi/=
+<span><span class=3D"ui-provider ed bhf bhg bhh bhi bhj bhk bhl bhm bhn bho=
+ bhp bhq bhr bhs bht bhu bhv bhw bhx bhy bhz bia bib bic bid bie bif big bi=
+h bii bij bik bil bim"><a class=3D"external-link" href=3D"https://idp-gtm.c=
+om-att-idp.svc.cluster.local:9443/msapi/idgraph/idgraphcontactinfoms/v1/pin=
+/generate" title=3D"https://idp-gtm.com-att-idp.svc.cluster.local:9443/msap=
+i/idgraph/idgraphcontactinfoms/v1/pin/generate" rel=3D"nofollow">&lt;</a></=
+span></span></strong><span class=3D"ui-provider ed bhf bhg bhh bhi bhj bhk =
+bhl bhm bhn bho bhp bhq bhr bhs bht bhu bhv bhw bhx bhy bhz bia bib bic bid=
+ bie bif big bih bii bij bik bil bim"><a class=3D"external-link" href=3D"ht=
+tps://idp-gtm.com-att-idp.svc.cluster.local:9443/msapi/idgraph/idgraphconta=
+ctinfoms/v1/pin/generate" title=3D"https://idp-gtm.com-att-idp.svc.cluster.=
+local:9443/msapi/idgraph/idgraphcontactinfoms/v1/pin/generate" rel=3D"nofol=
+low">mServicename</a></span><strong><span><span class=3D"ui-provider ed bhf=
+ bhg bhh bhi bhj bhk bhl bhm bhn bho bhp bhq bhr bhs bht bhu bhv bhw bhx bh=
+y bhz bia bib bic bid bie bif big bih bii bij bik bil bim"><a class=3D"exte=
+rnal-link" href=3D"https://idp-gtm.com-att-idp.svc.cluster.local:9443/msapi=
+/idgraph/idgraphcontactinfoms/v1/pin/generate" title=3D"https://idp-gtm.com=
+-att-idp.svc.cluster.local:9443/msapi/idgraph/idgraphcontactinfoms/v1/pin/g=
+enerate" rel=3D"nofollow">&gt;/&lt;</a></span></span></strong><span class=
+=3D"ui-provider ed bhf bhg bhh bhi bhj bhk bhl bhm bhn bho bhp bhq bhr bhs =
+bht bhu bhv bhw bhx bhy bhz bia bib bic bid bie bif big bih bii bij bik bil=
+ bim">operation end point</span><strong><span><span class=3D"ui-provider ed=
+ bhf bhg bhh bhi bhj bhk bhl bhm bhn bho bhp bhq bhr bhs bht bhu bhv bhw bh=
+x bhy bhz bia bib bic bid bie bif big bih bii bij bik bil bim">&gt;&nbsp;</=
+span></span></strong></p></td>
+<td class=3D"confluenceTd"><p style=3D"margin-left: 0.0px;"><a href=3D"http=
+s://dev-idpappgw1.lbdel.web.att.com:8441/msapi/idgraph/idgraphcontactinfoms=
+-dev1" class=3D"external-link" rel=3D"nofollow"><strong>/msapi/idgraph/&lt;=
+</strong></a><a class=3D"external-link" href=3D"https://idp-gtm.com-att-idp=
+.svc.cluster.local:9443/msapi/idgraph/idgraphcontactinfoms/v1/pin/generate"=
+ title=3D"https://idp-gtm.com-att-idp.svc.cluster.local:9443/msapi/idgraph/=
+idgraphcontactinfoms/v1/pin/generate" rel=3D"nofollow">mServicename</a><str=
+ong><span><span class=3D"ui-provider ed bhf bhg bhh bhi bhj bhk bhl bhm bhn=
+ bho bhp bhq bhr bhs bht bhu bhv bhw bhx bhy bhz bia bib bic bid bie bif bi=
+g bih bii bij bik bil bim"><a class=3D"external-link" href=3D"https://idp-g=
+tm.com-att-idp.svc.cluster.local:9443/msapi/idgraph/idgraphcontactinfoms/v1=
+/pin/generate" title=3D"https://idp-gtm.com-att-idp.svc.cluster.local:9443/=
+msapi/idgraph/idgraphcontactinfoms/v1/pin/generate" rel=3D"nofollow">&gt;</=
+a></span></span></strong><strong><span><span class=3D"ui-provider ed bhf bh=
+g bhh bhi bhj bhk bhl bhm bhn bho bhp bhq bhr bhs bht bhu bhv bhw bhx bhy b=
+hz bia bib bic bid bie bif big bih bii bij bik bil bim"><a class=3D"externa=
+l-link" href=3D"https://idp-gtm.com-att-idp.svc.cluster.local:9443/msapi/id=
+graph/idgraphcontactinfoms/v1/pin/generate" title=3D"https://idp-gtm.com-at=
+t-idp.svc.cluster.local:9443/msapi/idgraph/idgraphcontactinfoms/v1/pin/gene=
+rate" rel=3D"nofollow">/&lt;</a></span></span></strong><span class=3D"ui-pr=
+ovider ed bhf bhg bhh bhi bhj bhk bhl bhm bhn bho bhp bhq bhr bhs bht bhu b=
+hv bhw bhx bhy bhz bia bib bic bid bie bif big bih bii bij bik bil bim">ope=
+ration end point</span><strong><span><span class=3D"ui-provider ed bhf bhg =
+bhh bhi bhj bhk bhl bhm bhn bho bhp bhq bhr bhs bht bhu bhv bhw bhx bhy bhz=
+ bia bib bic bid bie bif big bih bii bij bik bil bim">&gt;</span></span></s=
+trong></p></td>
+<td class=3D"confluenceTd"><p style=3D"margin-left: 0.0px;"><strong>&nbsp;<=
+/strong></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">Context Path for<br>
+ generate pin</td>
+<td class=3D"confluenceTd"><p style=3D"margin-left: 0.0px;"><span><span cla=
+ss=3D"ui-provider ed bhf bhg bhh bhi bhj bhk bhl bhm bhn bho bhp bhq bhr bh=
+s bht bhu bhv bhw bhx bhy bhz bia bib bic bid bie bif big bih bii bij bik b=
+il bim"><a class=3D"external-link" href=3D"https://idp-gtm.com-att-idp.svc.=
+cluster.local:9443/msapi/idgraph/idgraphcontactinfoms/v1/pin/generate" titl=
+e=3D"https://idp-gtm.com-att-idp.svc.cluster.local:9443/msapi/idgraph/idgra=
+phcontactinfoms/v1/pin/generate" rel=3D"nofollow"><strong>/msapi/idgraph/</=
+strong>idgraphcontactinfoms/v1/pin/generate</a>&nbsp;</span></span></p></td=
+>
+<td class=3D"confluenceTd"><p style=3D"margin-left: 0.0px;"><strong>/msapi/=
+</strong>idgraphcontactinfoms/v1/pin/generate</p></td>
+<td class=3D"confluenceTd"><p style=3D"margin-left: 0.0px;"><span><span cla=
+ss=3D"ui-provider ed bhf bhg bhh bhi bhj bhk bhl bhm bhn bho bhp bhq bhr bh=
+s bht bhu bhv bhw bhx bhy bhz bia bib bic bid bie bif big bih bii bij bik b=
+il bim"><a href=3D"https://dev-idpappgw1.lbdel.web.att.com:8441/msapi/idgra=
+ph/idgraphcontactinfoms-dev1" class=3D"external-link" rel=3D"nofollow"><str=
+ong>/msapi/idgraph/</strong></a><strong><a href=3D"https://dev-idpappgw1.lb=
+del.web.att.com:8441/msapi/idgraph/idgraphcontactinfoms-dev1" class=3D"exte=
+rnal-link" rel=3D"nofollow">idgraphcontactinfoms</a></strong><a class=3D"ex=
+ternal-link" href=3D"https://idp-gtm.com-att-idp.svc.cluster.local:9443/msa=
+pi/idgraph/idgraphcontactinfoms/v1/pin/generate" title=3D"https://idp-gtm.c=
+om-att-idp.svc.cluster.local:9443/msapi/idgraph/idgraphcontactinfoms/v1/pin=
+/generate" rel=3D"nofollow">/v1/pin/generate</a>&nbsp;</span></span></p></t=
+d>
+<td class=3D"confluenceTd"><p style=3D"margin-left: 0.0px;"><span><span cla=
+ss=3D"ui-provider ed bhf bhg bhh bhi bhj bhk bhl bhm bhn bho bhp bhq bhr bh=
+s bht bhu bhv bhw bhx bhy bhz bia bib bic bid bie bif big bih bii bij bik b=
+il bim"><strong>&nbsp;</strong></span></span></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">Dev</td>
+<td class=3D"confluenceTd"><p style=3D"margin-left: 0.0px;"><a class=3D"ext=
+ernal-link" href=3D"https://idp-gtm.com-att-idp.svc.cluster.local:9443/" ti=
+tle=3D"https://idp-gtm.com-att-idp.svc.cluster.local:9443/" rel=3D"nofollow=
+">https://idp-gtm.com-att-idp-dev1.svc.cluster.local:9443</a></p><p style=
+=3D"margin-left: 0.0px;"><a class=3D"external-link" href=3D"https://idp-gtm=
+.com-att-idp.svc.cluster.local:9443/" title=3D"https://idp-gtm.com-att-idp.=
+svc.cluster.local:9443/" rel=3D"nofollow">https://idp-gtm.com-att-idp-dev2.=
+svc.cluster.local:9443</a></p><p style=3D"margin-left: 0.0px;"><a class=3D"=
+external-link" href=3D"https://idp-gtm.com-att-idp.svc.cluster.local:9443/"=
+ title=3D"https://idp-gtm.com-att-idp.svc.cluster.local:9443/" rel=3D"nofol=
+low">https://idp-gtm.com-att-idp-dev3.svc.cluster.local:9443</a></p></td>
+<td class=3D"confluenceTd"><p><a href=3D"https://idgraphuserprofilems.com-a=
+tt-idp-idgraph-dev2.svc.cluster.local" class=3D"external-link" rel=3D"nofol=
+low">https://idgraphuserprofilems.com-att-idp-idgraph-dev1.svc.cluster.loca=
+l</a>&nbsp;</p><p><a href=3D"https://idgraphuserprofilems.com-att-idp-idgra=
+ph-dev2.svc.cluster.local" class=3D"external-link" rel=3D"nofollow">https:/=
+/idgraphuserprofilems.com-att-idp-idgraph-dev2.svc.cluster.local</a>&nbsp;<=
+/p><p><a href=3D"https://idgraphuserprofilems.com-att-idp-idgraph-dev2.svc.=
+cluster.local" class=3D"external-link" rel=3D"nofollow">https://idgraphuser=
+profilems.com-att-idp-idgraph-dev3.svc.cluster.local</a>&nbsp;</p><p><br></=
+p></td>
+<td class=3D"confluenceTd"><p style=3D"margin-left: 0.0px;"><a href=3D"http=
+s://dev-idpappgw1.lbdel.web.att.com:8441/msapi/idgraph/idgraphcontactinfoms=
+-dev1" class=3D"external-link" rel=3D"nofollow">https://dev-idpappgw1.lbdel=
+.web.att.com:8441/msapi/idgraph/idgraphcontactinfoms</a><br><a href=3D"http=
+s://dev-idpappgw2.lbdel.web.att.com:8442/msapi/idgraph/idgraphcontactinfoms=
+-dev2" class=3D"external-link" rel=3D"nofollow">https://dev-idpappgw2.lbdel=
+.web.att.com:8442/msapi/idgraph/idgraphcontactinfoms</a><br><a href=3D"http=
+s://dev-idpappgw3.lbdel.web.att.com:8443/msapi/idgraph/idgraphcontactinfoms=
+-dev3" class=3D"external-link" rel=3D"nofollow">https://dev-idpappgw3.lbdel=
+.web.att.com:8443/msapi/idgraph/idgraphcontactinfoms</a></p></td>
+<td class=3D"confluenceTd"><p style=3D"margin-left: 0.0px;"><br></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">Test</td>
+<td class=3D"confluenceTd"><p style=3D"margin-left: 0.0px;"><a class=3D"ext=
+ernal-link" href=3D"https://idp-gtm.com-att-idp.svc.cluster.local:9443/" ti=
+tle=3D"https://idp-gtm.com-att-idp.svc.cluster.local:9443/" rel=3D"nofollow=
+">https://idp-gtm.com-att-idp-test2.svc.cluster.local:9443</a></p><p style=
+=3D"margin-left: 0.0px;"><a class=3D"external-link" href=3D"https://idp-gtm=
+.com-att-idp.svc.cluster.local:9443/" title=3D"https://idp-gtm.com-att-idp.=
+svc.cluster.local:9443/" rel=3D"nofollow">https://idp-gtm.com-att-idp-test3=
+.svc.cluster.local:9443</a></p><p style=3D"margin-left: 0.0px;"><a class=3D=
+"external-link" href=3D"https://idp-gtm.com-att-idp.svc.cluster.local:9443/=
+" title=3D"https://idp-gtm.com-att-idp.svc.cluster.local:9443/" rel=3D"nofo=
+llow">https://idp-gtm.com-att-idp-test5.svc.cluster.local:9443</a></p><p st=
+yle=3D"margin-left: 0.0px;"><a class=3D"external-link" href=3D"https://idp-=
+gtm.com-att-idp.svc.cluster.local:9443/" title=3D"https://idp-gtm.com-att-i=
+dp.svc.cluster.local:9443/" rel=3D"nofollow">https://idp-gtm.com-att-idp-te=
+st6.svc.cluster.local:9443</a></p></td>
+<td class=3D"confluenceTd"><p><a href=3D"https://idgraphuserprofilems.com-a=
+tt-idp-idgraph-test2.svc.cluster.local" class=3D"external-link" rel=3D"nofo=
+llow">https://idgraphuserprofilems.com-att-idp-idgraph-test2.svc.cluster.lo=
+cal</a>&nbsp;</p><p><a href=3D"https://idgraphuserprofilems.com-att-idp-idg=
+raph-test2.svc.cluster.local" class=3D"external-link" rel=3D"nofollow">http=
+s://idgraphuserprofilems.com-att-idp-idgraph-test3.svc.cluster.local</a>&nb=
+sp;</p><p><a href=3D"https://idgraphuserprofilems.com-att-idp-idgraph-test2=
+.svc.cluster.local" class=3D"external-link" rel=3D"nofollow">https://idgrap=
+huserprofilems.com-att-idp-idgraph-test5.svc.cluster.local</a>&nbsp;</p><p>=
+<a href=3D"https://idgraphuserprofilems.com-att-idp-idgraph-test2.svc.clust=
+er.local" class=3D"external-link" rel=3D"nofollow">https://idgraphuserprofi=
+lems.com-att-idp-idgraph-test6.svc.cluster.local</a>&nbsp;</p><p><br></p></=
+td>
+<td class=3D"confluenceTd"><p style=3D"margin-left: 0.0px;"><a href=3D"http=
+s://tst-idpappgw2.lbdel.web.att.com:8442/msapi/idgraph/idgraphcontactinfoms=
+-test2" class=3D"external-link" rel=3D"nofollow">https://tst-idpappgw2.lbde=
+l.web.att.com:8442/msapi/idgraph/idgraphcontactinfoms</a><br><a href=3D"htt=
+ps://tst-idpappgw3.lbdel.web.att.com:8443/msapi/idgraph/idgraphcontactinfom=
+s-test3" class=3D"external-link" rel=3D"nofollow">https://tst-idpappgw3.lbd=
+el.web.att.com:8443/msapi/idgraph/idgraphcontactinfoms</a><br><a href=3D"ht=
+tps://tst-idpappgw5.lbdel.web.att.com:8446/msapi/idgraph/idgraphcontactinfo=
+ms-test5" class=3D"external-link" rel=3D"nofollow">https://tst-idpappgw5.lb=
+del.web.att.com:8445/msapi/idgraph/idgraphcontactinfoms</a><br><a href=3D"h=
+ttps://tst-idpappgw6.lbdel.web.att.com:8446/msapi/idgraph/idgraphcontactinf=
+oms-test6" class=3D"external-link" rel=3D"nofollow">https://tst-idpappgw6.l=
+bdel.web.att.com:8446/msapi/idgraph/idgraphcontactinfoms</a></p></td>
+<td class=3D"confluenceTd"><p style=3D"margin-left: 0.0px;"><a href=3D"http=
+s://eidp-test.att.com/msapi/idgraph/idgraphcontactinfoms/v1/pin/generate" c=
+lass=3D"external-link" rel=3D"nofollow">https://eidp-test.att.com/msapi/idg=
+raph/idgraphcontactinfoms/v1/pin/generate</a><br><br><a href=3D"https://eid=
+p-test.att.com/msapi/idgraph/idgraphcontactinfoms/v1/pin/validate" class=3D=
+"external-link" rel=3D"nofollow">https://eidp-test.att.com/msapi/idgraph/id=
+graphcontactinfoms/v1/pin/validate</a></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">Perf</td>
+<td class=3D"confluenceTd"><p style=3D"margin-left: 0.0px;"><a class=3D"ext=
+ernal-link" href=3D"https://idp-gtm.com-att-idp.svc.cluster.local:9443/" ti=
+tle=3D"https://idp-gtm.com-att-idp.svc.cluster.local:9443/" rel=3D"nofollow=
+">https://idp-gtm.com-att-idp-perf1.svc.cluster.local:9443</a></p><p style=
+=3D"margin-left: 0.0px;"><a class=3D"external-link" href=3D"https://idp-gtm=
+.com-att-idp.svc.cluster.local:9443/" title=3D"https://idp-gtm.com-att-idp.=
+svc.cluster.local:9443/" rel=3D"nofollow">https://idp-gtm.com-att-idp-perf2=
+.svc.cluster.local:9443</a></p></td>
+<td class=3D"confluenceTd"><p><a href=3D"https://idgraphuserprofilems.com-a=
+tt-idp-idgraph-perf2.svc.cluster.local" class=3D"external-link" rel=3D"nofo=
+llow">https://idgraphuserprofilems.com-att-idp-idgraph-perf1.svc.cluster.lo=
+cal</a></p><p><a href=3D"https://idgraphuserprofilems.com-att-idp-idgraph-p=
+erf2.svc.cluster.local" class=3D"external-link" rel=3D"nofollow">https://id=
+graphuserprofilems.com-att-idp-idgraph-perf2.svc.cluster.local</a></p><p><b=
+r></p></td>
+<td class=3D"confluenceTd"><p style=3D"margin-left: 0.0px;"><a href=3D"http=
+s://prf-idpappgw1.lbdel.web.att.com:8441/msapi/idgraph/idgraphcontactinfoms=
+-perf1" class=3D"external-link" rel=3D"nofollow">https://prf-idpappgw1.lbde=
+l.web.att.com:8441/msapi/idgraph/idgraphcontactinfoms</a><br><a href=3D"htt=
+ps://prf-idpappgw2.lbdel.web.att.com:8442/msapi/idgraph/idgraphcontactinfom=
+s-perf2" class=3D"external-link" rel=3D"nofollow">https://prf-idpappgw2.lbd=
+el.web.att.com:8442/msapi/idgraph/idgraphcontactinfoms</a></p></td>
+<td class=3D"confluenceTd"><p style=3D"margin-left: 0.0px;"><br></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">Stage</td>
+<td class=3D"confluenceTd"><a class=3D"external-link" href=3D"https://idp-g=
+tm.com-att-idp.svc.cluster.local:9443/" title=3D"https://idp-gtm.com-att-id=
+p.svc.cluster.local:9443/" rel=3D"nofollow">https://idp-gtm.com-att-idp.svc=
+.cluster.local:9443</a></td>
+<td class=3D"confluenceTd"><a class=3D"external-link" href=3D"https://idgra=
+phuserprofilems.com-att-idp-idgraph.svc.cluster.local" rel=3D"nofollow">htt=
+ps://idgraphuserprofilems.com-att-idp-idgraph.svc.cluster.local</a></td>
+<td class=3D"confluenceTd"><a href=3D"https://stg-idpappgw1.lbdel.web.att.c=
+om:8441/msapi/idgraph/idgraphcontactinfoms" class=3D"external-link" rel=3D"=
+nofollow">https://stg-idpappgw1.lbdel.web.att.com:8441/msapi/idgraph/idgrap=
+hcontactinfoms</a></td>
+<td class=3D"confluenceTd"><br></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">Prod</td>
+<td class=3D"confluenceTd"><a class=3D"external-link" href=3D"https://idp-g=
+tm.com-att-idp.svc.cluster.local:9443/" title=3D"https://idp-gtm.com-att-id=
+p.svc.cluster.local:9443/" rel=3D"nofollow">https://idp-gtm.com-att-idp.svc=
+.cluster.local:9443</a></td>
+<td class=3D"confluenceTd"><a class=3D"external-link" href=3D"https://idgra=
+phuserprofilems.com-att-idp-idgraph.svc.cluster.local" rel=3D"nofollow">htt=
+ps://idgraphuserprofilems.com-att-idp-idgraph.svc.cluster.local</a></td>
+<td class=3D"confluenceTd"><p><a href=3D"https://idpappgw.lbdel.web.att.com=
+:8443/msapi/idgraph/idgraphcontactinfoms" class=3D"external-link" rel=3D"no=
+follow">https://idpappgw.lbdel.web.att.com:8443/msapi/idgraph/idgraphcontac=
+tinfoms</a>&nbsp; - LB (clients need to use)</p><p><br></p><p class=3D"p1">=
+<a href=3D"https://idpintraapp-gw-e2.az.3pc.att.com/msapi/idgraph/idgraphco=
+ntactinfoms/v1/pin/generate" class=3D"external-link" rel=3D"nofollow">https=
+://idpintraapp-gw-e2.az.3pc.att.com/msapi/idgraph/idgraphcontactinfoms</a> =
+- EAST<br><a href=3D"https://idpintraapp-gw-w2.az.3pc.att.com/msapi/idgraph=
+/idgraphcontactinfoms/v1/pin/generate" class=3D"external-link" rel=3D"nofol=
+low">https://idpintraapp-gw-w2.az.3pc.att.com/msapi/idgraph/idgraphcontacti=
+nfoms</a> - WEST<br><a href=3D"https://idpintraapp-cnry-gw-e2.az.3pc.att.co=
+m/" class=3D"external-link" rel=3D"nofollow">https://idpintraapp-cnry-gw-e2=
+.az.3pc.att.com</a><a href=3D"https://idpintraapp-gw-w2.az.3pc.att.com/msap=
+i/idgraph/idgraphcontactinfoms/v1/pin/generate" class=3D"external-link" rel=
+=3D"nofollow">/msapi/idgraph/idgraphcontactinfoms</a> - CNRY<br><a href=3D"=
+https://idpintraapp-gw-sc.az.3pc.att.com/msapi/idgraph/idgraphcontactinfoms=
+" class=3D"external-link" rel=3D"nofollow">https://idpintraapp-gw-sc.az.3pc=
+.att.com/msapi/idgraph/idgraphcontactinfoms</a> - SCUS</p></td>
+<td class=3D"confluenceTd"><p><a href=3D"https://eidp.att.com/msapi/idgraph=
+/idgraphcontactinfoms/v1/pin/generate" class=3D"external-link" rel=3D"nofol=
+low">https://eidp.att.com/msapi/idgraph/idgraphcontactinfoms</a></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">Example URL</td>
+<td class=3D"confluenceTd"><a href=3D"https://idp-gtm.com-att-idp.svc.clust=
+er.local:9443/msapi/idgraph/idgraphcontactinfoms/v1/pin/generate" class=3D"=
+external-link" rel=3D"nofollow">https://idp-gtm.com-att-idp.svc.cluster.loc=
+al:9443/msapi/idgraph/idgraphcontactinfoms/v1/pin/generate</a>&nbsp;</td>
+<td class=3D"confluenceTd"><a href=3D"https://idgraphuserprofilems.com-att-=
+idp-idgraph-dev2.svc.cluster.local/msapi/idgraphcontactinfoms/v1/pin/genera=
+te" class=3D"external-link" rel=3D"nofollow">https://idgraphuserprofilems.c=
+om-att-idp-idgraph-dev2.svc.cluster.local/msapi/idgraphcontactinfoms/v1/pin=
+/generate</a></td>
+<td class=3D"confluenceTd"><a href=3D"https://tst-idpappgw2.lbdel.web.att.c=
+om:8442/msapi/idgraph/idgraphcontactinfoms-test2" class=3D"external-link" r=
+el=3D"nofollow">https://tst-idpappgw2.lbdel.web.att.com:8442/msapi/idgraph/=
+idgraphcontactinfoms</a><a href=3D"https://idpintraapp-gw-test-e2.az.3pc.at=
+t.com/msapi/idgraph/idgraphcontactinfoms-test2/v1/pin/generate" class=3D"ex=
+ternal-link" rel=3D"nofollow">/v1/pin/generate</a></td>
+<td class=3D"confluenceTd"><a href=3D"https://eidp.att.com/msapi/idgraph/id=
+graphcontactinfoms/v1/pin/generate" class=3D"external-link" rel=3D"nofollow=
+">https://eidp.att.com/msapi/idgraph/idgraphcontactinfoms/v1/pin/generate</=
+a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id=3D"IDPAZUREQuickReference-ELKandDynatraceDashboardlinks"><strong>ELK=
+ and Dynatrace Dashboard links&nbsp;</strong></h2>
+<p><strong><a href=3D"/display/DRC/Monitoring+and+Alerting">Monitoring and =
+Alerting</a></strong></p>
+<h2 id=3D"IDPAZUREQuickReference-KafDROPURLStoviewAEHTopicMessages:"><stron=
+g>KafDROP URLS to view AEH Topic Messages:</strong></h2>
+<p><span><strong>Dev/Test </strong>&nbsp; - <a href=3D"https://ctx-ehub-dev=
+-test-shrd.az.3pc.att.com/ctxshrddevtst/" class=3D"external-link" rel=3D"no=
+follow">Kafdrop: Broker List</a></span></p>
+<p><strong>PROD West :</strong>&nbsp; <a href=3D"https://ctx-ehub-prod-wus2=
+-shrd.az.3pc.att.com/ctxshrdwu2/" class=3D"external-link" rel=3D"nofollow">=
+https://ctx-ehub-prod-wus2-shrd.az.3pc.att.com/ctxshrdwu2/</a></p>
+<p><strong>PROD East&nbsp; :&nbsp;</strong> <a href=3D"https://ctx-ehub-pro=
+d-eus2-shrd.az.3pc.att.com/ctxshrdeu2/" class=3D"external-link" rel=3D"nofo=
+llow">https://ctx-ehub-prod-eus2-shrd.az.3pc.att.com/ctxshrdeu2/</a></p>
+<h2 id=3D"IDPAZUREQuickReference-IDGRAPHPRODAPPORIGINURLS"><strong>IDGRAPH =
+PROD APPORIGIN URLS</strong></h2>
+<div class=3D"table-wrap">
+<table class=3D"wrapped relative-table confluenceTable" style=3D"width: 178=
+.988%;">
+<colgroup>
+<col style=3D"width: 9.74538%;">
+<col style=3D"width: 30.0903%;">
+<col style=3D"width: 25.8978%;">
+<col style=3D"width: 4.19323%;">
+<col style=3D"width: 30.0903%;">
+</colgroup>
+<tbody>
+<tr>
+<th scope=3D"col" class=3D"confluenceTh">MS Name</th>
+<th scope=3D"col" class=3D"confluenceTh">Apporigin URLs EAST</th>
+<th scope=3D"col" class=3D"confluenceTh">Apporigin URL WEST</th>
+<th scope=3D"col" class=3D"confluenceTh">Apporigin URL SouthCentral</th>
+<th scope=3D"col" class=3D"confluenceTh">Apporigin URL Canary</th>
+</tr>
+<tr>
+<td style=3D"text-align: left;" class=3D"confluenceTd">IDGraphContactInfoMs=
+</td>
+<td class=3D"confluenceTd"><p><span style=3D"color: rgb(33,33,33);">Generat=
+ePin -&nbsp;<a href=3D"https://apporigin-idpgraph-e2.az.3pc.att.com:8443/ms=
+api/idgraphcontactinfoms/v1/pin/generate" class=3D"external-link" rel=3D"no=
+follow">https://apporigin-idpgraph-e2.az.3pc.att.com:8443/msapi/idgraphcont=
+actinfoms/v1/pin/generate</a></span></p><p><span style=3D"color: rgb(33,33,=
+33);">ValidatePin -&nbsp;<a href=3D"https://apporigin-idpgraph-e2.az.3pc.at=
+t.com:8443/msapi/idgraphcontactinfoms/v1/pin/generate" class=3D"external-li=
+nk" rel=3D"nofollow">https://apporigin-idpgraph-e2.az.3pc.att.com:8443/msap=
+i/idgraphcontactinfoms/v1/pin/</a>validate</span></p><p><span style=3D"colo=
+r: rgb(33,33,33);">DeletePin -&nbsp;<a href=3D"https://apporigin-idpgraph-w=
+2.az.3pc.att.com:8443/msapi/idgraphcontactinfoms/v1/pin/delete" class=3D"ex=
+ternal-link" rel=3D"nofollow">https://apporigin-idpgraph-e2.az.3pc.att.com:=
+8443/msapi/idgraphcontactinfoms/v1/pin/delete</a></span></p><p><span style=
+=3D"color: rgb(33,33,33);">QueryCPNIAccountInfo - <a href=3D"https://appori=
+gin-idpgraph-w2.az.3pc.att.com:8443/msapi/idgraphcontactinfoms/v1/cpniConta=
+ctInfo/account" class=3D"external-link" rel=3D"nofollow">https://apporigin-=
+idpgraph-e2.az.3pc.att.com:8443/msapi/idgraphcontactinfoms/v1/cpniContactIn=
+fo/account</a></span></p><p><span style=3D"color: rgb(33,33,33);">QueryCPNI=
+UserInfo -&nbsp;<a href=3D"https://apporigin-idpgraph-e2.az.3pc.att.com:844=
+3/msapi/idgraphcontactinfoms/v1/cpniContactInfo/user" class=3D"external-lin=
+k" rel=3D"nofollow">https://apporigin-idpgraph-e2.az.3pc.att.com:8443/msapi=
+/idgraphcontactinfoms/v1/cpniContactInfo/user</a></span></p></td>
+<td class=3D"confluenceTd"><p><span style=3D"color: rgb(33,33,33);"><a href=
+=3D"https://apporigin-idpgraph-e2.az.3pc.att.com:8443/msapi/idgraphcontacti=
+nfoms/v1/pin/generate" class=3D"external-link" rel=3D"nofollow">https://app=
+origin-idpgraph-w2.az.3pc.att.com:8443/msapi/idgraphcontactinfoms/v1/pin/ge=
+nerate</a></span></p><p><span style=3D"color: rgb(33,33,33);"><a href=3D"ht=
+tps://apporigin-idpgraph-e2.az.3pc.att.com:8443/msapi/idgraphcontactinfoms/=
+v1/pin/generate" class=3D"external-link" rel=3D"nofollow">https://apporigin=
+-idpgraph-w2.az.3pc.att.com:8443/msapi/idgraphcontactinfoms/v1/pin/</a>vali=
+date</span></p><p><span style=3D"color: rgb(33,33,33);"><a href=3D"https://=
+apporigin-idpgraph-w2.az.3pc.att.com:8443/msapi/idgraphcontactinfoms/v1/pin=
+/delete" class=3D"external-link" rel=3D"nofollow">https://apporigin-idpgrap=
+h-w2.az.3pc.att.com:8443/msapi/idgraphcontactinfoms/v1/pin/delete</a></span=
+></p><p><span style=3D"color: rgb(33,33,33);"><a href=3D"https://apporigin-=
+idpgraph-w2.az.3pc.att.com:8443/msapi/idgraphcontactinfoms/v1/cpniContactIn=
+fo/account" class=3D"external-link" rel=3D"nofollow">https://apporigin-idpg=
+raph-w2.az.3pc.att.com:8443/msapi/idgraphcontactinfoms/v1/cpniContactInfo/a=
+ccount</a></span></p><p><span style=3D"color: rgb(33,33,33);"><a href=3D"ht=
+tps://apporigin-idpgraph-e2.az.3pc.att.com:8443/msapi/idgraphcontactinfoms/=
+v1/cpniContactInfo/user" class=3D"external-link" rel=3D"nofollow">https://a=
+pporigin-idpgraph-w2.az.3pc.att.com:8443/msapi/idgraphcontactinfoms/v1/cpni=
+ContactInfo/user</a></span></p></td>
+<td class=3D"confluenceTd"><p><a href=3D"https://apporigin-idpgraph-scus.az=
+.3pc.att.com:8443/msapi/idgraphcontactinfoms/v1/pin/generate" class=3D"exte=
+rnal-link" rel=3D"nofollow">https://apporigin-idpgraph-sc.az.3pc.att.com:84=
+43/msapi/idgraphcontactinfoms/v1/pin/generate</a></p><p><a href=3D"https://=
+apporigin-idpgraph-scus.az.3pc.att.com:8443/msapi/idgraphcontactinfoms/v1/p=
+in/validate" class=3D"external-link" rel=3D"nofollow">https://apporigin-idp=
+graph-sc.az.3pc.att.com:8443/msapi/idgraphcontactinfoms/v1/pin/validate</a>=
+</p><p><a href=3D"https://apporigin-idpgraph-scus.az.3pc.att.com:8443/msapi=
+/idgraphcontactinfoms/v1/pin/delete" class=3D"external-link" rel=3D"nofollo=
+w">https://apporigin-idpgraph-sc.az.3pc.att.com:8443/msapi/idgraphcontactin=
+foms/v1/pin/delete</a></p><p><a href=3D"https://apporigin-idpgraph-scus.az.=
+3pc.att.com:8443/msapi/idgraphcontactinfoms/v1/cpniContactInfo/account" cla=
+ss=3D"external-link" rel=3D"nofollow">https://apporigin-idpgraph-sc.az.3pc.=
+att.com:8443/msapi/idgraphcontactinfoms/v1/cpniContactInfo/account</a></p><=
+p><a href=3D"https://apporigin-idpgraph-scus.az.3pc.att.com:8443/msapi/idgr=
+aphcontactinfoms/v1/cpniContactInfo/user" class=3D"external-link" rel=3D"no=
+follow">https://apporigin-idpgraph-sc.az.3pc.att.com:8443/msapi/idgraphcont=
+actinfoms/v1/cpniContactInfo/user</a></p><p><span style=3D"color: rgb(33,33=
+,33);">&nbsp;</span></p></td>
+<td class=3D"confluenceTd"><p><span style=3D"color: rgb(33,33,33);"><a href=
+=3D"https://apporigin-idpgraph-e2.az.3pc.att.com:8443/msapi/idgraphcontacti=
+nfoms/v1/pin/generate" class=3D"external-link" rel=3D"nofollow">https://</a=
+><a class=3D"external-link" style=3D"text-align: left;" href=3D"http://appo=
+rigin-idpgraph-cnry-e2.az.3pc.att.com/" rel=3D"nofollow">apporigin-idpgraph=
+-cnry-e2.az.3pc.att.com</a><a href=3D"https://apporigin-idpgraph-e2.az.3pc.=
+att.com:8443/msapi/idgraphcontactinfoms/v1/pin/generate" class=3D"external-=
+link" rel=3D"nofollow">:8443/msapi/idgraphcontactinfoms/v1/pin/generate</a>=
+</span></p><p><span style=3D"color: rgb(33,33,33);"><a href=3D"https://appo=
+rigin-idpgraph-e2.az.3pc.att.com:8443/msapi/idgraphcontactinfoms/v1/pin/gen=
+erate" class=3D"external-link" rel=3D"nofollow">https://</a><a class=3D"ext=
+ernal-link" style=3D"text-align: left;" href=3D"http://apporigin-idpgraph-c=
+nry-e2.az.3pc.att.com/" rel=3D"nofollow">apporigin-idpgraph-cnry-e2.az.3pc.=
+att.com</a><a href=3D"https://apporigin-idpgraph-e2.az.3pc.att.com:8443/msa=
+pi/idgraphcontactinfoms/v1/pin/generate" class=3D"external-link" rel=3D"nof=
+ollow">:8443/msapi/idgraphcontactinfoms/v1/pin/</a>validate</span></p><p><s=
+pan style=3D"color: rgb(33,33,33);"><a href=3D"https://apporigin-idpgraph-w=
+2.az.3pc.att.com:8443/msapi/idgraphcontactinfoms/v1/pin/delete" class=3D"ex=
+ternal-link" rel=3D"nofollow">https://</a><a class=3D"external-link" style=
+=3D"text-align: left;" href=3D"http://apporigin-idpgraph-cnry-e2.az.3pc.att=
+.com/" rel=3D"nofollow">apporigin-idpgraph-cnry-e2.az.3pc.att.com</a><a hre=
+f=3D"https://apporigin-idpgraph-w2.az.3pc.att.com:8443/msapi/idgraphcontact=
+infoms/v1/pin/delete" class=3D"external-link" rel=3D"nofollow">:8443/msapi/=
+idgraphcontactinfoms/v1/pin/delete</a></span></p><p><span style=3D"color: r=
+gb(33,33,33);"><a href=3D"https://apporigin-idpgraph-w2.az.3pc.att.com:8443=
+/msapi/idgraphcontactinfoms/v1/cpniContactInfo/account" class=3D"external-l=
+ink" rel=3D"nofollow">https://</a><a class=3D"external-link" style=3D"text-=
+align: left;" href=3D"http://apporigin-idpgraph-cnry-e2.az.3pc.att.com/" re=
+l=3D"nofollow">apporigin-idpgraph-cnry-e2.az.3pc.att.com</a><a href=3D"http=
+s://apporigin-idpgraph-w2.az.3pc.att.com:8443/msapi/idgraphcontactinfoms/v1=
+/cpniContactInfo/account" class=3D"external-link" rel=3D"nofollow">:8443/ms=
+api/idgraphcontactinfoms/v1/cpniContactInfo/account</a></span></p><p><span =
+style=3D"color: rgb(33,33,33);"><a href=3D"https://apporigin-idpgraph-e2.az=
+.3pc.att.com:8443/msapi/idgraphcontactinfoms/v1/cpniContactInfo/user" class=
+=3D"external-link" rel=3D"nofollow">https://</a><a class=3D"external-link" =
+style=3D"text-align: left;" href=3D"http://apporigin-idpgraph-cnry-e2.az.3p=
+c.att.com/" rel=3D"nofollow">apporigin-idpgraph-cnry-e2.az.3pc.att.com</a><=
+a href=3D"https://apporigin-idpgraph-e2.az.3pc.att.com:8443/msapi/idgraphco=
+ntactinfoms/v1/cpniContactInfo/user" class=3D"external-link" rel=3D"nofollo=
+w">:8443/msapi/idgraphcontactinfoms/v1/cpniContactInfo/user</a></span></p><=
+/td>
+</tr>
+<tr>
+<td style=3D"text-align: left;" class=3D"confluenceTd">IDGraphUserAssociati=
+onMs</td>
+<td class=3D"confluenceTd"><p><span style=3D"color: rgb(33,33,33);">AddAsso=
+ciation - <a href=3D"https://apporigin-idpgraph-w2.az.3pc.att.com:8443/msap=
+i/idgraphuserassociationms/v1/association/add" class=3D"external-link" rel=
+=3D"nofollow">https://apporigin-idpgraph-e2.az.3pc.att.com:8443/msapi/idgra=
+phuserassociationms/v1/association/add</a></span></p><p><span style=3D"colo=
+r: rgb(33,33,33);">UpdateAssociation - <a href=3D"https://apporigin-idpgrap=
+h-e2.az.3pc.att.com:8443/msapi/idgraphuserassociationms/v1/association/upda=
+te" class=3D"external-link" rel=3D"nofollow">https://apporigin-idpgraph-e2.=
+az.3pc.att.com:8443/msapi/idgraphuserassociationms/v1/association/update</a=
+></span></p><p><span style=3D"color: rgb(33,33,33);">ChangeAssociationData =
+-&nbsp;<a href=3D"https://apporigin-idpgraph-e2.az.3pc.att.com:8443/msapi/i=
+dgraphuserassociationms/v1/association/changeData" class=3D"external-link" =
+rel=3D"nofollow">https://apporigin-idpgraph-e2.az.3pc.att.com:8443/msapi/id=
+graphuserassociationms/v1/association/changeData</a></span></p><p><span sty=
+le=3D"color: rgb(33,33,33);">RemoveAssociation<a href=3D"https://apporigin-=
+idpgraph-w2.az.3pc.att.com:8443/msapi/idgraphuserassociationms/v1/associati=
+on/remove" class=3D"external-link" rel=3D"nofollow">https://apporigin-idpgr=
+aph-e2.az.3pc.att.com:8443/msapi/idgraphuserassociationms/v1/association/re=
+move</a></span></p><p><span style=3D"color: rgb(33,33,33);">ChangeStatus -&=
+nbsp;<a href=3D"https://apporigin-idpgraph-e2.az.3pc.att.com:8443/msapi/idg=
+raphuserassociationms/v1/association/changeStatus" class=3D"external-link" =
+rel=3D"nofollow">https://apporigin-idpgraph-e2.az.3pc.att.com:8443/msapi/id=
+graphuserassociationms/v1/association/changeStatus</a></span></p><p><span s=
+tyle=3D"color: rgb(33,33,33);">ValidateAccountCredentials - <a href=3D"http=
+s://apporigin-tst3-idpgraph-e2.az.3pc.att.com:8443/msapi/idgraphuserassocia=
+tionms/v1/credentials/account/validate" class=3D"external-link" rel=3D"nofo=
+llow">https://apporigin-idpgraph-e2.az.3pc.att.com:8443/msapi/idgraphuseras=
+sociationms/v1/credentials/account/validate</a></span></p></td>
+<td class=3D"confluenceTd"><p><span style=3D"color: rgb(33,33,33);"><a href=
+=3D"https://apporigin-idpgraph-w2.az.3pc.att.com:8443/msapi/idgraphuserasso=
+ciationms/v1/association/add" class=3D"external-link" rel=3D"nofollow">http=
+s://apporigin-idpgraph-w2.az.3pc.att.com:8443/msapi/idgraphuserassociationm=
+s/v1/association/add</a></span></p><p><span style=3D"color: rgb(33,33,33);"=
+><a href=3D"https://apporigin-idpgraph-e2.az.3pc.att.com:8443/msapi/idgraph=
+userassociationms/v1/association/update" class=3D"external-link" rel=3D"nof=
+ollow">https://apporigin-idpgraph-w2.az.3pc.att.com:8443/msapi/idgraphusera=
+ssociationms/v1/association/update</a></span></p><p><span style=3D"color: r=
+gb(33,33,33);"><a href=3D"https://apporigin-idpgraph-e2.az.3pc.att.com:8443=
+/msapi/idgraphuserassociationms/v1/association/changeData" class=3D"externa=
+l-link" rel=3D"nofollow">https://apporigin-idpgraph-w2.az.3pc.att.com:8443/=
+msapi/idgraphuserassociationms/v1/association/changeData</a></span></p><p><=
+span style=3D"color: rgb(33,33,33);"><a href=3D"https://apporigin-idpgraph-=
+w2.az.3pc.att.com:8443/msapi/idgraphuserassociationms/v1/association/remove=
+" class=3D"external-link" rel=3D"nofollow">https://apporigin-idpgraph-w2.az=
+.3pc.att.com:8443/msapi/idgraphuserassociationms/v1/association/remove</a><=
+/span></p><p><span style=3D"color: rgb(33,33,33);"><a href=3D"https://appor=
+igin-idpgraph-e2.az.3pc.att.com:8443/msapi/idgraphuserassociationms/v1/asso=
+ciation/changeStatus" class=3D"external-link" rel=3D"nofollow">https://appo=
+rigin-idpgraph-w2.az.3pc.att.com:8443/msapi/idgraphuserassociationms/v1/ass=
+ociation/changeStatus</a></span></p><p><span style=3D"color: rgb(33,33,33);=
+"><a href=3D"https://apporigin-tst3-idpgraph-e2.az.3pc.att.com:8443/msapi/i=
+dgraphuserassociationms/v1/credentials/account/validate" class=3D"external-=
+link" rel=3D"nofollow">https://apporigin-idpgraph-w2.az.3pc.att.com:8443/ms=
+api/idgraphuserassociationms/v1/credentials/account/validate</a></span></p>=
+</td>
+<td class=3D"confluenceTd"><p><a href=3D"https://apporigin-idpgraph-scus.az=
+.3pc.att.com:8443/msapi/idgraphuserassociationms/v1/association/add" class=
+=3D"external-link" rel=3D"nofollow">https://apporigin-idpgraph-sc.az.3pc.at=
+t.com:8443/msapi/idgraphuserassociationms/v1/association/add</a></p><p><a h=
+ref=3D"https://apporigin-idpgraph-scus.az.3pc.att.com:8443/msapi/idgraphuse=
+rassociationms/v1/association/update" class=3D"external-link" rel=3D"nofoll=
+ow">https://apporigin-idpgraph-sc.az.3pc.att.com:8443/msapi/idgraphuserasso=
+ciationms/v1/association/update</a></p><p><a href=3D"https://apporigin-idpg=
+raph-scus.az.3pc.att.com:8443/msapi/idgraphuserassociationms/v1/association=
+/changeData" class=3D"external-link" rel=3D"nofollow">https://apporigin-idp=
+graph-sc.az.3pc.att.com:8443/msapi/idgraphuserassociationms/v1/association/=
+changeData</a></p><p><a href=3D"https://apporigin-idpgraph-scus.az.3pc.att.=
+com:8443/msapi/idgraphuserassociationms/v1/association/remove" class=3D"ext=
+ernal-link" rel=3D"nofollow">https://apporigin-idpgraph-sc.az.3pc.att.com:8=
+443/msapi/idgraphuserassociationms/v1/association/remove</a></p><p><a href=
+=3D"https://apporigin-idpgraph-scus.az.3pc.att.com:8443/msapi/idgraphuseras=
+sociationms/v1/association/changeStatus" class=3D"external-link" rel=3D"nof=
+ollow">https://apporigin-idpgraph-sc.az.3pc.att.com:8443/msapi/idgraphusera=
+ssociationms/v1/association/changeStatus</a></p><p><a href=3D"https://appor=
+igin-idpgraph-scus.az.3pc.att.com:8443/msapi/idgraphuserassociationms/v1/cr=
+edentials/account/validate" class=3D"external-link" rel=3D"nofollow">https:=
+//apporigin-idpgraph-sc.az.3pc.att.com:8443/msapi/idgraphuserassociationms/=
+v1/credentials/account/validate</a></p><p><span style=3D"color: rgb(33,33,3=
+3);">&nbsp;</span></p></td>
+<td class=3D"confluenceTd"><p><span style=3D"color: rgb(33,33,33);"><a href=
+=3D"https://apporigin-idpgraph-w2.az.3pc.att.com:8443/msapi/idgraphuserasso=
+ciationms/v1/association/add" class=3D"external-link" rel=3D"nofollow">http=
+s://</a><a class=3D"external-link" style=3D"text-align: left;" href=3D"http=
+://apporigin-idpgraph-cnry-e2.az.3pc.att.com/" rel=3D"nofollow">apporigin-i=
+dpgraph-cnry-e2.az.3pc.att.com</a><a href=3D"https://apporigin-idpgraph-w2.=
+az.3pc.att.com:8443/msapi/idgraphuserassociationms/v1/association/add" clas=
+s=3D"external-link" rel=3D"nofollow">:8443/msapi/idgraphuserassociationms/v=
+1/association/add</a></span></p><p><span style=3D"color: rgb(33,33,33);"><a=
+ href=3D"https://apporigin-idpgraph-e2.az.3pc.att.com:8443/msapi/idgraphuse=
+rassociationms/v1/association/update" class=3D"external-link" rel=3D"nofoll=
+ow">https://</a><a class=3D"external-link" style=3D"text-align: left;" href=
+=3D"http://apporigin-idpgraph-cnry-e2.az.3pc.att.com/" rel=3D"nofollow">app=
+origin-idpgraph-cnry-e2.az.3pc.att.com</a><a href=3D"https://apporigin-idpg=
+raph-e2.az.3pc.att.com:8443/msapi/idgraphuserassociationms/v1/association/u=
+pdate" class=3D"external-link" rel=3D"nofollow">:8443/msapi/idgraphuserasso=
+ciationms/v1/association/update</a></span></p><p><span style=3D"color: rgb(=
+33,33,33);"><a href=3D"https://apporigin-idpgraph-e2.az.3pc.att.com:8443/ms=
+api/idgraphuserassociationms/v1/association/changeData" class=3D"external-l=
+ink" rel=3D"nofollow">https://</a><a class=3D"external-link" style=3D"text-=
+align: left;" href=3D"http://apporigin-idpgraph-cnry-e2.az.3pc.att.com/" re=
+l=3D"nofollow">apporigin-idpgraph-cnry-e2.az.3pc.att.com</a><a href=3D"http=
+s://apporigin-idpgraph-e2.az.3pc.att.com:8443/msapi/idgraphuserassociationm=
+s/v1/association/changeData" class=3D"external-link" rel=3D"nofollow">:8443=
+/msapi/idgraphuserassociationms/v1/association/changeData</a></span></p><p>=
+<span style=3D"color: rgb(33,33,33);"><a href=3D"https://apporigin-idpgraph=
+-w2.az.3pc.att.com:8443/msapi/idgraphuserassociationms/v1/association/remov=
+e" class=3D"external-link" rel=3D"nofollow">https://</a><a class=3D"externa=
+l-link" style=3D"text-align: left;" href=3D"http://apporigin-idpgraph-cnry-=
+e2.az.3pc.att.com/" rel=3D"nofollow">apporigin-idpgraph-cnry-e2.az.3pc.att.=
+com</a><a href=3D"https://apporigin-idpgraph-w2.az.3pc.att.com:8443/msapi/i=
+dgraphuserassociationms/v1/association/remove" class=3D"external-link" rel=
+=3D"nofollow">:8443/msapi/idgraphuserassociationms/v1/association/remove</a=
+></span></p><p><span style=3D"color: rgb(33,33,33);"><a href=3D"https://app=
+origin-idpgraph-e2.az.3pc.att.com:8443/msapi/idgraphuserassociationms/v1/as=
+sociation/changeStatus" class=3D"external-link" rel=3D"nofollow">https://</=
+a><a class=3D"external-link" style=3D"text-align: left;" href=3D"http://app=
+origin-idpgraph-cnry-e2.az.3pc.att.com/" rel=3D"nofollow">apporigin-idpgrap=
+h-cnry-e2.az.3pc.att.com</a><a href=3D"https://apporigin-idpgraph-e2.az.3pc=
+.att.com:8443/msapi/idgraphuserassociationms/v1/association/changeStatus" c=
+lass=3D"external-link" rel=3D"nofollow">:8443/msapi/idgraphuserassociationm=
+s/v1/association/changeStatus</a></span></p><p><span style=3D"color: rgb(33=
+,33,33);"><a href=3D"https://apporigin-tst3-idpgraph-e2.az.3pc.att.com:8443=
+/msapi/idgraphuserassociationms/v1/credentials/account/validate" class=3D"e=
+xternal-link" rel=3D"nofollow">https://</a><a class=3D"external-link" style=
+=3D"text-align: left;" href=3D"http://apporigin-idpgraph-cnry-e2.az.3pc.att=
+.com/" rel=3D"nofollow">apporigin-idpgraph-cnry-e2.az.3pc.att.com</a><a hre=
+f=3D"https://apporigin-tst3-idpgraph-e2.az.3pc.att.com:8443/msapi/idgraphus=
+erassociationms/v1/credentials/account/validate" class=3D"external-link" re=
+l=3D"nofollow">:8443/msapi/idgraphuserassociationms/v1/credentials/account/=
+validate</a></span></p></td>
+</tr>
+<tr>
+<td style=3D"text-align: left;" class=3D"confluenceTd">IDGraphUserManagemen=
+tMs</td>
+<td class=3D"confluenceTd"><p><span style=3D"color: rgb(33,33,33);">AddUser=
+ -&nbsp;<a href=3D"https://apporigin-idpgraph-e2.az.3pc.att.com:8443/msapi/=
+idgraphusermanagementms/v1/user/add" class=3D"external-link" rel=3D"nofollo=
+w">https://apporigin-idpgraph-e2.az.3pc.att.com:8443/msapi/idgraphusermanag=
+ementms/v1/user/add</a></span></p><p><span style=3D"color: rgb(33,33,33);">=
+CheckUserIdAvailability -&nbsp;<a href=3D"https://apporigin-idpgraph-e2.az.=
+3pc.att.com:8443/msapi/idgraphusermanagementms/v1/user/checkUserIdAvailabil=
+ity" class=3D"external-link" rel=3D"nofollow">https://apporigin-idpgraph-e2=
+.az.3pc.att.com:8443/msapi/idgraphusermanagementms/v1/user/checkUserIdAvail=
+ability</a></span></p><p><span style=3D"color: rgb(33,33,33);">CheckUserIDM=
+ergeEligibility -&nbsp;<a href=3D"https://apporigin-idpgraph-e2.az.3pc.att.=
+com:8443/msapi/idgraphusermanagementms/v1/user/checkEligibility" class=3D"e=
+xternal-link" rel=3D"nofollow">https://apporigin-idpgraph-e2.az.3pc.att.com=
+:8443/msapi/idgraphusermanagementms/v1/user/checkEligibility</a></span></p>=
+<p><span style=3D"color: rgb(33,33,33);">ChangeUserName - <a href=3D"https:=
+//apporigin-idpgraph-e2.az.3pc.att.com:8443/msapi/idgraphusermanagementms/v=
+1/user/change" class=3D"external-link" rel=3D"nofollow">https://apporigin-i=
+dpgraph-e2.az.3pc.att.com:8443/msapi/idgraphusermanagementms/v1/user/change=
+</a></span></p><p><span style=3D"color: rgb(33,33,33);">UpdateUserFraud -&n=
+bsp;<a href=3D"https://apporigin-idpgraph-w2.az.3pc.att.com:8443/msapi/idgr=
+aphusermanagementms/v1/user/updateFraud" class=3D"external-link" rel=3D"nof=
+ollow">https://apporigin-idpgraph-e2.az.3pc.att.com:8443/msapi/idgraphuserm=
+anagementms/v1/user/updateFraud</a></span></p><p><span style=3D"color: rgb(=
+33,33,33);">ValidateUserCredentials - <a href=3D"https://apporigin-tst3-idp=
+graph-e2.az.3pc.att.com:8443/msapi/idgraphusermanagementms/v1/user/credenti=
+als/validate" class=3D"external-link" rel=3D"nofollow">https://apporigin-id=
+pgraph-e2.az.3pc.att.com:8443/msapi/idgraphusermanagementms/v1/user/credent=
+ials/validate</a></span></p><p><span style=3D"color: rgb(33,33,33);">AddExt=
+User - <a href=3D"https://apporigin-idpgraph-e2.az.3pc.att.com:8443/msapi/i=
+dgraphusermanagementms/v1/user/addExt" class=3D"external-link" rel=3D"nofol=
+low">https://apporigin-idpgraph-e2.az.3pc.att.com:8443/msapi/idgraphuserman=
+agementms/v1/user/addExt</a></span></p><p><span style=3D"color: rgb(33,33,3=
+3);">UpdateExtUser - <a href=3D"https://apporigin-tst2-idpgraph-e2.az.3pc.a=
+tt.com:8443/msapi/idgraphusermanagementms/v1/user/updateExt" class=3D"exter=
+nal-link" rel=3D"nofollow">https://apporigin-idpgraph-e2.az.3pc.att.com:844=
+3/msapi/idgraphusermanagementms/v1/user/updateExt</a></span></p><p><span st=
+yle=3D"color: rgb(33,33,33);">UpdaeUserContactCBR -&nbsp;<a href=3D"https:/=
+/apporigin-tst3-idpgraph-e2.az.3pc.att.com:8443/msapi/idgraphusermanagement=
+ms/v1/contacts/user/update" class=3D"external-link" rel=3D"nofollow">https:=
+//apporigin-idpgraph-e2.az.3pc.att.com:8443/msapi/idgraphusermanagementms/v=
+1/contacts/user/update</a></span></p></td>
+<td class=3D"confluenceTd"><p><span style=3D"color: rgb(33,33,33);"><a href=
+=3D"https://apporigin-idpgraph-e2.az.3pc.att.com:8443/msapi/idgraphusermana=
+gementms/v1/user/add" class=3D"external-link" rel=3D"nofollow">https://appo=
+rigin-idpgraph-w2.az.3pc.att.com:8443/msapi/idgraphusermanagementms/v1/user=
+/add</a></span></p><p><span style=3D"color: rgb(33,33,33);"><a href=3D"http=
+s://apporigin-idpgraph-e2.az.3pc.att.com:8443/msapi/idgraphusermanagementms=
+/v1/user/checkUserIdAvailability" class=3D"external-link" rel=3D"nofollow">=
+https://apporigin-idpgraph-w2.az.3pc.att.com:8443/msapi/idgraphusermanageme=
+ntms/v1/user/checkUserIdAvailability</a></span></p><p><span style=3D"color:=
+ rgb(33,33,33);"><a href=3D"https://apporigin-idpgraph-e2.az.3pc.att.com:84=
+43/msapi/idgraphusermanagementms/v1/user/checkEligibility" class=3D"externa=
+l-link" rel=3D"nofollow">https://apporigin-idpgraph-w2.az.3pc.att.com:8443/=
+msapi/idgraphusermanagementms/v1/user/checkEligibility</a></span></p><p><sp=
+an style=3D"color: rgb(33,33,33);"><a href=3D"https://apporigin-idpgraph-e2=
+.az.3pc.att.com:8443/msapi/idgraphusermanagementms/v1/user/change" class=3D=
+"external-link" rel=3D"nofollow">https://apporigin-idpgraph-w2.az.3pc.att.c=
+om:8443/msapi/idgraphusermanagementms/v1/user/change</a></span></p><p><span=
+ style=3D"color: rgb(33,33,33);"><a href=3D"https://apporigin-idpgraph-w2.a=
+z.3pc.att.com:8443/msapi/idgraphusermanagementms/v1/user/updateFraud" class=
+=3D"external-link" rel=3D"nofollow">https://apporigin-idpgraph-w2.az.3pc.at=
+t.com:8443/msapi/idgraphusermanagementms/v1/user/updateFraud</a></span></p>=
+<p><span style=3D"color: rgb(33,33,33);"><a href=3D"https://apporigin-tst3-=
+idpgraph-e2.az.3pc.att.com:8443/msapi/idgraphusermanagementms/v1/user/crede=
+ntials/validate" class=3D"external-link" rel=3D"nofollow">https://apporigin=
+-idpgraph-w2.az.3pc.att.com:8443/msapi/idgraphusermanagementms/v1/user/cred=
+entials/validate</a></span></p><p><span style=3D"color: rgb(33,33,33);"><a =
+href=3D"https://apporigin-idpgraph-e2.az.3pc.att.com:8443/msapi/idgraphuser=
+managementms/v1/user/addExt" class=3D"external-link" rel=3D"nofollow">https=
+://apporigin-idpgraph-w2.az.3pc.att.com:8443/msapi/idgraphusermanagementms/=
+v1/user/addExt</a></span></p><p><span style=3D"color: rgb(33,33,33);"><a hr=
+ef=3D"https://apporigin-tst2-idpgraph-e2.az.3pc.att.com:8443/msapi/idgraphu=
+sermanagementms/v1/user/updateExt" class=3D"external-link" rel=3D"nofollow"=
+>https://apporigin-idpgraph-w2.az.3pc.att.com:8443/msapi/idgraphusermanagem=
+entms/v1/user/updateExt</a></span></p><p><span style=3D"color: rgb(33,33,33=
+);"><a href=3D"https://apporigin-tst3-idpgraph-e2.az.3pc.att.com:8443/msapi=
+/idgraphusermanagementms/v1/contacts/user/update" class=3D"external-link" r=
+el=3D"nofollow">https://apporigin-tst3-idpgraph-w2.az.3pc.att.com:8443/msap=
+i/idgraphusermanagementms/v1/contacts/user/update</a></span></p></td>
+<td class=3D"confluenceTd"><p><a href=3D"https://apporigin-idpgraph-scus.az=
+.3pc.att.com:8443/msapi/idgraphusermanagementms/v1/user/add" class=3D"exter=
+nal-link" rel=3D"nofollow">https://apporigin-idpgraph-sc.az.3pc.att.com:844=
+3/msapi/idgraphusermanagementms/v1/user/add</a></p><p><a href=3D"https://ap=
+porigin-idpgraph-scus.az.3pc.att.com:8443/msapi/idgraphusermanagementms/v1/=
+user/checkUserIdAvailability" class=3D"external-link" rel=3D"nofollow">http=
+s://apporigin-idpgraph-sc.az.3pc.att.com:8443/msapi/idgraphusermanagementms=
+/v1/user/checkUserIdAvailability</a></p><p><a href=3D"https://apporigin-idp=
+graph-scus.az.3pc.att.com:8443/msapi/idgraphusermanagementms/v1/user/checkE=
+ligibility" class=3D"external-link" rel=3D"nofollow">https://apporigin-idpg=
+raph-sc.az.3pc.att.com:8443/msapi/idgraphusermanagementms/v1/user/checkElig=
+ibility</a></p><p><a href=3D"https://apporigin-idpgraph-scus.az.3pc.att.com=
+:8443/msapi/idgraphusermanagementms/v1/user/change" class=3D"external-link"=
+ rel=3D"nofollow">https://apporigin-idpgraph-sc.az.3pc.att.com:8443/msapi/i=
+dgraphusermanagementms/v1/user/change</a></p><p><a href=3D"https://apporigi=
+n-idpgraph-scus.az.3pc.att.com:8443/msapi/idgraphusermanagementms/v1/user/u=
+pdateFraud" class=3D"external-link" rel=3D"nofollow">https://apporigin-idpg=
+raph-sc.az.3pc.att.com:8443/msapi/idgraphusermanagementms/v1/user/updateFra=
+ud</a></p><p><a href=3D"https://apporigin-idpgraph-scus.az.3pc.att.com:8443=
+/msapi/idgraphusermanagementms/v1/user/credentials/validate" class=3D"exter=
+nal-link" rel=3D"nofollow">https://apporigin-idpgraph-sc.az.3pc.att.com:844=
+3/msapi/idgraphusermanagementms/v1/user/credentials/validate</a></p><p><a h=
+ref=3D"https://apporigin-idpgraph-scus.az.3pc.att.com:8443/msapi/idgraphuse=
+rmanagementms/v1/user/addExt" class=3D"external-link" rel=3D"nofollow">http=
+s://apporigin-idpgraph-sc.az.3pc.att.com:8443/msapi/idgraphusermanagementms=
+/v1/user/addExt</a></p><p><a href=3D"https://apporigin-idpgraph-scus.az.3pc=
+.att.com:8443/msapi/idgraphusermanagementms/v1/user/updateExt" class=3D"ext=
+ernal-link" rel=3D"nofollow">https://apporigin-idpgraph-sc.az.3pc.att.com:8=
+443/msapi/idgraphusermanagementms/v1/user/updateExt</a></p><p><a href=3D"ht=
+tps://apporigin-tst3-idpgraph-w2.az.3pc.att.com:8443/msapi/idgraphusermanag=
+ementms/v1/contacts/user/update" class=3D"external-link" rel=3D"nofollow">h=
+ttps://apporigin-tst3-idpgraph-w2.az.3pc.att.com:8443/msapi/idgraphusermana=
+gementms/v1/contacts/user/update</a></p><p><span style=3D"color: rgb(33,33,=
+33);">&nbsp;</span></p></td>
+<td class=3D"confluenceTd"><p><span style=3D"color: rgb(33,33,33);"><a href=
+=3D"https://apporigin-idpgraph-e2.az.3pc.att.com:8443/msapi/idgraphusermana=
+gementms/v1/user/add" class=3D"external-link" rel=3D"nofollow">https://</a>=
+<a class=3D"external-link" style=3D"text-align: left;" href=3D"http://appor=
+igin-idpgraph-cnry-e2.az.3pc.att.com/" rel=3D"nofollow">apporigin-idpgraph-=
+cnry-e2.az.3pc.att.com</a><a href=3D"https://apporigin-idpgraph-e2.az.3pc.a=
+tt.com:8443/msapi/idgraphusermanagementms/v1/user/add" class=3D"external-li=
+nk" rel=3D"nofollow">:8443/msapi/idgraphusermanagementms/v1/user/add</a></s=
+pan></p><p><span style=3D"color: rgb(33,33,33);"><a href=3D"https://apporig=
+in-idpgraph-e2.az.3pc.att.com:8443/msapi/idgraphusermanagementms/v1/user/ch=
+eckUserIdAvailability" class=3D"external-link" rel=3D"nofollow">https://</a=
+><a class=3D"external-link" style=3D"text-align: left;" href=3D"http://appo=
+rigin-idpgraph-cnry-e2.az.3pc.att.com/" rel=3D"nofollow">apporigin-idpgraph=
+-cnry-e2.az.3pc.att.com</a><a href=3D"https://apporigin-idpgraph-e2.az.3pc.=
+att.com:8443/msapi/idgraphusermanagementms/v1/user/checkUserIdAvailability"=
+ class=3D"external-link" rel=3D"nofollow">:8443/msapi/idgraphusermanagement=
+ms/v1/user/checkUserIdAvailability</a></span></p><p><span style=3D"color: r=
+gb(33,33,33);"><a href=3D"https://apporigin-idpgraph-e2.az.3pc.att.com:8443=
+/msapi/idgraphusermanagementms/v1/user/checkEligibility" class=3D"external-=
+link" rel=3D"nofollow">https://</a><a class=3D"external-link" style=3D"text=
+-align: left;" href=3D"http://apporigin-idpgraph-cnry-e2.az.3pc.att.com/" r=
+el=3D"nofollow">apporigin-idpgraph-cnry-e2.az.3pc.att.com</a><a href=3D"htt=
+ps://apporigin-idpgraph-e2.az.3pc.att.com:8443/msapi/idgraphusermanagementm=
+s/v1/user/checkEligibility" class=3D"external-link" rel=3D"nofollow">:8443/=
+msapi/idgraphusermanagementms/v1/user/checkEligibility</a></span></p><p><sp=
+an style=3D"color: rgb(33,33,33);"><a href=3D"https://apporigin-idpgraph-e2=
+.az.3pc.att.com:8443/msapi/idgraphusermanagementms/v1/user/change" class=3D=
+"external-link" rel=3D"nofollow">https://</a><a class=3D"external-link" sty=
+le=3D"text-align: left;" href=3D"http://apporigin-idpgraph-cnry-e2.az.3pc.a=
+tt.com/" rel=3D"nofollow">apporigin-idpgraph-cnry-e2.az.3pc.att.com</a><a h=
+ref=3D"https://apporigin-idpgraph-e2.az.3pc.att.com:8443/msapi/idgraphuserm=
+anagementms/v1/user/change" class=3D"external-link" rel=3D"nofollow">:8443/=
+msapi/idgraphusermanagementms/v1/user/change</a></span></p><p><span style=
+=3D"color: rgb(33,33,33);"><a href=3D"https://apporigin-idpgraph-w2.az.3pc.=
+att.com:8443/msapi/idgraphusermanagementms/v1/user/updateFraud" class=3D"ex=
+ternal-link" rel=3D"nofollow">https://</a><a class=3D"external-link" style=
+=3D"text-align: left;" href=3D"http://apporigin-idpgraph-cnry-e2.az.3pc.att=
+.com/" rel=3D"nofollow">apporigin-idpgraph-cnry-e2.az.3pc.att.com</a><a hre=
+f=3D"https://apporigin-idpgraph-w2.az.3pc.att.com:8443/msapi/idgraphuserman=
+agementms/v1/user/updateFraud" class=3D"external-link" rel=3D"nofollow">:84=
+43/msapi/idgraphusermanagementms/v1/user/updateFraud</a></span></p><p><span=
+ style=3D"color: rgb(33,33,33);"><a href=3D"https://apporigin-tst3-idpgraph=
+-e2.az.3pc.att.com:8443/msapi/idgraphusermanagementms/v1/user/credentials/v=
+alidate" class=3D"external-link" rel=3D"nofollow">https://</a><a class=3D"e=
+xternal-link" style=3D"text-align: left;" href=3D"http://apporigin-idpgraph=
+-cnry-e2.az.3pc.att.com/" rel=3D"nofollow">apporigin-idpgraph-cnry-e2.az.3p=
+c.att.com</a><a href=3D"https://apporigin-tst3-idpgraph-e2.az.3pc.att.com:8=
+443/msapi/idgraphusermanagementms/v1/user/credentials/validate" class=3D"ex=
+ternal-link" rel=3D"nofollow">:8443/msapi/idgraphusermanagementms/v1/user/c=
+redentials/validate</a></span></p><p><span style=3D"color: rgb(33,33,33);">=
+<a href=3D"https://apporigin-idpgraph-e2.az.3pc.att.com:8443/msapi/idgraphu=
+sermanagementms/v1/user/addExt" class=3D"external-link" rel=3D"nofollow">ht=
+tps://</a><a class=3D"external-link" style=3D"text-align: left;" href=3D"ht=
+tp://apporigin-idpgraph-cnry-e2.az.3pc.att.com/" rel=3D"nofollow">apporigin=
+-idpgraph-cnry-e2.az.3pc.att.com</a><a href=3D"https://apporigin-idpgraph-e=
+2.az.3pc.att.com:8443/msapi/idgraphusermanagementms/v1/user/addExt" class=
+=3D"external-link" rel=3D"nofollow">:8443/msapi/idgraphusermanagementms/v1/=
+user/addExt</a></span></p><p><span style=3D"color: rgb(33,33,33);"><a href=
+=3D"https://apporigin-tst2-idpgraph-e2.az.3pc.att.com:8443/msapi/idgraphuse=
+rmanagementms/v1/user/updateExt" class=3D"external-link" rel=3D"nofollow">h=
+ttps://</a><a class=3D"external-link" style=3D"text-align: left;" href=3D"h=
+ttp://apporigin-idpgraph-cnry-e2.az.3pc.att.com/" rel=3D"nofollow">apporigi=
+n-idpgraph-cnry-e2.az.3pc.att.com</a><a href=3D"https://apporigin-tst2-idpg=
+raph-e2.az.3pc.att.com:8443/msapi/idgraphusermanagementms/v1/user/updateExt=
+" class=3D"external-link" rel=3D"nofollow">:8443/msapi/idgraphusermanagemen=
+tms/v1/user/updateExt</a></span></p><p><span style=3D"color: rgb(33,33,33);=
+"><a href=3D"https://apporigin-tst3-idpgraph-e2.az.3pc.att.com:8443/msapi/i=
+dgraphusermanagementms/v1/contacts/user/update" class=3D"external-link" rel=
+=3D"nofollow">https://</a><a class=3D"external-link" style=3D"text-align: l=
+eft;" href=3D"http://apporigin-idpgraph-cnry-e2.az.3pc.att.com/" rel=3D"nof=
+ollow">apporigin-idpgraph-cnry-e2.az.3pc.att.com</a><a href=3D"https://appo=
+rigin-tst3-idpgraph-e2.az.3pc.att.com:8443/msapi/idgraphusermanagementms/v1=
+/contacts/user/update" class=3D"external-link" rel=3D"nofollow">:8443/msapi=
+/idgraphusermanagementms/v1/contacts/user/update</a></span></p></td>
+</tr>
+<tr>
+<td style=3D"text-align: left;" class=3D"confluenceTd">IDGraphUserProfileMs=
+</td>
+<td class=3D"confluenceTd"><p><span style=3D"color: rgb(33,33,33);">Inquire=
+Profile -&nbsp;<a href=3D"https://apporigin-idpgraph-e2.az.3pc.att.com:8443=
+/msapi/idgraphuserprofilems/v1/user/inquireDetails" class=3D"external-link"=
+ rel=3D"nofollow">https://apporigin-idpgraph-e2.az.3pc.att.com:8443/msapi/i=
+dgraphuserprofilems/v1/user/inquireDetails</a></span></p><p><span style=3D"=
+color: rgb(33,33,33);">InquireAssociatedAccessIds -&nbsp;<a href=3D"https:/=
+/apporigin-idpgraph-e2.az.3pc.att.com:8443/msapi/idgraphuserprofilems/v1/us=
+er/inquireAssociatedAccessIds" class=3D"external-link" rel=3D"nofollow">htt=
+ps://apporigin-idpgraph-e2.az.3pc.att.com:8443/msapi/idgraphuserprofilems/v=
+1/user/inquireAssociatedAccessIds</a></span></p><p><span style=3D"color: rg=
+b(33,33,33);">QuerySecurityQuestions -&nbsp;<a href=3D"https://apporigin-id=
+pgraph-e2.az.3pc.att.com:8443/msapi/idgraphuserprofilems/v1/query/securityQ=
+uestions" class=3D"external-link" rel=3D"nofollow">https://apporigin-idpgra=
+ph-e2.az.3pc.att.com:8443/msapi/idgraphuserprofilems/v1/query/securityQuest=
+ions</a></span></p></td>
+<td class=3D"confluenceTd"><p><span style=3D"color: rgb(33,33,33);"><a href=
+=3D"https://apporigin-idpgraph-e2.az.3pc.att.com:8443/msapi/idgraphuserprof=
+ilems/v1/user/inquireDetails" class=3D"external-link" rel=3D"nofollow">http=
+s://apporigin-idpgraph-w2.az.3pc.att.com:8443/msapi/idgraphuserprofilems/v1=
+/user/inquireDetails</a></span></p><p><span style=3D"color: rgb(33,33,33);"=
+><a href=3D"https://apporigin-idpgraph-e2.az.3pc.att.com:8443/msapi/idgraph=
+userprofilems/v1/user/inquireAssociatedAccessIds" class=3D"external-link" r=
+el=3D"nofollow">https://apporigin-idpgraph-w2.az.3pc.att.com:8443/msapi/idg=
+raphuserprofilems/v1/user/inquireAssociatedAccessIds</a></span></p><p><span=
+ style=3D"color: rgb(33,33,33);"><a href=3D"https://apporigin-idpgraph-e2.a=
+z.3pc.att.com:8443/msapi/idgraphuserprofilems/v1/query/securityQuestions" c=
+lass=3D"external-link" rel=3D"nofollow">https://apporigin-idpgraph-w2.az.3p=
+c.att.com:8443/msapi/idgraphuserprofilems/v1/query/securityQuestions</a></s=
+pan></p></td>
+<td class=3D"confluenceTd"><p><a href=3D"https://apporigin-idpgraph-scus.az=
+.3pc.att.com:8443/msapi/idgraphuserprofilems/v1/user/inquireDetails" class=
+=3D"external-link" rel=3D"nofollow">https://apporigin-idpgraph-sc.az.3pc.at=
+t.com:8443/msapi/idgraphuserprofilems/v1/user/inquireDetails</a></p><p><a h=
+ref=3D"https://apporigin-idpgraph-scus.az.3pc.att.com:8443/msapi/idgraphuse=
+rprofilems/v1/user/inquireAssociatedAccessIds" class=3D"external-link" rel=
+=3D"nofollow">https://apporigin-idpgraph-sc.az.3pc.att.com:8443/msapi/idgra=
+phuserprofilems/v1/user/inquireAssociatedAccessIds</a></p><p><a href=3D"htt=
+ps://apporigin-idpgraph-scus.az.3pc.att.com:8443/msapi/idgraphuserprofilems=
+/v1/query/securityQuestions" class=3D"external-link" rel=3D"nofollow">https=
+://apporigin-idpgraph-sc.az.3pc.att.com:8443/msapi/idgraphuserprofilems/v1/=
+query/securityQuestions</a></p><p><span style=3D"color: rgb(33,33,33);">&nb=
+sp;</span></p></td>
+<td class=3D"confluenceTd"><p><span style=3D"color: rgb(33,33,33);"><a href=
+=3D"https://apporigin-idpgraph-e2.az.3pc.att.com:8443/msapi/idgraphuserprof=
+ilems/v1/user/inquireDetails" class=3D"external-link" rel=3D"nofollow">http=
+s://</a><a class=3D"external-link" style=3D"text-align: left;" href=3D"http=
+://apporigin-idpgraph-cnry-e2.az.3pc.att.com/" rel=3D"nofollow">apporigin-i=
+dpgraph-cnry-e2.az.3pc.att.com</a><a href=3D"https://apporigin-idpgraph-e2.=
+az.3pc.att.com:8443/msapi/idgraphuserprofilems/v1/user/inquireDetails" clas=
+s=3D"external-link" rel=3D"nofollow">:8443/msapi/idgraphuserprofilems/v1/us=
+er/inquireDetails</a></span></p><p><span style=3D"color: rgb(33,33,33);"><a=
+ href=3D"https://apporigin-idpgraph-e2.az.3pc.att.com:8443/msapi/idgraphuse=
+rprofilems/v1/user/inquireAssociatedAccessIds" class=3D"external-link" rel=
+=3D"nofollow">https://</a><a class=3D"external-link" style=3D"text-align: l=
+eft;" href=3D"http://apporigin-idpgraph-cnry-e2.az.3pc.att.com/" rel=3D"nof=
+ollow">apporigin-idpgraph-cnry-e2.az.3pc.att.com</a><a href=3D"https://appo=
+rigin-idpgraph-e2.az.3pc.att.com:8443/msapi/idgraphuserprofilems/v1/user/in=
+quireAssociatedAccessIds" class=3D"external-link" rel=3D"nofollow">:8443/ms=
+api/idgraphuserprofilems/v1/user/inquireAssociatedAccessIds</a></span></p><=
+p><span style=3D"color: rgb(33,33,33);"><a href=3D"https://apporigin-idpgra=
+ph-e2.az.3pc.att.com:8443/msapi/idgraphuserprofilems/v1/query/securityQuest=
+ions" class=3D"external-link" rel=3D"nofollow">https://</a><a class=3D"exte=
+rnal-link" style=3D"text-align: left;" href=3D"http://apporigin-idpgraph-cn=
+ry-e2.az.3pc.att.com/" rel=3D"nofollow">apporigin-idpgraph-cnry-e2.az.3pc.a=
+tt.com</a><a href=3D"https://apporigin-idpgraph-e2.az.3pc.att.com:8443/msap=
+i/idgraphuserprofilems/v1/query/securityQuestions" class=3D"external-link" =
+rel=3D"nofollow">:8443/msapi/idgraphuserprofilems/v1/query/securityQuestion=
+s</a></span></p></td>
+</tr>
+<tr>
+<td style=3D"text-align: left;" class=3D"confluenceTd">IDGraphUserRegistrat=
+ionMs</td>
+<td class=3D"confluenceTd"><p><span style=3D"color: rgb(33,33,33);">QueryIp=
+ByEligibility -&nbsp;<a href=3D"https://apporigin-idpgraph-e2.az.3pc.att.co=
+m:8443/msapi/idgraphuserregistrationms/v1/lsreg/queryByIPEligibility" class=
+=3D"external-link" rel=3D"nofollow">https://apporigin-idpgraph-e2.az.3pc.at=
+t.com:8443/msapi/idgraphuserregistrationms/v1/lsreg/queryByIPEligibility</a=
+></span></p><p><span style=3D"color: rgb(33,33,33);">TransactionRateLimitSt=
+atus - <a href=3D"https://apporigin-idpgraph-e2.az.3pc.att.com:8443/msapi/i=
+dgraphusermanagementms/v1/register/txnratelimit/verify" class=3D"external-l=
+ink" rel=3D"nofollow">https://apporigin-idpgraph-e2.az.3pc.att.com:8443/msa=
+pi/idgraphusermanagementms/v1/register/txnratelimit/verify</a></span></p><p=
+><span style=3D"color: rgb(33,33,33);">AutogenTempAccessId -&nbsp;<a href=
+=3D"https://apporigin-idpgraph-e2.az.3pc.att.com:8443/msapi/idgraphuserregi=
+strationms/v1/autoreg/tempAccessId" class=3D"external-link" rel=3D"nofollow=
+">https://apporigin-idpgraph-e2.az.3pc.att.com:8443/msapi/idgraphuserregist=
+rationms/v1/autoreg/tempAccessId</a></span></p><p><span style=3D"color: rgb=
+(33,33,33);">UpdateUnifiedTOS -&nbsp;<a href=3D"https://apporigin-idpgraph-=
+e2.az.3pc.att.com:8443/msapi/idgraphuserregistrationms/v1/unifiedTOS/update=
+" class=3D"external-link" rel=3D"nofollow">https://apporigin-idpgraph-e2.az=
+.3pc.att.com:8443/msapi/idgraphuserregistrationms/v1/unifiedTOS/update</a><=
+/span></p><p><span style=3D"color: rgb(33,33,33);">QueryUnifiedTOS -&nbsp;<=
+a href=3D"https://apporigin-idpgraph-e2.az.3pc.att.com:8443/msapi/idgraphus=
+erregistrationms/v1/unifiedTOS/update" class=3D"external-link" rel=3D"nofol=
+low">https://apporigin-idpgraph-e2.az.3pc.att.com:8443/msapi/idgraphuserreg=
+istrationms/v1/unifiedTOS/q</a>uery</span></p><p><span style=3D"color: rgb(=
+33,33,33);">RegisterUser -&nbsp;<a href=3D"https://apporigin-idpgraph-e2.az=
+.3pc.att.com:8443/msapi/idgraphuserregistrationms/v1/lsreg/registerUser" cl=
+ass=3D"external-link" rel=3D"nofollow">https://apporigin-idpgraph-e2.az.3pc=
+.att.com:8443/msapi/idgraphuserregistrationms/v1/lsreg/registerUser</a></sp=
+an></p><p><span style=3D"color: rgb(33,33,33);">PreAccountReg -&nbsp;<a hre=
+f=3D"https://apporigin-idpgraph-e2.az.3pc.att.com:8443/msapi/idgraphuserreg=
+istrationms/v1/autoreg/preAccountReg" class=3D"external-link" rel=3D"nofoll=
+ow">https://apporigin-idpgraph-e2.az.3pc.att.com:8443/msapi/idgraphuserregi=
+strationms/v1/autoreg/preAccountReg</a></span></p><p><span style=3D"color: =
+rgb(33,33,33);">VerifyExistingMemberEligibility -&nbsp;<a href=3D"https://a=
+pporigin-idpgraph-e2.az.3pc.att.com:8443/msapi/idgraphuserregistrationms/v1=
+/lsreg/verifyExistingMemberEligibility" class=3D"external-link" rel=3D"nofo=
+llow">https://apporigin-idpgraph-e2.az.3pc.att.com:8443/msapi/idgraphuserre=
+gistrationms/v1/lsreg/verifyExistingMemberEligibility</a></span></p><p><spa=
+n style=3D"color: rgb(33,33,33);">WirelessOrchestration -&nbsp;<a href=3D"h=
+ttps://apporigin-idpgraph-e2.az.3pc.att.com:8443/msapi/idgraphuserregistrat=
+ionms/v1/orchestration/wireless" class=3D"external-link" rel=3D"nofollow">h=
+ttps://apporigin-idpgraph-e2.az.3pc.att.com:8443/msapi/idgraphuserregistrat=
+ionms/v1/orchestration/wireless</a></span></p><p><span style=3D"color: rgb(=
+33,33,33);">ReriggerQAR -&nbsp;<a href=3D"https://apporigin-idpgraph-e2.az.=
+3pc.att.com:8443/msapi/idgraphuserregistrationms/v1/account/qar/retrigger" =
+class=3D"external-link" rel=3D"nofollow">https://apporigin-idpgraph-e2.az.3=
+pc.att.com:8443/msapi/idgraphuserregistrationms/v1/account/qar/retrigger</a=
+></span></p><p><span style=3D"color: rgb(33,33,33);">ReprovisionUverse - <s=
+pan><span class=3D"ui-provider dz blb bka blc bld ble blf blg blh bli blj b=
+lk bll blm bln blo blp blq blr bls blt blu blv blw blx bly blz bma bmb bmc =
+bmd bme bmf bmg bmh"><a class=3D"external-link" href=3D"https://apporigin-t=
+st2-idpgraph-e2.az.3pc.att.com:8443/msapi/idgraphuserregistrationms/v1/user=
+profile/reprovision/uban%27" title=3D"https://apporigin-tst2-idpgraph-e2.az=
+.3pc.att.com:8443/msapi/idgraphuserregistrationms/v1/userprofile/reprovisio=
+n/uban%27" rel=3D"nofollow">https://apporigin-idpgraph-e2.az.3pc.att.com:84=
+43/msapi/idgraphuserregistrationms/v1/userprofile/reprovision/uban</a></spa=
+n></span></span></p><p><span style=3D"color: rgb(33,33,33);"><span><span cl=
+ass=3D"ui-provider dz blb bka blc bld ble blf blg blh bli blj blk bll blm b=
+ln blo blp blq blr bls blt blu blv blw blx bly blz bma bmb bmc bmd bme bmf =
+bmg bmh">ValidateAndSyncG2 -&nbsp; <a class=3D"external-link" href=3D"https=
+://apporigin-tst2-idpgraph-e2.az.3pc.att.com:8443/msapi/idgraphuserregistra=
+tionms/v1/userprofile/reprovision/uban%27" title=3D"https://apporigin-tst2-=
+idpgraph-e2.az.3pc.att.com:8443/msapi/idgraphuserregistrationms/v1/userprof=
+ile/reprovision/uban%27" rel=3D"nofollow">https://apporigin-idpgraph-e2.az.=
+3pc.att.com:8443/msapi/idgraphuserregistrationms/v1/userprofile/</a>sync</s=
+pan></span></span></p><p><span style=3D"color: rgb(33,33,33);"><span><span =
+class=3D"ui-provider dz blb bka blc bld ble blf blg blh bli blj blk bll blm=
+ bln blo blp blq blr bls blt blu blv blw blx bly blz bma bmb bmc bmd bme bm=
+f bmg bmh">ActivateUban -&nbsp; <a class=3D"external-link" href=3D"https://=
+apporigin-tst2-idpgraph-e2.az.3pc.att.com:8443/msapi/idgraphuserregistratio=
+nms/v1/userprofile/reprovision/uban%27" title=3D"https://apporigin-tst2-idp=
+graph-e2.az.3pc.att.com:8443/msapi/idgraphuserregistrationms/v1/userprofile=
+/reprovision/uban%27" rel=3D"nofollow">https://apporigin-idpgraph-e2.az.3pc=
+.att.com:8443/msapi/idgraphuserregistrationms/v1/userprofile/</a><a class=
+=3D"external-link" href=3D"https://apporigin-tst2-idpgraph-e2.az.3pc.att.co=
+m:8443/msapi/idgraphuserregistrationms/v1/userprofile/reprovision/uban%27" =
+title=3D"https://apporigin-tst2-idpgraph-e2.az.3pc.att.com:8443/msapi/idgra=
+phuserregistrationms/v1/userprofile/reprovision/uban%27" rel=3D"nofollow">a=
+ctivate/uban</a></span></span></span></p><p><br></p></td>
+<td class=3D"confluenceTd"><p><span style=3D"color: rgb(33,33,33);"><a href=
+=3D"https://apporigin-idpgraph-e2.az.3pc.att.com:8443/msapi/idgraphuserregi=
+strationms/v1/lsreg/queryByIPEligibility" class=3D"external-link" rel=3D"no=
+follow">https://apporigin-idpgraph-w2.az.3pc.att.com:8443/msapi/idgraphuser=
+registrationms/v1/lsreg/queryByIPEligibility</a></span></p><p><span style=
+=3D"color: rgb(33,33,33);"><a href=3D"https://apporigin-idpgraph-e2.az.3pc.=
+att.com:8443/msapi/idgraphusermanagementms/v1/register/txnratelimit/verify"=
+ class=3D"external-link" rel=3D"nofollow">https://apporigin-idpgraph-w2.az.=
+3pc.att.com:8443/msapi/idgraphusermanagementms/v1/register/txnratelimit/ver=
+ify</a></span></p><p><span style=3D"color: rgb(33,33,33);"><a href=3D"https=
+://apporigin-idpgraph-e2.az.3pc.att.com:8443/msapi/idgraphuserregistrationm=
+s/v1/autoreg/tempAccessId" class=3D"external-link" rel=3D"nofollow">https:/=
+/apporigin-idpgraph-w2.az.3pc.att.com:8443/msapi/idgraphuserregistrationms/=
+v1/autoreg/tempAccessId</a></span></p><p><span style=3D"color: rgb(33,33,33=
+);"><a href=3D"https://apporigin-idpgraph-e2.az.3pc.att.com:8443/msapi/idgr=
+aphuserregistrationms/v1/unifiedTOS/update" class=3D"external-link" rel=3D"=
+nofollow">https://apporigin-idpgraph-w2.az.3pc.att.com:8443/msapi/idgraphus=
+erregistrationms/v1/unifiedTOS/update</a></span></p><p><span style=3D"color=
+: rgb(33,33,33);"><a href=3D"https://apporigin-idpgraph-e2.az.3pc.att.com:8=
+443/msapi/idgraphuserregistrationms/v1/unifiedTOS/update" class=3D"external=
+-link" rel=3D"nofollow">https://apporigin-idpgraph-w2.az.3pc.att.com:8443/m=
+sapi/idgraphuserregistrationms/v1/unifiedTOS/q</a>uery</span></p><p><span s=
+tyle=3D"color: rgb(33,33,33);"><a href=3D"https://apporigin-idpgraph-e2.az.=
+3pc.att.com:8443/msapi/idgraphuserregistrationms/v1/lsreg/registerUser" cla=
+ss=3D"external-link" rel=3D"nofollow">https://apporigin-idpgraph-w2.az.3pc.=
+att.com:8443/msapi/idgraphuserregistrationms/v1/lsreg/registerUser</a></spa=
+n></p><p><span style=3D"color: rgb(33,33,33);"><a href=3D"https://apporigin=
+-idpgraph-e2.az.3pc.att.com:8443/msapi/idgraphuserregistrationms/v1/autoreg=
+/preAccountReg" class=3D"external-link" rel=3D"nofollow">https://apporigin-=
+idpgraph-w2.az.3pc.att.com:8443/msapi/idgraphuserregistrationms/v1/autoreg/=
+preAccountReg</a></span></p><p><span style=3D"color: rgb(33,33,33);"><a hre=
+f=3D"https://apporigin-idpgraph-e2.az.3pc.att.com:8443/msapi/idgraphuserreg=
+istrationms/v1/lsreg/verifyExistingMemberEligibility" class=3D"external-lin=
+k" rel=3D"nofollow">https://apporigin-idpgraph-w2.az.3pc.att.com:8443/msapi=
+/idgraphuserregistrationms/v1/lsreg/verifyExistingMemberEligibility</a></sp=
+an></p><p><span style=3D"color: rgb(33,33,33);"><a href=3D"https://apporigi=
+n-idpgraph-e2.az.3pc.att.com:8443/msapi/idgraphuserregistrationms/v1/orches=
+tration/wireless" class=3D"external-link" rel=3D"nofollow">https://apporigi=
+n-idpgraph-w2.az.3pc.att.com:8443/msapi/idgraphuserregistrationms/v1/orches=
+tration/wireless</a></span></p><p><span style=3D"color: rgb(33,33,33);"><a =
+href=3D"https://apporigin-idpgraph-e2.az.3pc.att.com:8443/msapi/idgraphuser=
+registrationms/v1/account/qar/retrigger" class=3D"external-link" rel=3D"nof=
+ollow">https://apporigin-idpgraph-w2.az.3pc.att.com:8443/msapi/idgraphuserr=
+egistrationms/v1/account/qar/retrigger</a></span></p><p><span style=3D"colo=
+r: rgb(33,33,33);"><span><span class=3D"ui-provider dz blb bka blc bld ble =
+blf blg blh bli blj blk bll blm bln blo blp blq blr bls blt blu blv blw blx=
+ bly blz bma bmb bmc bmd bme bmf bmg bmh"><a class=3D"external-link" href=
+=3D"https://apporigin-tst2-idpgraph-e2.az.3pc.att.com:8443/msapi/idgraphuse=
+rregistrationms/v1/userprofile/reprovision/uban%27" title=3D"https://appori=
+gin-tst2-idpgraph-e2.az.3pc.att.com:8443/msapi/idgraphuserregistrationms/v1=
+/userprofile/reprovision/uban%27" rel=3D"nofollow">https://apporigin-idpgra=
+ph-w2.az.3pc.att.com:8443/msapi/idgraphuserregistrationms/v1/userprofile/re=
+provision/uban</a></span></span></span></p><p><span style=3D"color: rgb(33,=
+33,33);"><span><span class=3D"ui-provider dz blb bka blc bld ble blf blg bl=
+h bli blj blk bll blm bln blo blp blq blr bls blt blu blv blw blx bly blz b=
+ma bmb bmc bmd bme bmf bmg bmh"> <a class=3D"external-link" href=3D"https:/=
+/apporigin-tst2-idpgraph-e2.az.3pc.att.com:8443/msapi/idgraphuserregistrati=
+onms/v1/userprofile/reprovision/uban%27" title=3D"https://apporigin-tst2-id=
+pgraph-e2.az.3pc.att.com:8443/msapi/idgraphuserregistrationms/v1/userprofil=
+e/reprovision/uban%27" rel=3D"nofollow">https://apporigin-idpgraph-w2.az.3p=
+c.att.com:8443/msapi/idgraphuserregistrationms/v1/userprofile/</a>sync</spa=
+n></span></span></p><p><span style=3D"color: rgb(33,33,33);"><span><span cl=
+ass=3D"ui-provider dz blb bka blc bld ble blf blg blh bli blj blk bll blm b=
+ln blo blp blq blr bls blt blu blv blw blx bly blz bma bmb bmc bmd bme bmf =
+bmg bmh"><a class=3D"external-link" href=3D"https://apporigin-tst2-idpgraph=
+-e2.az.3pc.att.com:8443/msapi/idgraphuserregistrationms/v1/userprofile/repr=
+ovision/uban%27" title=3D"https://apporigin-tst2-idpgraph-e2.az.3pc.att.com=
+:8443/msapi/idgraphuserregistrationms/v1/userprofile/reprovision/uban%27" r=
+el=3D"nofollow">https://apporigin-idpgraph-w2.az.3pc.att.com:8443/msapi/idg=
+raphuserregistrationms/v1/userprofile/</a><a class=3D"external-link" href=
+=3D"https://apporigin-tst2-idpgraph-e2.az.3pc.att.com:8443/msapi/idgraphuse=
+rregistrationms/v1/userprofile/reprovision/uban%27" title=3D"https://appori=
+gin-tst2-idpgraph-e2.az.3pc.att.com:8443/msapi/idgraphuserregistrationms/v1=
+/userprofile/reprovision/uban%27" rel=3D"nofollow">activate/uban</a></span>=
+</span></span></p><p><br></p></td>
+<td class=3D"confluenceTd"><p><a href=3D"https://apporigin-idpgraph-scus.az=
+.3pc.att.com:8443/msapi/idgraphuserregistrationms/v1/lsreg/queryByIPEligibi=
+lity" class=3D"external-link" rel=3D"nofollow">https://apporigin-idpgraph-s=
+c.az.3pc.att.com:8443/msapi/idgraphuserregistrationms/v1/lsreg/queryByIPEli=
+gibility</a></p><p><a href=3D"https://apporigin-idpgraph-scus.az.3pc.att.co=
+m:8443/msapi/idgraphusermanagementms/v1/register/txnratelimit/verify" class=
+=3D"external-link" rel=3D"nofollow">https://apporigin-idpgraph-sc.az.3pc.at=
+t.com:8443/msapi/idgraphusermanagementms/v1/register/txnratelimit/verify</a=
+></p><p><a href=3D"https://apporigin-idpgraph-scus.az.3pc.att.com:8443/msap=
+i/idgraphuserregistrationms/v1/autoreg/tempAccessId" class=3D"external-link=
+" rel=3D"nofollow">https://apporigin-idpgraph-sc.az.3pc.att.com:8443/msapi/=
+idgraphuserregistrationms/v1/autoreg/tempAccessId</a></p><p><a href=3D"http=
+s://apporigin-idpgraph-scus.az.3pc.att.com:8443/msapi/idgraphuserregistrati=
+onms/v1/unifiedTOS/update" class=3D"external-link" rel=3D"nofollow">https:/=
+/apporigin-idpgraph-sc.az.3pc.att.com:8443/msapi/idgraphuserregistrationms/=
+v1/unifiedTOS/update</a></p><p><a href=3D"https://apporigin-idpgraph-scus.a=
+z.3pc.att.com:8443/msapi/idgraphuserregistrationms/v1/unifiedTOS/query" cla=
+ss=3D"external-link" rel=3D"nofollow">https://apporigin-idpgraph-sc.az.3pc.=
+att.com:8443/msapi/idgraphuserregistrationms/v1/unifiedTOS/query</a></p><p>=
+<a href=3D"https://apporigin-idpgraph-scus.az.3pc.att.com:8443/msapi/idgrap=
+huserregistrationms/v1/lsreg/registerUser" class=3D"external-link" rel=3D"n=
+ofollow">https://apporigin-idpgraph-sc.az.3pc.att.com:8443/msapi/idgraphuse=
+rregistrationms/v1/lsreg/registerUser</a></p><p><a href=3D"https://apporigi=
+n-idpgraph-scus.az.3pc.att.com:8443/msapi/idgraphuserregistrationms/v1/auto=
+reg/preAccountReg" class=3D"external-link" rel=3D"nofollow">https://apporig=
+in-idpgraph-sc.az.3pc.att.com:8443/msapi/idgraphuserregistrationms/v1/autor=
+eg/preAccountReg</a></p><p><a href=3D"https://apporigin-idpgraph-scus.az.3p=
+c.att.com:8443/msapi/idgraphuserregistrationms/v1/lsreg/verifyExistingMembe=
+rEligibility" class=3D"external-link" rel=3D"nofollow">https://apporigin-id=
+pgraph-sc.az.3pc.att.com:8443/msapi/idgraphuserregistrationms/v1/lsreg/veri=
+fyExistingMemberEligibility</a></p><p><a href=3D"https://apporigin-idpgraph=
+-scus.az.3pc.att.com:8443/msapi/idgraphuserregistrationms/v1/orchestration/=
+wireless" class=3D"external-link" rel=3D"nofollow">https://apporigin-idpgra=
+ph-sc.az.3pc.att.com:8443/msapi/idgraphuserregistrationms/v1/orchestration/=
+wireless</a></p><p><a href=3D"https://apporigin-idpgraph-scus.az.3pc.att.co=
+m:8443/msapi/idgraphuserregistrationms/v1/account/qar/retrigger" class=3D"e=
+xternal-link" rel=3D"nofollow">https://apporigin-idpgraph-sc.az.3pc.att.com=
+:8443/msapi/idgraphuserregistrationms/v1/account/qar/retrigger</a></p><p><a=
+ href=3D"https://apporigin-idpgraph-scus.az.3pc.att.com:8443/msapi/idgraphu=
+serregistrationms/v1/userprofile/reprovision/uban" class=3D"external-link" =
+rel=3D"nofollow">https://apporigin-idpgraph-sc.az.3pc.att.com:8443/msapi/id=
+graphuserregistrationms/v1/userprofile/reprovision/uban</a></p><p><a href=
+=3D"https://apporigin-idpgraph-scus.az.3pc.att.com:8443/msapi/idgraphuserre=
+gistrationms/v1/userprofile/sync" class=3D"external-link" rel=3D"nofollow">=
+https://apporigin-idpgraph-sc.az.3pc.att.com:8443/msapi/idgraphuserregistra=
+tionms/v1/userprofile/sync</a></p><p><a href=3D"https://apporigin-idpgraph-=
+scus.az.3pc.att.com:8443/msapi/idgraphuserregistrationms/v1/userprofile/act=
+ivate/uban" class=3D"external-link" rel=3D"nofollow">https://apporigin-idpg=
+raph-sc.az.3pc.att.com:8443/msapi/idgraphuserregistrationms/v1/userprofile/=
+activate/uban</a></p><p><span style=3D"color: rgb(33,33,33);">&nbsp;</span>=
+</p></td>
+<td class=3D"confluenceTd"><p><span style=3D"color: rgb(33,33,33);"><a href=
+=3D"https://apporigin-idpgraph-e2.az.3pc.att.com:8443/msapi/idgraphuserregi=
+strationms/v1/lsreg/queryByIPEligibility" class=3D"external-link" rel=3D"no=
+follow">https://</a><a class=3D"external-link" style=3D"text-align: left;" =
+href=3D"http://apporigin-idpgraph-cnry-e2.az.3pc.att.com/" rel=3D"nofollow"=
+>apporigin-idpgraph-cnry-e2.az.3pc.att.com</a><a href=3D"https://apporigin-=
+idpgraph-e2.az.3pc.att.com:8443/msapi/idgraphuserregistrationms/v1/lsreg/qu=
+eryByIPEligibility" class=3D"external-link" rel=3D"nofollow">:8443/msapi/id=
+graphuserregistrationms/v1/lsreg/queryByIPEligibility</a></span></p><p><spa=
+n style=3D"color: rgb(33,33,33);"><a href=3D"https://apporigin-idpgraph-e2.=
+az.3pc.att.com:8443/msapi/idgraphusermanagementms/v1/register/txnratelimit/=
+verify" class=3D"external-link" rel=3D"nofollow">https://</a><a class=3D"ex=
+ternal-link" style=3D"text-align: left;" href=3D"http://apporigin-idpgraph-=
+cnry-e2.az.3pc.att.com/" rel=3D"nofollow">apporigin-idpgraph-cnry-e2.az.3pc=
+.att.com</a><a href=3D"https://apporigin-idpgraph-e2.az.3pc.att.com:8443/ms=
+api/idgraphusermanagementms/v1/register/txnratelimit/verify" class=3D"exter=
+nal-link" rel=3D"nofollow">:8443/msapi/idgraphusermanagementms/v1/register/=
+txnratelimit/verify</a></span></p><p><span style=3D"color: rgb(33,33,33);">=
+<a href=3D"https://apporigin-idpgraph-e2.az.3pc.att.com:8443/msapi/idgraphu=
+serregistrationms/v1/autoreg/tempAccessId" class=3D"external-link" rel=3D"n=
+ofollow">https://</a><a class=3D"external-link" style=3D"text-align: left;"=
+ href=3D"http://apporigin-idpgraph-cnry-e2.az.3pc.att.com/" rel=3D"nofollow=
+">apporigin-idpgraph-cnry-e2.az.3pc.att.com</a><a href=3D"https://apporigin=
+-idpgraph-e2.az.3pc.att.com:8443/msapi/idgraphuserregistrationms/v1/autoreg=
+/tempAccessId" class=3D"external-link" rel=3D"nofollow">:8443/msapi/idgraph=
+userregistrationms/v1/autoreg/tempAccessId</a></span></p><p><span style=3D"=
+color: rgb(33,33,33);"><a href=3D"https://apporigin-idpgraph-e2.az.3pc.att.=
+com:8443/msapi/idgraphuserregistrationms/v1/unifiedTOS/update" class=3D"ext=
+ernal-link" rel=3D"nofollow">https://</a><a class=3D"external-link" style=
+=3D"text-align: left;" href=3D"http://apporigin-idpgraph-cnry-e2.az.3pc.att=
+.com/" rel=3D"nofollow">apporigin-idpgraph-cnry-e2.az.3pc.att.com</a><a hre=
+f=3D"https://apporigin-idpgraph-e2.az.3pc.att.com:8443/msapi/idgraphuserreg=
+istrationms/v1/unifiedTOS/update" class=3D"external-link" rel=3D"nofollow">=
+:8443/msapi/idgraphuserregistrationms/v1/unifiedTOS/update</a></span></p><p=
+><span style=3D"color: rgb(33,33,33);"><a href=3D"https://apporigin-idpgrap=
+h-e2.az.3pc.att.com:8443/msapi/idgraphuserregistrationms/v1/unifiedTOS/upda=
+te" class=3D"external-link" rel=3D"nofollow">https://</a><a class=3D"extern=
+al-link" style=3D"text-align: left;" href=3D"http://apporigin-idpgraph-cnry=
+-e2.az.3pc.att.com/" rel=3D"nofollow">apporigin-idpgraph-cnry-e2.az.3pc.att=
+.com</a><a href=3D"https://apporigin-idpgraph-e2.az.3pc.att.com:8443/msapi/=
+idgraphuserregistrationms/v1/unifiedTOS/update" class=3D"external-link" rel=
+=3D"nofollow">:8443/msapi/idgraphuserregistrationms/v1/unifiedTOS/q</a>uery=
+</span></p><p><span style=3D"color: rgb(33,33,33);"><a href=3D"https://appo=
+rigin-idpgraph-e2.az.3pc.att.com:8443/msapi/idgraphuserregistrationms/v1/ls=
+reg/registerUser" class=3D"external-link" rel=3D"nofollow">https://</a><a c=
+lass=3D"external-link" style=3D"text-align: left;" href=3D"http://apporigin=
+-idpgraph-cnry-e2.az.3pc.att.com/" rel=3D"nofollow">apporigin-idpgraph-cnry=
+-e2.az.3pc.att.com</a><a href=3D"https://apporigin-idpgraph-e2.az.3pc.att.c=
+om:8443/msapi/idgraphuserregistrationms/v1/lsreg/registerUser" class=3D"ext=
+ernal-link" rel=3D"nofollow">:8443/msapi/idgraphuserregistrationms/v1/lsreg=
+/registerUser</a></span></p><p><span style=3D"color: rgb(33,33,33);"><a hre=
+f=3D"https://apporigin-idpgraph-e2.az.3pc.att.com:8443/msapi/idgraphuserreg=
+istrationms/v1/autoreg/preAccountReg" class=3D"external-link" rel=3D"nofoll=
+ow">https://</a><a class=3D"external-link" style=3D"text-align: left;" href=
+=3D"http://apporigin-idpgraph-cnry-e2.az.3pc.att.com/" rel=3D"nofollow">app=
+origin-idpgraph-cnry-e2.az.3pc.att.com</a><a href=3D"https://apporigin-idpg=
+raph-e2.az.3pc.att.com:8443/msapi/idgraphuserregistrationms/v1/autoreg/preA=
+ccountReg" class=3D"external-link" rel=3D"nofollow">:8443/msapi/idgraphuser=
+registrationms/v1/autoreg/preAccountReg</a></span></p><p><span style=3D"col=
+or: rgb(33,33,33);"><a href=3D"https://apporigin-idpgraph-e2.az.3pc.att.com=
+:8443/msapi/idgraphuserregistrationms/v1/lsreg/verifyExistingMemberEligibil=
+ity" class=3D"external-link" rel=3D"nofollow">https://</a><a class=3D"exter=
+nal-link" style=3D"text-align: left;" href=3D"http://apporigin-idpgraph-cnr=
+y-e2.az.3pc.att.com/" rel=3D"nofollow">apporigin-idpgraph-cnry-e2.az.3pc.at=
+t.com</a><a href=3D"https://apporigin-idpgraph-e2.az.3pc.att.com:8443/msapi=
+/idgraphuserregistrationms/v1/lsreg/verifyExistingMemberEligibility" class=
+=3D"external-link" rel=3D"nofollow">:8443/msapi/idgraphuserregistrationms/v=
+1/lsreg/verifyExistingMemberEligibility</a></span></p><p><span style=3D"col=
+or: rgb(33,33,33);"><a href=3D"https://apporigin-idpgraph-e2.az.3pc.att.com=
+:8443/msapi/idgraphuserregistrationms/v1/orchestration/wireless" class=3D"e=
+xternal-link" rel=3D"nofollow">https://</a><a class=3D"external-link" style=
+=3D"text-align: left;" href=3D"http://apporigin-idpgraph-cnry-e2.az.3pc.att=
+.com/" rel=3D"nofollow">apporigin-idpgraph-cnry-e2.az.3pc.att.com</a><a hre=
+f=3D"https://apporigin-idpgraph-e2.az.3pc.att.com:8443/msapi/idgraphuserreg=
+istrationms/v1/orchestration/wireless" class=3D"external-link" rel=3D"nofol=
+low">:8443/msapi/idgraphuserregistrationms/v1/orchestration/wireless</a></s=
+pan></p><p><span style=3D"color: rgb(33,33,33);"><a href=3D"https://apporig=
+in-idpgraph-e2.az.3pc.att.com:8443/msapi/idgraphuserregistrationms/v1/accou=
+nt/qar/retrigger" class=3D"external-link" rel=3D"nofollow">https://</a><a c=
+lass=3D"external-link" style=3D"text-align: left;" href=3D"http://apporigin=
+-idpgraph-cnry-e2.az.3pc.att.com/" rel=3D"nofollow">apporigin-idpgraph-cnry=
+-e2.az.3pc.att.com</a><a href=3D"https://apporigin-idpgraph-e2.az.3pc.att.c=
+om:8443/msapi/idgraphuserregistrationms/v1/account/qar/retrigger" class=3D"=
+external-link" rel=3D"nofollow">:8443/msapi/idgraphuserregistrationms/v1/ac=
+count/qar/retrigger</a></span></p><p><span style=3D"color: rgb(33,33,33);">=
+<span><span class=3D"ui-provider dz blb bka blc bld ble blf blg blh bli blj=
+ blk bll blm bln blo blp blq blr bls blt blu blv blw blx bly blz bma bmb bm=
+c bmd bme bmf bmg bmh"><a class=3D"external-link" href=3D"https://apporigin=
+-tst2-idpgraph-e2.az.3pc.att.com:8443/msapi/idgraphuserregistrationms/v1/us=
+erprofile/reprovision/uban%27" title=3D"https://apporigin-tst2-idpgraph-e2.=
+az.3pc.att.com:8443/msapi/idgraphuserregistrationms/v1/userprofile/reprovis=
+ion/uban%27" rel=3D"nofollow">https://</a><a class=3D"external-link" style=
+=3D"text-align: left;" href=3D"http://apporigin-idpgraph-cnry-e2.az.3pc.att=
+.com/" rel=3D"nofollow">apporigin-idpgraph-cnry-e2.az.3pc.att.com</a><a cla=
+ss=3D"external-link" href=3D"https://apporigin-tst2-idpgraph-e2.az.3pc.att.=
+com:8443/msapi/idgraphuserregistrationms/v1/userprofile/reprovision/uban%27=
+" title=3D"https://apporigin-tst2-idpgraph-e2.az.3pc.att.com:8443/msapi/idg=
+raphuserregistrationms/v1/userprofile/reprovision/uban%27" rel=3D"nofollow"=
+>:8443/msapi/idgraphuserregistrationms/v1/userprofile/reprovision/uban</a><=
+/span></span></span></p><p><span style=3D"color: rgb(33,33,33);"><span><spa=
+n class=3D"ui-provider dz blb bka blc bld ble blf blg blh bli blj blk bll b=
+lm bln blo blp blq blr bls blt blu blv blw blx bly blz bma bmb bmc bmd bme =
+bmf bmg bmh"> <a class=3D"external-link" href=3D"https://apporigin-tst2-idp=
+graph-e2.az.3pc.att.com:8443/msapi/idgraphuserregistrationms/v1/userprofile=
+/reprovision/uban%27" title=3D"https://apporigin-tst2-idpgraph-e2.az.3pc.at=
+t.com:8443/msapi/idgraphuserregistrationms/v1/userprofile/reprovision/uban%=
+27" rel=3D"nofollow">https://</a><a class=3D"external-link" style=3D"text-a=
+lign: left;" href=3D"http://apporigin-idpgraph-cnry-e2.az.3pc.att.com/" rel=
+=3D"nofollow">apporigin-idpgraph-cnry-e2.az.3pc.att.com</a><a class=3D"exte=
+rnal-link" href=3D"https://apporigin-tst2-idpgraph-e2.az.3pc.att.com:8443/m=
+sapi/idgraphuserregistrationms/v1/userprofile/reprovision/uban%27" title=3D=
+"https://apporigin-tst2-idpgraph-e2.az.3pc.att.com:8443/msapi/idgraphuserre=
+gistrationms/v1/userprofile/reprovision/uban%27" rel=3D"nofollow">:8443/msa=
+pi/idgraphuserregistrationms/v1/userprofile/</a>sync</span></span></span></=
+p><p><span style=3D"color: rgb(33,33,33);"><span><span class=3D"ui-provider=
+ dz blb bka blc bld ble blf blg blh bli blj blk bll blm bln blo blp blq blr=
+ bls blt blu blv blw blx bly blz bma bmb bmc bmd bme bmf bmg bmh"><a class=
+=3D"external-link" href=3D"https://apporigin-tst2-idpgraph-e2.az.3pc.att.co=
+m:8443/msapi/idgraphuserregistrationms/v1/userprofile/reprovision/uban%27" =
+title=3D"https://apporigin-tst2-idpgraph-e2.az.3pc.att.com:8443/msapi/idgra=
+phuserregistrationms/v1/userprofile/reprovision/uban%27" rel=3D"nofollow">h=
+ttps://</a><a class=3D"external-link" style=3D"text-align: left;" href=3D"h=
+ttp://apporigin-idpgraph-cnry-e2.az.3pc.att.com/" rel=3D"nofollow">apporigi=
+n-idpgraph-cnry-e2.az.3pc.att.com</a><a class=3D"external-link" href=3D"htt=
+ps://apporigin-tst2-idpgraph-e2.az.3pc.att.com:8443/msapi/idgraphuserregist=
+rationms/v1/userprofile/reprovision/uban%27" title=3D"https://apporigin-tst=
+2-idpgraph-e2.az.3pc.att.com:8443/msapi/idgraphuserregistrationms/v1/userpr=
+ofile/reprovision/uban%27" rel=3D"nofollow">:8443/msapi/idgraphuserregistra=
+tionms/v1/userprofile/</a><a class=3D"external-link" href=3D"https://appori=
+gin-tst2-idpgraph-e2.az.3pc.att.com:8443/msapi/idgraphuserregistrationms/v1=
+/userprofile/reprovision/uban%27" title=3D"https://apporigin-tst2-idpgraph-=
+e2.az.3pc.att.com:8443/msapi/idgraphuserregistrationms/v1/userprofile/repro=
+vision/uban%27" rel=3D"nofollow">activate/uban</a></span></span></span></p>=
+<p><br></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id=3D"IDPAZUREQuickReference-IngressUrls.">Ingress Urls.</h3>
+<p><a href=3D"https://api.graph1eus2-test2.az.3pc.att.com/test/idgraphconta=
+ctInfoms-green/msapi/actuator/heartbeat" class=3D"external-link" title=3D"h=
+ttps://api.graph1eus2-test2.az.3pc.att.com/test/idgraphcontactinfoms-green/=
+msapi/actuator/heartbeat" rel=3D"nofollow">https://api.graph1eus2-test2.az.=
+3pc.att.com/test/idgraphcontactInfoms-green/msapi/actuator/heartbeat</a></p=
+>
+<p><a href=3D"https://api.graph1eus2-test2.az.3pc.att.com/test/idgraphconta=
+ctInfoms-blue/msapi/actuator/heartbeat" title=3D"https://api.graph1eus2-tes=
+t2.az.3pc.att.com/test/idgraphcontactinfoms-blue/msapi/actuator/heartbeat" =
+class=3D"external-link" rel=3D"nofollow">https://api.graph1eus2-test2.az.3p=
+c.att.com/test/idgraphcontactInfoms-blue/msapi/actuator/heartbeat</a></p>
+<p><br></p>
+<p><a title=3D"https://api.prodgraph1scus.az.3pc.att.com/test/idgraphcontac=
+tinfoms-blue/msapi/actuator/heartbeat" href=3D"https://api.prodgraph1scus.a=
+z.3pc.att.com/test/idgraphcontactinfoms-blue/msapi/actuator/heartbeat" clas=
+s=3D"external-link" rel=3D"nofollow">https://api.prodgraph1scus.az.3pc.att.=
+com/test/idgraphcontactinfoms-blue/msapi/actuator/heartbeat</a></p>
+<p><a href=3D"https://api.prodgraph1scus.az.3pc.att.com/test/idgraphcontact=
+infoms-green/msapi/actuator/heartbeat" title=3D"https://api.prodgraph1scus.=
+az.3pc.att.com/test/idgraphcontactinfoms-green/msapi/actuator/heartbeat" cl=
+ass=3D"external-link" rel=3D"nofollow">https://api.prodgraph1scus.az.3pc.at=
+t.com/test/idgraphcontactinfoms-green/msapi/actuator/heartbeat</a></p>
+<p><br></p>
+<p><a title=3D"https://api.prodgraph1cnryeus2.az.3pc.att.com/test/idgraphco=
+ntactinfoms-green/msapi/actuator/heartbeat" href=3D"https://api.prodgraph1c=
+nryeus2.az.3pc.att.com/test/idgraphcontactinfoms-green/msapi/actuator/heart=
+beat" class=3D"external-link" rel=3D"nofollow">https://api.prodgraph1cnryeu=
+s2.az.3pc.att.com/test/idgraphcontactinfoms-green/msapi/actuator/heartb=E2=
+=80=A6</a></p>
+<p><a title=3D"https://api.prodgraph1cnryeus2.az.3pc.att.com/test/idgraphco=
+ntactinfoms-blue/msapi/actuator/heartbeat" href=3D"https://api.prodgraph1cn=
+ryeus2.az.3pc.att.com/test/idgraphcontactinfoms-blue/msapi/actuator/heartbe=
+at" class=3D"external-link" rel=3D"nofollow">https://api.prodgraph1cnryeus2=
+.az.3pc.att.com/test/idgraphcontactinfoms-blue/msapi/actuator/heartbe=E2=80=
+=A6</a></p>
+<p><br></p>
+<p><a href=3D"https://api.prodgraph1eus2.az.3pc.att.com/test/idgraphcontact=
+infoms-blue/msapi/actuator/heartbeat" title=3D"https://api.prodgraph1eus2.a=
+z.3pc.att.com/test/idgraphcontactinfoms-blue/msapi/actuator/heartbeat" clas=
+s=3D"external-link" rel=3D"nofollow">https://api.prodgraph1eus2.az.3pc.att.=
+com/test/idgraphcontactinfoms-blue/msapi/actuator/heartbeat</a></p>
+<p><a title=3D"https://api.prodgraph1eus2.az.3pc.att.com/test/idgraphcontac=
+tinfoms-green/msapi/actuator/heartbeat" href=3D"https://api.prodgraph1eus2.=
+az.3pc.att.com/test/idgraphcontactinfoms-green/msapi/actuator/heartbeat" cl=
+ass=3D"external-link" rel=3D"nofollow">https://api.prodgraph1eus2.az.3pc.at=
+t.com/test/idgraphcontactinfoms-green/msapi/actuator/heartbeat</a></p>
+<p><br></p>
+<p><a href=3D"https://api.prodgraph1wus2.az.3pc.att.com/test/idgraphcontact=
+infoms-blue/msapi/actuator/heartbeat" title=3D"https://api.prodgraph1wus2.a=
+z.3pc.att.com/test/idgraphcontactinfoms-blue/msapi/actuator/heartbeat" clas=
+s=3D"external-link" rel=3D"nofollow">https://api.prodgraph1wus2.az.3pc.att.=
+com/test/idgraphcontactinfoms-blue/msapi/actuator/heartbeat</a></p>
+<p><a title=3D"https://api.prodgraph1wus2.az.3pc.att.com/test/idgraphcontac=
+tinfoms-green/msapi/actuator/heartbeat" href=3D"https://api.prodgraph1wus2.=
+az.3pc.att.com/test/idgraphcontactinfoms-green/msapi/actuator/heartbeat" cl=
+ass=3D"external-link" rel=3D"nofollow">https://api.prodgraph1wus2.az.3pc.at=
+t.com/test/idgraphcontactinfoms-green/msapi/actuator/heartbeat</a></p>
+<h3 id=3D"IDPAZUREQuickReference-InfrawikiforGTMandAzureenvironments:">&nbs=
+p;Infra wiki for GTM and Azure environments:</h3>
+<p>GTM: <a href=3D"https://wiki.web.att.com/display/CloudInfrastructurePlat=
+formTeam/Graph+GTM" rel=3D"nofollow">Graph GTM - Cloud Infrastructure Platf=
+orm Team - tWiki (att.com)</a></p>
+<p>Graph Domain: <a href=3D"https://wiki.web.att.com/display/CloudInfrastru=
+cturePlatformTeam/IDP+AZ+Graph+Domain" rel=3D"nofollow">IDP AZ Graph Domain=
+ - Cloud Infrastructure Platform Team - tWiki (att.com)</a></p>
+<p>Identity Graph Environment: <a href=3D"https://wiki.web.att.com/display/=
+CloudInfrastructurePlatformTeam/IdGraph+Environment" rel=3D"nofollow">IDGra=
+ph Environment - Cloud Infrastructure Platform Team - tWiki (att.com)</a></=
+p>
+<p><br></p>
+    </div>
+</body>
+</html>
+------=_Part_110032_1489875394.1786801783332--

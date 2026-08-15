@@ -1,0 +1,643 @@
+Date: Sat, 15 Aug 2026 09:53:07 -0400 (EDT)
+Message-ID: <1559566978.110059.1786801987577@twiki-eastus2-prod-app-vm-02.internal.cloudapp.net>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_110058_478807459.1786801987564"
+
+------=_Part_110058_478807459.1786801987564
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Clean Code Best Practices</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Clean Code Best Practices</h1>
+    <div class=3D"Section1">
+        <p><style type=3D"text/css">/*<![CDATA[*/
+div.rbtoc1786801987520 {padding: 0px;}
+div.rbtoc1786801987520 ul {margin-left: 0px;}
+div.rbtoc1786801987520 li {margin-left: 0px;padding-left: 0px;}
+
+/*]]>*/</style></p>
+<div class=3D"toc-macro rbtoc1786801987520">
+<ul class=3D"toc-indentation">
+<li><a href=3D"#CleanCodeBestPractices-Overview">Overview</a></li>
+<li><a href=3D"#CleanCodeBestPractices-GeneralPrinciples">General Principle=
+s</a></li>
+<li><a href=3D"#CleanCodeBestPractices-References">References</a></li>
+<li><a href=3D"#CleanCodeBestPractices-BestPractices">Best Practices</a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#CleanCodeBestPractices-POJOsinsteadofHashMap">POJOs instead=
+ of HashMap</a></li>
+<li><a href=3D"#CleanCodeBestPractices-UseAbstractClassesforCommonFunctiona=
+lities">Use Abstract Classes for Common Functionalities</a></li>
+<li><a href=3D"#CleanCodeBestPractices-Validations">Validations</a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#CleanCodeBestPractices-CommonValidations">Common Validation=
+s</a></li>
+<li><a href=3D"#CleanCodeBestPractices-OnlyValidations">Only Validations</a=
+></li>
+<li><a href=3D"#CleanCodeBestPractices-ValidationExceptionHandling">Validat=
+ion Exception Handling</a></li>
+</ul></li>
+</ul></li>
+<li><a href=3D"#CleanCodeBestPractices-Avoidduplicatedcode">Avoid duplicate=
+d code</a></li>
+</ul>
+</div>
+<p></p>
+<h1 id=3D"CleanCodeBestPractices-Overview">Overview</h1>
+<p>This page outlines the best practices for writing clean, maintainable, a=
+nd efficient code. Following these guidelines will help ensure consistency,=
+ readability, and quality across all projects.</p>
+<h1 id=3D"CleanCodeBestPractices-GeneralPrinciples">General Principles</h1>
+<ol>
+<li><strong>Write Readable Code</strong>: Code should be self-explanatory a=
+nd easy to understand.</li>
+<li><strong>DRY Principle</strong>: Avoid duplicating code; reuse wherever =
+possible.</li>
+<li><strong>Keep It Simple (KISS)</strong>: Avoid overcomplicating solution=
+s; aim for simplicity.</li>
+<li><strong>YAGNI (You Aren=E2=80=99t Gonna Need It)</strong>: Only impleme=
+nt what is required, avoid speculative features.</li>
+<li><strong>SOLID Principles</strong>: <span style=3D"color: rgb(0,0,0);">F=
+ollow</span> <a href=3D"https://www.digitalocean.com/community/conceptual-a=
+rticles/s-o-l-i-d-the-first-five-principles-of-object-oriented-design" clas=
+s=3D"external-link" rel=3D"nofollow">SOLID</a> principles</li>
+<li><span style=3D"color: rgb(0,0,0);"><strong>Boys Scout Rule</strong>: <s=
+pan style=3D"text-decoration: none;">Always leave the campground cleaner th=
+an you found it.</span></span></li>
+</ol>
+<h1 id=3D"CleanCodeBestPractices-References"><span style=3D"color: rgb(0,0,=
+0);"><span style=3D"text-decoration: none;">References</span></span></h1>
+<ol>
+<li><a class=3D"external-link" href=3D"https://www.youtube.com/watch?v=3Dll=
+GgO74uXMI&amp;pp=3DygUgdmVua2F0IHN1YnJhbWFuaWFtIGRldm94eDkgeWVhcnM%3D" titl=
+e=3D"Core Design Principles for Software Developers by Venkat Subramaniam" =
+rel=3D"nofollow">Core Design Principles for Software Developers by Venkat S=
+ubramaniam</a></li>
+<li>Clean Code by Robert C. Martin</li>
+</ol>
+<h1 id=3D"CleanCodeBestPractices-BestPractices">Best Practices</h1>
+<h2 id=3D"CleanCodeBestPractices-POJOsinsteadofHashMap">POJOs instead of Ha=
+shMap</h2>
+<p>Using POJOs (Plain Old Java Objects) instead of HashMap to model input o=
+r output for a method is a best practice in software development.</p>
+<ol>
+<li><strong>Type Safety: </strong>POJOs provide strong typing, ensuring tha=
+t the data structure adheres to a specific schema. With HashMap, you lose t=
+ype safety because it uses generic key-value pairs, which can lead to runti=
+me errors.</li>
+<li><strong> Readability:</strong>&nbsp;POJOs make the code more readable a=
+nd self-explanatory. The fields in a POJO clearly define the structure of t=
+he data, whereas a HashMap requires additional documentation or inspection =
+to understand its keys and values.</li>
+<li><strong>Maintainability:</strong> POJOs are easier to maintain and exte=
+nd. You can add fields, annotations (e.g., @JsonProperty), or validation ru=
+les without affecting other parts of the code. With HashMap, changes to key=
+s or values require updates across all usages, increasing the risk of error=
+s.</li>
+<li><strong>Serialization/Deserialization: </strong>POJOs work seamlessly w=
+ith libraries like Jackson or Gson for JSON serialization/deserialization. =
+Using HashMap for this purpose can lead to issues, as it doesn't enforce a =
+specific structure.</li>
+<li><strong>Validation:</strong> POJOs can include validation annotations (=
+e.g., @NotNull, @Size) to enforce constraints on the data. HashMap does not=
+ support such validations directly.</li>
+<li><strong>IDE Support: </strong>POJOs benefit from IDE features like auto=
+completion, refactoring, and type checking. With HashMap, you lose these ad=
+vantages because keys are typically strings and not strongly typed.</li>
+</ol>
+<p><strong>Not Recommended</strong></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: true; theme: Emacs" data-theme=3D"Emacs">public void proces=
+sData(HashMap&lt;String, Object&gt; input) {
+    String name =3D (String) input.get("name");
+    int age =3D (int) input.get("age");
+    // Logic here
+}</pre>
+</div>
+</div>
+<p><strong>Recommended</strong></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: true; theme: Emacs" data-theme=3D"Emacs">public class UserD=
+ata {
+    private String name;
+    private int age;
+}
+
+public class UserResponse {
+=09private response:
+}
+
+public UserResponse processData(UserData input) {
+=09UserResponse userResponse =3D new UserResponse();
+    String name =3D input.getName();
+    int age =3D input.getAge();
+    // Logic here
+=09return userResponse;
+}</pre>
+</div>
+</div>
+<h2 id=3D"CleanCodeBestPractices-UseAbstractClassesforCommonFunctionalities=
+">Use Abstract Classes for Common Functionalities</h2>
+<p>Try to extract the common functionalities into a Base/Parent class so co=
+de changes/fixes can be done at one place.</p>
+<p><strong>Recommended</strong></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: true; theme: Emacs" data-theme=3D"Emacs">// TBD: add exampl=
+e</pre>
+</div>
+</div>
+<h2 id=3D"CleanCodeBestPractices-Validations">Validations</h2>
+<h3 id=3D"CleanCodeBestPractices-CommonValidations">Common Validations</h3>
+<p><strong>Problem:</strong> Code duplication in validators leads to redund=
+ancy, making the code harder to maintain and prone to errors. If a change i=
+s required, it must be applied to multiple places, increasing the risk of i=
+nconsistencies.<br><strong>Solution:</strong> Extract common validation log=
+ic into a base validator class. This base class can provide reusable method=
+s or utilities that child validators can inherit and use. This approach pro=
+motes code reuse and reduces duplication.</p>
+<p>Example</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: true; theme: Emacs" data-theme=3D"Emacs">// Base Validator
+public abstract class BaseValidator {
+    protected void validateNotNull(Object value, String fieldName) {
+        if (value =3D=3D null) {
+            throw new InvalidInputDataException(fieldName + " cannot be nul=
+l");
+        }
+    }
+
+    protected void validateStringNotEmpty(String value, String fieldName) {
+        if (value =3D=3D null || value.trim().isEmpty()) {
+            throw new InvalidInputDataException(fieldName + " cannot be emp=
+ty");
+        }
+    }
+}
+
+// Specific Validator
+public class RetriggerQARRequestValidator extends BaseValidator {
+    public void validate(RetriggerQARRequest request) {
+        validateNotNull(request.getIdpTraceId(), "idpTraceId");
+        validateStringNotEmpty(request.getRequestType(), "requestType");
+        // Additional specific validations
+    }
+}</pre>
+</div>
+</div>
+<h3 id=3D"CleanCodeBestPractices-OnlyValidations">Only Validations</h3>
+<p><strong>Problem:</strong> Validators performing tasks beyond validation =
+(e.g., creating responses) violate the Single Responsibility Principle (SRP=
+). This makes the code harder to test and maintain.<br><strong>Solution:</s=
+trong> Validators should focus solely on validation. Any response creation =
+or transformation logic should be handled in a separate layer, such as a se=
+rvice or utility class.</p>
+<p>Example</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: true; theme: Emacs" data-theme=3D"Emacs">// Validator
+public class RetriggerQARRequestValidator extends BaseValidator {
+    public void validate(RetriggerQARRequest request) {
+        validateNotNull(request.getIdpTraceId(), "idpTraceId");
+        validateStringNotEmpty(request.getRequestType(), "requestType");
+    }
+}
+
+// Service
+public class RetriggerQARService {
+    public RetriggerQARResponse processRequest(RetriggerQARRequest request)=
+ {
+        // Business logic and response creation
+        return new RetriggerQARResponse("Success");
+    }
+}</pre>
+</div>
+</div>
+<h3 id=3D"CleanCodeBestPractices-ValidationExceptionHandling">Validation Ex=
+ception Handling</h3>
+<p><strong>Problem:</strong> Mixing validation logic with HTTP response cre=
+ation tightly couples the validation layer with the HTTP layer, making the =
+code less modular and harder to test.<br><strong>Solution:</strong> Use exc=
+eptions to signal validation failures. These exceptions should be caught an=
+d translated into appropriate HTTP responses by a centralized exception han=
+dler (e.g., a @ControllerAdvice in Spring Boot).</p>
+<p>Example</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: true; theme: Emacs" data-theme=3D"Emacs">// Custom Exceptio=
+n
+public class InvalidInputDataException extends RuntimeException {
+    public InvalidInputDataException(String message) {
+        super(message);
+    }
+}
+
+// Exception Handler
+@RestControllerAdvice
+public class GlobalExceptionHandler {
+    @ExceptionHandler(InvalidInputDataException.class)
+    public ResponseEntity&lt;String&gt; handleInvalidInputDataException(Inv=
+alidInputDataException ex) {
+        return ResponseEntity.badRequest().body(ex.getMessage());
+    }
+
+    @ExceptionHandler(Exception.class)
+    public ResponseEntity&lt;String&gt; handleGenericException(Exception ex=
+) {
+        return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body=
+("An error occurred");
+    }
+}
+
+// Validator Usage
+public class RetriggerQARRequestValidator extends BaseValidator {
+    public void validate(RetriggerQARRequest request) {
+        validateNotNull(request.getIdpTraceId(), "idpTraceId");
+        validateStringNotEmpty(request.getRequestType(), "requestType");
+    }
+}
+
+// Controller
+@Controller
+public class RetriggerQARResourceImpl {
+    @Autowired
+    private RetriggerQARRequestValidator validator;
+
+    @PostMapping("/retriggerQAR")
+    public ResponseEntity&lt;RetriggerQARResponse&gt; retriggerQAR(@Request=
+Body RetriggerQARRequest request) {
+        validator.validate(request);
+        // Proceed with processing
+        return ResponseEntity.ok(new RetriggerQARResponse("Success"));
+    }
+}</pre>
+</div>
+</div>
+<h1 id=3D"CleanCodeBestPractices-Avoidduplicatedcode">Avoid duplicated code=
+&nbsp;</h1>
+<p>1. Lombok annotations can be used to replace explicit getter and setter =
+methods in resource requests, and response files, simplifying the code and =
+improving readability. However, if <code>equals</code> and <code>hashCode</=
+code> functions rely on specific fields for computation, Lombok annotations=
+ should be avoided for them to prevent potential data inconsistencies in En=
+tity classes.</p>
+<p>Example : User class has setter, getter , toString , equals and hashcode=
+ functions.&nbsp;</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: true; theme: Emacs" data-theme=3D"Emacs">public class User =
+{
+    private String name;
+    private int age;
+
+    public User() {}
+
+     public String getName() {
+        return name;
+    }
+    public void setName(String name) {
+        this.name =3D name;
+    }
+    public int getAge() {
+        return age;
+    }
+    public void setAge(int age) {
+        this.age =3D age;
+    }
+
+    @Override
+    public String toString() {
+        return "User{name=3D'" + name + "', age=3D" + age + "}";
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (this =3D=3D obj) return true;
+        if (obj =3D=3D null || getClass() !=3D obj.getClass()) return false=
+;
+        User user =3D (User) obj;
+        return age =3D=3D user.age &amp;&amp; name.equals(user.name);
+    }
+
+       @Override
+    public int hashCode() {
+        return Objects.hash(name, age);
+    }
+}
+
+</pre>
+</div>
+</div>
+<p>Usuage of Lombok annotations</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: true; theme: Emacs" data-theme=3D"Emacs">import lombok.Data=
+;
+import lombok.NoArgsConstructor;
+
+@Data
+@NoArgsConstructor
+public class User {
+    private String name;
+    private int age;
+}
+// @Data automatically generates getters, setters, toString(), equals(), an=
+d hashCode().
+// @NoArgsConstructor ensures the creation of a no-argument constructor.</p=
+re>
+</div>
+</div>
+<p><br></p>
+<p>2. Move the validation logic for <code>hmResult</code> and <code>hmRespo=
+nse</code> to dedicated utility classes, ensuring they are invoked centrall=
+y for better maintainability and reuse. Also, hmDBusInput params, Catch and=
+ Finaly block code can be moved to Utility classes.</p>
+<p>&nbsp; Example:&nbsp;</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: true; theme: Emacs" data-theme=3D"Emacs"> =09=09if (hmResul=
+t =3D=3D null || hmResult.isEmpty()) {
+=09=09=09=09stAppInfo =3D "Null Response returned from associationBaseObj.v=
+alidateInputData()";
+=09=09=09=09hmResult =3D CommonErrorMap.makeCategoryMap(CErrorDefs.ERR_SYS_=
+APPL_NUM, stAppInfo);
+=09=09=09=09logger.info("{}{}AAH_06.a : {}", sClassName, sMethodName, stApp=
+Info);
+=09=09=09=09return hmResult;
+=09=09}
+
+=09=09=09stAppStatusCode =3D (String) hmResult.get(MPSDefs.APP_STATUS_CODE)=
+;
+
+=09if (!(CommonDefs.COMMON_SUCCESS.equals(stAppStatusCode))) {
+=09=09=09=09stAppInfo =3D (String) hmResult.get(CommonDefs.COMMON_APP_INFO)=
+;
+=09=09=09=09logger.info("{}{}AAH_06.b : {}", sClassName, sMethodName, stApp=
+Info);
+=09=09=09=09hmResult =3D CommonErrorMap.makeCategoryMap(Integer.parseInt(st=
+AppStatusCode), stAppInfo);
+=09=09=09=09return hmResult;
+=09=09}
+
+ &nbsp; &nbsp;//The validation logic currently present in multiple helper c=
+lasses should be consolidated into utility classes for better reusability a=
+nd maintainability.
+=09
+=09hmResult =3D CommonUtilHelper.handleResponseForInvalidDataErr(hmResult, =
+logger, sClassName, sMethodName);
+=09=09if (!CommonDefs.COMMON_SUCCESS.equals(hmResult.get(CErrorDefs.COMMON_=
+APP_STATUS_CODE))) {
+=09=09=09return hmResult;
+=09=09}</pre>
+</div>
+</div>
+<p><br></p>
+<p>3. If multiple classes share similar methods, use abstract classes or in=
+terfaces to define shared behavior.</p>
+<p>4. Move repeated logic into utility/helper classes or methods. For examp=
+le, error response generation and validation logic can be centralized.</p>
+<p>5. Identify existing implementations and consolidate them into utility c=
+lasses for better reuse. Upon deployment, review the new functionality for =
+duplicate code, refactor common logic, and move it to utility classes to en=
+hance maintainability.</p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+    </div>
+</body>
+</html>
+------=_Part_110058_478807459.1786801987564--
